@@ -13,3 +13,6 @@
 - [ ] Create nucleus-auth schema for authentication tables
 - [ ] Register each CRM extension in install.sh
 - [ ] Add CI pipeline to run npm and vitest
+
+- [x] Install Node 22 via apt using NodeSource repo
+- [ ] Resolve vitest dependency errors during npm test
