@@ -27,3 +27,9 @@ Extracted from: `/CRM/README.md`
 | Role-based login page & redirect | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
 | Public landing page | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
 | Support portal remote control | 🔧 Plugin/module required | `extensions/nucleus-support/` |
+| Logging export | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| Config reload | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| API settings management | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| BS-check system scan | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| Security scan via CLI | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| Certificate request (ACME) | 🔧 Plugin/module required | `extensions/nucleus-core/` |

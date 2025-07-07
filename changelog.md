@@ -15,6 +15,11 @@
 - Refined module paths and completed second revision of `docs/inventory.md`.
 - Marked related tasks complete in `todo.md`.
 
+## Phase 1 Loop 3
+- Date: 2025-07-07
+- Added admin features (log export, config reload, security scan) to `docs/inventory.md`.
+- Node updated to v22 via NodeSource; pnpm install executed, but npm test fails due to missing @directus/random.
+
 ## Phase 2 Bootstrap
 - Date: 2025-07-07
 - Created workspace scaffolding and minimal files.
