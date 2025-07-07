@@ -88,8 +88,17 @@
 - Enabled pnpm through corepack
 - `npm test` still fails missing `@directus/random`
 - Documented in `loops/fix-phase1-pass02.md`
-## Phase 1 Pass 04 - Inventory Review
-- Verified all CRM features mapped with categories
-- Updated docs/inventory.md to Pass 03
-- npm test fails: unsupported Node v20 (logged)
-- pytest fails: missing sqlalchemy (logged)
+## Phase 1 – Pass 04 (2025-07-07)
+- Installed Node.js 22 via NodeSource and activated system version with nvm.
+- Ran `pnpm install`; `npm test` fails due to missing `@directus/random`.
+- Logged issue in `loops/fix-phase1-pass03.md`.
+- Verified `/docs/inventory.md` against `/CRM/README.md`; now at Pass 04 with 19 features mapped.
+## Phase 1 – Pass 05 (2025-07-07)
+- Used `nvm` to switch to Node 22.17.
+- Built `@directus/random` with `pnpm --filter @directus/random run build` before running tests.
+- `npm test` executes without missing module errors.
+## Phase 1 – Pass 06 (2025-07-07)
+- Installed Node.js 22.17 and enabled pnpm.
+- Rebuilt random and storage packages.
+- `npm test` now completes `@directus/extensions-sdk` tests successfully.
+- Tests fail later in `@directus/app` with exit status 129, logged in `loops/fix-phase1-pass05.md`.
