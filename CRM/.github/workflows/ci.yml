@@ -1,0 +1,45 @@
+name: CI - Nucleus Platform
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    env:
+      TEMPERATURE: "0.0"
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r backend/requirements.txt
+        pip install pytest autoflake isort black pylint
+    - name: Prepare log directory
+      run: |
+        sudo mkdir -p /var/log/nucleus
+        sudo chmod 777 /var/log/nucleus
+    - name: Run tests
+      run: |
+        pytest tests/
+    - name: Check integrity
+      run: |
+        echo "Validating build_trace.json"
+        grep '"validated": true' build_trace.json || exit 1
+    - name: Format Python code
+      run: |
+        autoflake --remove-all-unused-imports -r backend/
+        isort backend/
+        black backend/
+    - name: Lint Python
+      run: |
+        pylint --rcfile=.pylintrc --fail-under=10.0 backend/
+    - name: Log temperature policy
+      run: |
+        echo "Test temperature set to $TEMPERATURE"
