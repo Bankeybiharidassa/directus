@@ -1,10 +1,11 @@
-#!/bin/bash
-# Basic installer for Nucleus CRM demo environment
+
+#!/bin/sh
+# Install Directus CRM extensions
+
 set -e
 
-python3 -m venv venv
-source venv/bin/activate
-pip install -r CRM/requirements.txt
-npm install --prefix CRM/node_backend
+echo "Installing dependencies..."
+pnpm install --silent
 
-echo "Backend and auth services can be started with ./test_install.sh"
+echo "Setup complete." 
+
