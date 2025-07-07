@@ -44,3 +44,9 @@
 - Pass 09 - Updated TODO
 - Pass 10 - Workspace bootstrap complete
 
+
+## Docs and Scripts Update
+- Date: 2025-07-07
+- Added integration points section in `docs/architecture.md`.
+- Created `scripts/headless_check.js` to proxy CRM headless tests.
+- Documented GUI testing workflow in `README.md`.

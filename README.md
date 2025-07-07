@@ -14,3 +14,9 @@ Refer to [CRM/README.md](CRM/README.md) for full documentation.
 See readme.md for Directus upstream instructions.
 Detailed feature inventory lives in docs/inventory.md.
 
+## Testing the GUI
+
+Run `scripts/gui_loop.sh` to install dependencies, launch the services and
+execute the headless browser checks via `scripts/headless_check.js`. Results are
+stored in the `logs/` directory.
+
