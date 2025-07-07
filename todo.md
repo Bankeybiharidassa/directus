@@ -9,3 +9,4 @@
 - [x] Revise `docs/inventory.md` to ensure classification table includes these paths
 - [x] Commit second revision to satisfy two-loop requirement
 - [x] Document updates in `changelog.md`
+- [ ] Review inventory for completeness in Pass 02

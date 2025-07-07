@@ -50,3 +50,12 @@
 - Added integration points section in `docs/architecture.md`.
 - Created `scripts/headless_check.js` to proxy CRM headless tests.
 - Documented GUI testing workflow in `README.md`.
+
+## Phase 1 – Pass 01 (2025-07-06)
+
+- Extracted 8 features from `/CRM/README.md`
+- Created `/docs/inventory.md`
+- Categorized features into native, plugin, external, or infeasible
+- Inventory is tied to proposed module paths
+- No blocking issues
+- Ready for Phase 1 – Pass 02
