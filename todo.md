@@ -10,3 +10,6 @@
 - [x] Commit second revision to satisfy two-loop requirement
 - [x] Document updates in `changelog.md`
 - [ ] Review inventory for completeness in Pass 02
+- [ ] Create nucleus-auth schema for authentication tables
+- [ ] Register each CRM extension in install.sh
+- [ ] Add CI pipeline to run npm and vitest

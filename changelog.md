@@ -44,6 +44,13 @@
 - Pass 09 - Updated TODO
 - Pass 10 - Workspace bootstrap complete
 
+## Phase 2 (continued)
+- Pass 11 - Added environment variables and expanded install script
+- Pass 12 - Documented module layout and auth flow
+- Pass 13 - Declared agent governance rules
+- Pass 14 - Updated TODO list for upcoming modules
+- Pass 15 - Documented env setup in README
+
 
 ## Docs and Scripts Update
 - Date: 2025-07-07
