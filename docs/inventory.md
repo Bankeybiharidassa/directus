@@ -81,25 +81,25 @@ This document summarizes all features described in the `/CRM` directory. Each fe
 
 ## Feature Classification
 
-| Feature | Category |
-| --- | --- |
-| Directus login, roles & permissions | ✅ Native Directus |
-| Keycloak identity provider | 🔧 Plugin/extension |
-| YubiKey authentication | 🔧 Plugin/extension |
-| IP/FQDN whitelist | 🔧 Plugin/extension |
-| Remote support login_as | 🔧 Plugin/extension |
-| ACME certificate requests | 🔧 Plugin/extension |
-| Customer/partner/distributor entities | 🔧 Plugin/extension |
-| EDI messaging | 🔧 Plugin/extension |
-| IMAP mail sync | 🚧 External worker |
-| Contract management | 🔧 Plugin/extension |
-| Document generator | 🔧 Plugin/extension |
-| DMARC analytics | 🔧 Plugin/extension + 🚧 IMAP worker |
-| Ticketing & assets | 🔧 Plugin/extension |
-| Sophos and Tenable sync | 🚧 External worker |
-| Public portal & CMS pages | ✅ Native Directus |
-| Security scan utilities | 🚧 External worker |
-| Backup system | 🚧 External worker |
-| Update script with staging | 🔧 Plugin/extension |
+| Feature | Category | Module/Plugin Path |
+| --- | --- | --- |
+| Directus login, roles & permissions | ✅ Native Directus | directus core |
+| Keycloak identity provider | 🔧 Plugin/extension | CRM/extensions/nucleus-auth |
+| YubiKey authentication | 🔧 Plugin/extension | CRM/extensions/nucleus-auth |
+| IP/FQDN whitelist | 🔧 Plugin/extension | CRM/extensions/ip-whitelist |
+| Remote support login_as | 🔧 Plugin/extension | CRM/extensions/remote-support |
+| ACME certificate requests | 🔧 Plugin/extension | CRM/extensions/certbot |
+| Customer/partner/distributor entities | 🔧 Plugin/extension | CRM/backend/models |
+| EDI messaging | 🔧 Plugin/extension | CRM/extensions/edi-messaging |
+| IMAP mail sync | 🚧 External worker | CRM/extensions/nucleus-mail-ingest |
+| Contract management | 🔧 Plugin/extension | CRM/extensions/contract-manager |
+| Document generator | 🔧 Plugin/extension | CRM/extensions/doc-generator |
+| DMARC analytics | 🔧 Plugin/extension + 🚧 IMAP worker | CRM/extensions/dmarc, CRM/workers/imap-sync |
+| Ticketing & assets | 🔧 Plugin/extension | CRM/extensions/ticketing |
+| Sophos and Tenable sync | 🚧 External worker | CRM/workers/security-sync |
+| Public portal & CMS pages | ✅ Native Directus | directus core |
+| Security scan utilities | 🚧 External worker | CRM/workers/security-scan |
+| Backup system | 🚧 External worker | CRM/extensions/backup |
+| Update script with staging | 🔧 Plugin/extension | CRM/scripts/update.sh |
 
 No features were found that cannot be implemented within Directus using extensions or external workers.
