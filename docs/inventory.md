@@ -1,5 +1,15 @@
 # Nucleus CRM Feature Inventory
 
+## Table of Contents
+- [Modules and Features](#modules-and-features)
+- [Schema / Entities](#schema--entities)
+- [Authentication & Integrations](#authentication--integrations)
+- [Workflows & RBAC](#workflows--rbac)
+- [Feature Classification](#feature-classification)
+- [Proposed Modules and Folders](#proposed-modules-and-folders)
+- [Additional Design Points from TODO](#additional-design-points-from-todo)
+- [Architecture Overview](#architecture-overview)
+Built from CRM/README.md and documentation files.
 This document summarizes all features described in the `/CRM` directory. Each feature is mapped against the Directus platform to determine whether it can be implemented natively, requires an extension, needs an external worker or is not feasible.
 
 ## Modules and Features
@@ -88,7 +98,9 @@ This document summarizes all features described in the `/CRM` directory. Each fe
 | YubiKey authentication | 🔧 Plugin/extension |
 | IP/FQDN whitelist | 🔧 Plugin/extension |
 | Remote support login_as | 🔧 Plugin/extension |
+| Support call authorization | 🔧 Plugin/extension |
 | ACME certificate requests | 🔧 Plugin/extension |
+| Let's Encrypt certificate service | 🔧 Plugin/extension |
 | Customer/partner/distributor entities | 🔧 Plugin/extension |
 | EDI messaging | 🔧 Plugin/extension |
 | IMAP mail sync | 🚧 External worker |
@@ -103,3 +115,40 @@ This document summarizes all features described in the `/CRM` directory. Each fe
 | Update script with staging | 🔧 Plugin/extension |
 
 No features were found that cannot be implemented within Directus using extensions or external workers.
+
+## Proposed Modules and Folders
+
+| Feature | Proposed Folder |
+| --- | --- |
+| Authentication (Keycloak, MFA) | `extensions/nucleus-auth` |
+| CRM Core (customers, partners, distributors) | `extensions/nucleus-crm` |
+| Contract Management | `extensions/nucleus-contracts` |
+| Document Generator | `extensions/nucleus-docs` |
+| Support Desk & Assets | `extensions/nucleus-support` |
+| CMS & Public Portal | `extensions/nucleus-cms` |
+| Tenable Integration | `extensions/nucleus-tenable` |
+| DMARC Analyzer | `extensions/nucleus-dmarc` |
+| Security Scan & Backup | `extensions/nucleus-maintenance` |
+| Update Script & OTAP | `scripts/` |
+
+Each folder lives under `/extensions` or `/scripts` depending on function.
+
+## Additional Design Points from TODO
+- Extensive admin panel with grouped tabs
+- Install script granting 10 grace logins before MFA enforcement
+- YubiKey support with master key storage
+- Keycloak integration wizard and fallback superadmin
+- Backup system for settings, data, and secrets
+- Updated hierarchy: nucleus → distributors → partners → endusers
+- Support call authorization with audit logging
+- IP/FQDN whitelist for external API
+- OTAP update workflow with rollback
+- Let's Encrypt certificate requests
+- Template-driven GUI with per-role dashboards
+- `test_install.sh` spins up backend and auth for local `lynx` testing
+- `headless_check.js` captures screenshots and menu traces
+
+## Architecture Overview
+- React frontend communicates via REST with FastAPI backend
+- Backend stores data in SQL database (MySQL/MariaDB, PostgreSQL, MSSQL, or SQLite)
+- Node.js service handles OTP authentication
