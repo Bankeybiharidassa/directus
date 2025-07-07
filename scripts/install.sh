@@ -1,3 +1,4 @@
+
 #!/bin/sh
 # Install Directus CRM extensions
 
@@ -7,3 +8,4 @@ echo "Installing dependencies..."
 pnpm install --silent
 
 echo "Setup complete." 
+
