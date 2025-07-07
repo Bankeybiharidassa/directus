@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD013 -->
-# Nucleus CRM – Inventory (Pass 02)
+# Nucleus CRM – Inventory (Pass 03)
 
 Extracted from: `/CRM/README.md`
 
