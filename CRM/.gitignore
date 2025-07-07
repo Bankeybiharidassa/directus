@@ -1,0 +1,26 @@
+__pycache__/
+*.env
+node_modules/
+test.db
+node_backend/auth.db
+logs/
+
+# release archives
+*.tar.gz
+*.zip
+
+# binary assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+*.svg
+*.bmp
+*.tif
+*.tiff
+*.ico
+*.webp
+
+directus-app/

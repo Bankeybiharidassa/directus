@@ -1,0 +1,17 @@
+[Unit]
+Description=Nucleus Backend Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/nucleus-platform/CRM
+ExecStart=/opt/nucleus-platform/CRM/venv/bin/python -m uvicorn --app-dir /opt/nucleus-platform/CRM backend.main:app --host 0.0.0.0 --port 8000
+Restart=on-failure
+User=nucleus
+ExecStartPre=/bin/mkdir -p /var/log/nucleus
+StandardOutput=append:/var/log/nucleus/backend.log
+StandardError=append:/var/log/nucleus/backend.log
+
+[Install]
+WantedBy=multi-user.target
+

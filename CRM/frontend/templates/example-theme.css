@@ -1,0 +1,10 @@
+/* Example custom theme
+ * Copy this file and modify colors and fonts as desired.
+ * Example changes:
+ *   body { background: #112233; color: #eee; }
+ *   .dashboard { font-family: "Comic Sans MS"; }
+ */
+body {
+  font-family: Arial, sans-serif;
+  background: #eef6ff;
+}

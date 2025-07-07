@@ -1,0 +1,19 @@
+[Unit]
+Description=Nucleus Node Auth Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/nucleus-platform/CRM/node_backend
+EnvironmentFile=/opt/nucleus-platform/CRM/.env
+ExecStart=/usr/bin/node index.js
+Restart=on-failure
+User=nucleus
+ExecStartPre=/usr/bin/npm install --production --prefix /opt/nucleus-platform/CRM/node_backend
+ExecStartPre=/bin/mkdir -p /var/log/nucleus
+StandardOutput=append:/var/log/nucleus/auth.log
+StandardError=append:/var/log/nucleus/auth.log
+
+[Install]
+WantedBy=multi-user.target
+

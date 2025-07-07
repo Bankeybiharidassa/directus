@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+httpx
+pyotp
+fpdf2>=2.7.8
+PyYAML
+psutil
+cryptography
+requests

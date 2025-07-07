@@ -1,0 +1,19 @@
+[MASTER]
+jobs=0
+persistent=yes
+fail-under=9.5  # TODO: raise to 10.0 after resolving all warnings
+
+[MESSAGES CONTROL]
+disable=
+    C0114,
+    C0115,
+    C0116
+
+[FORMAT]
+max-line-length=100
+
+[REPORTS]
+evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)
+
+[BASIC]
+const-rgx=[A-Za-z0-9_]{1,30}$

@@ -1,0 +1,20 @@
+database:
+  engine: mysql
+  host: ${DB_HOST}
+  port: 3306
+  user: ${DB_USER}
+  password: ${DB_PASS}
+  name: nucleus
+
+imap:
+  host: ${IMAP_HOST}
+  user: ${IMAP_USER}
+  password: ${IMAP_PASSWORD}
+
+sophos:
+  url: ${SOPHOS_URL}
+  token: ${SOPHOS_TOKEN}
+
+tenable:
+  url: ${TENABLE_URL}
+  token: ${TENABLE_TOKEN}

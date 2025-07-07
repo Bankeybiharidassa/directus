@@ -1,0 +1,10 @@
+{
+  "name": "nucleus-auth",
+  "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "passport": "^0.6.0",
+    "passport-oauth2": "^1.6.1"
+  }
+}

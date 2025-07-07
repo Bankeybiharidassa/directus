@@ -1,0 +1,13 @@
+# Menu for company
+- Internal News
+- Customers
+- CRM
+- CMS
+- Finance
+- Import/Export
+- Email
+- Agenda
+- Knowledgebase
+- Support
+- Profile
+- Security

@@ -1,0 +1,11 @@
+/* Default CRM theme */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.dashboard {
+  padding: 20px;
+}
