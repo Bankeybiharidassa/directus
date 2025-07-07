@@ -72,3 +72,9 @@
 - Updated `/docs/inventory.md` with module paths and classification.
 - Recorded test failures due to Node version and missing Python deps in `/loops/fix-phase1-pass01.md`.
 - Ready for Phase 1 – Pass 02 review.
+## Phase 1 – Pass 01 (2025-07-07)
+- Re-extracted features from /CRM/README.md
+- Updated /docs/inventory.md with 18 entries
+- Classified features by required implementation
+- Ready for Phase 1 – Pass 02
+

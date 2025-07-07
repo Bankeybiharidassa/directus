@@ -18,3 +18,8 @@ Extracted from: `/CRM/README.md`
 | Config via GUI + `.env` | ✅ Native Directus (partially) | Use Directus settings with env overrides |
 | Role dashboards & menus | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
 | API for asset sync & remote control | 🔧 Plugin/module required | `extensions/nucleus-api/` |
+
+| MFA with YubiKey, certificates, IP + TOTP | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
+| Role-based login page & redirect | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
+| Public landing page | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
+| Support portal remote control | 🔧 Plugin/module required | `extensions/nucleus-support/` |
