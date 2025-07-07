@@ -88,3 +88,8 @@
 - Enabled pnpm through corepack
 - `npm test` still fails missing `@directus/random`
 - Documented in `loops/fix-phase1-pass02.md`
+## Phase 1 Pass 04 - Inventory Review
+- Verified all CRM features mapped with categories
+- Updated docs/inventory.md to Pass 03
+- npm test fails: unsupported Node v20 (logged)
+- pytest fails: missing sqlalchemy (logged)
