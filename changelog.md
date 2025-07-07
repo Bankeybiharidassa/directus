@@ -102,3 +102,4 @@
 - Rebuilt random and storage packages.
 - `npm test` now completes `@directus/extensions-sdk` tests successfully.
 - Tests fail later in `@directus/app` with exit status 129, logged in `loops/fix-phase1-pass05.md`.
+
