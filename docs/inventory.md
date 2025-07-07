@@ -1,4 +1,5 @@
-# Nucleus CRM – Inventory (Pass 01)
+<!-- markdownlint-disable MD013 -->
+# Nucleus CRM – Inventory (Pass 02)
 
 Extracted from: `/CRM/README.md`
 
@@ -11,6 +12,7 @@ Extracted from: `/CRM/README.md`
 | EDI messaging between partners | 🔧 Plugin/module required | `extensions/nucleus-edi/` |
 | Support desk: tickets & assets | 🔧 Plugin/module required | `extensions/nucleus-support/` |
 | Asset vulnerabilities via Tenable | 🔧 Plugin/module required | `extensions/nucleus-tenable/` |
+| Sophos Central integration for asset sync | 🔧 Plugin/module required | `extensions/nucleus-sophos/` |
 | Email sync via IMAP | 🚧 External worker required | `extensions/nucleus-mail-ingest/` |
 | CMS & public portal | 🔧 Plugin/module required | `extensions/nucleus-portal/` |
 | DMARC analyzer & tenant stats | 🔧 Plugin/module required | `extensions/nucleus-dmarc/` |

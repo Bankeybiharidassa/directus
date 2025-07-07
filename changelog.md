@@ -78,3 +78,13 @@
 - Classified features by required implementation
 - Ready for Phase 1 – Pass 02
 
+
+## Phase 1 Pass 02 - Node update
+- Upgraded Node to 22.16 using nvm
+- Ran pnpm install but `npm test` fails due to vitest missing modules
+- Logged issue in loops/fix-phase1-pass02.md
+## Phase 1 Pass 03 - Apt Node install
+- Installed Node.js 22 via NodeSource apt repo
+- Enabled pnpm through corepack
+- `npm test` still fails missing `@directus/random`
+- Documented in `loops/fix-phase1-pass02.md`
