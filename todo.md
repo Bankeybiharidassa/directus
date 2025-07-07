@@ -15,4 +15,6 @@
 - [ ] Add CI pipeline to run npm and vitest
 
 - [x] Install Node 22 via apt using NodeSource repo
-- [ ] Resolve vitest dependency errors during npm test
+- [x] Resolve vitest dependency errors during npm test
+
+- [ ] Fix npm test failure in @directus/app (exit status 129)
