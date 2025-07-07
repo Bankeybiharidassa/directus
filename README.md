@@ -14,6 +14,8 @@ Refer to [CRM/README.md](CRM/README.md) for full documentation.
 See readme.md for Directus upstream instructions.
 Detailed feature inventory lives in docs/inventory.md.
 
+Copy `.env.example` to `.env` and adjust values before running `scripts/install.sh`.
+
 ## Testing the GUI
 
 Run `scripts/gui_loop.sh` to install dependencies, launch the services and
