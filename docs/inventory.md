@@ -2,13 +2,19 @@
 
 Extracted from: `/CRM/README.md`
 
-| Feature                            | Category                  | Notes / Proposed Module         |
-|------------------------------------|----------------------------|----------------------------------|
-| Multi-tenant access per client     | 🔧 Plugin/module required  | `extensions/nucleus-auth/` + RBAC hook |
-| OAuth2 for MS365 & NinjaOne        | 🔧 Plugin/module required  | `extensions/nucleus-auth/`       |
-| Email ingestion via IMAP/XML       | 🚧 External worker required | `extensions/nucleus-mail-ingest/` |
-| Audit logging                      | 🔧 Plugin/module required  | `extensions/nucleus-core/`       |
-| CRM: clients, contacts, tickets    | 🔧 Plugin/module required  | Define schema in `nucleus-core/schema/` |
-| Config via GUI + `.env`            | ✅ Native Directus (partially) | Extend via GUI collection override |
-| Dashboards per tenant              | 🔧 Plugin/module required  | `extensions/nucleus-ui/`        |
-| API: assign contacts, ticket stats | 🔧 Plugin/module required  | `extensions/nucleus-api/`       |
+| Feature | Category | Notes / Proposed Module |
+|---------------------------------|----------------------------|---------------------------------------|
+| Keycloak wizard for Auth & RBAC | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
+| Hierarchical partners (admins→distributors→partners→endusers) | 🔧 Plugin/module required | Schema + RBAC in `extensions/nucleus-crm/` |
+| Contract lifecycle (create/terminate) | 🔧 Plugin/module required | `extensions/nucleus-contracts/` |
+| Document generator (PDF/TXT/CSV) | 🔧 Plugin/module required | `extensions/nucleus-docs/` |
+| EDI messaging between partners | 🔧 Plugin/module required | `extensions/nucleus-edi/` |
+| Support desk: tickets & assets | 🔧 Plugin/module required | `extensions/nucleus-support/` |
+| Asset vulnerabilities via Tenable | 🔧 Plugin/module required | `extensions/nucleus-tenable/` |
+| Email sync via IMAP | 🚧 External worker required | `extensions/nucleus-mail-ingest/` |
+| CMS & public portal | 🔧 Plugin/module required | `extensions/nucleus-portal/` |
+| DMARC analyzer & tenant stats | 🔧 Plugin/module required | `extensions/nucleus-dmarc/` |
+| Audit logging & encrypted storage | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| Config via GUI + `.env` | ✅ Native Directus (partially) | Use Directus settings with env overrides |
+| Role dashboards & menus | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
+| API for asset sync & remote control | 🔧 Plugin/module required | `extensions/nucleus-api/` |

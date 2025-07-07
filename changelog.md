@@ -59,3 +59,9 @@
 - Inventory is tied to proposed module paths
 - No blocking issues
 - Ready for Phase 1 – Pass 02
+
+## Phase 1 – Pass 01 Refresh (2025-07-07)
+- Re-extracted features from `/CRM/README.md` and expanded table to 14 entries.
+- Updated `/docs/inventory.md` with module paths and classification.
+- Recorded test failures due to Node version and missing Python deps in `/loops/fix-phase1-pass01.md`.
+- Ready for Phase 1 – Pass 02 review.
