@@ -20,3 +20,4 @@
 - [ ] Fix npm test failure in @directus/app (exit status 129)
 - [ ] Document admin features in extensions modules
 
+- [ ] Automate building workspace packages before tests to prevent missing module errors
