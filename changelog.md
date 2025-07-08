@@ -185,3 +185,8 @@
 - Revalidated inventory after loop reset; updated heading to Pass 07.
 - Logged pass in `trace.json`.
 
+
+## Phase 1 – Pass 12 (2025-07-08)
+- Detected Node v20 in environment and enabled nvm manually.
+- Switched to Node.js 18 and attempted `npm test` which fails due to engines expecting Node 22 (#env-mismatch).
+- Documented steps in `loops/fix-env-node-version.md` and updated dependencies to recommend Node 18.
