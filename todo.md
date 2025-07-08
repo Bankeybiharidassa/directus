@@ -1,24 +1,24 @@
 # TODO
 
 ## nucleus-auth
-- Create authentication schema {status:open} {priority:high} {blocked_by:none}
+- Create authentication schema {status:in-progress} {priority:high} {blocked_by:none}
 
 ## nucleus-core
-- Register each CRM extension in install.sh {status:open} {priority:medium} {blocked_by:none}
-- Automate building workspace packages before tests {status:open} {priority:medium} {blocked_by:none}
+- Register each CRM extension in install.sh {status:in-progress} {priority:medium} {blocked_by:none}
+- Automate building workspace packages before tests {status:in-progress} {priority:medium} {blocked_by:none}
 
 ## nucleus-api
-- Add CI pipeline to run npm and vitest {status:open} {priority:low} {blocked_by:#nucleus-core}
-- Fix npm test failure in @directus/app (exit status 129) {status:open} {priority:high} {blocked_by:none}
+- Add CI pipeline to run npm and vitest {status:in-progress} {priority:low} {blocked_by:#nucleus-core}
+- Fix npm test failure in @directus/app (exit status 129) {status:in-progress} {priority:high} {blocked_by:none}
 
 ## nucleus-ui
-- Setup role-based tests using lynx {status:open} {priority:medium} {blocked_by:none}
-- Document admin features in extensions modules {status:open} {priority:low} {blocked_by:none}
+- Setup role-based tests using lynx {status:in-progress} {priority:medium} {blocked_by:none}
+- Document admin features in extensions modules {status:in-progress} {priority:low} {blocked_by:none}
 
 ## repository
-- Integrate with upstream Directus build {status:open} {priority:medium} {blocked_by:none}
-- Ensure gui_loop.sh uses headless_check.js via proxy script {status:open} {priority:low} {blocked_by:none}
-- Document extensions under /extensions {status:open} {priority:low} {blocked_by:none}
+- Integrate with upstream Directus build {status:in-progress} {priority:medium} {blocked_by:none}
+ - Ensure gui_loop.sh uses headless_check.js via proxy script {status:done} {priority:low} {blocked_by:none}
+- Document extensions under /extensions {status:in-progress} {priority:low} {blocked_by:none}
 - Enrich `docs/inventory.md` with module/plugin paths for each feature {status:done} {priority:low} {blocked_by:none}
 - Revise `docs/inventory.md` to ensure classification table includes these paths {status:done} {priority:low} {blocked_by:none}
 - Commit second revision to satisfy two-loop requirement {status:done} {priority:low} {blocked_by:none}
