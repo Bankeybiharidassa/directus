@@ -26,5 +26,58 @@
     "loop_history": [
       3
     ]
+  },
+  {
+    "phase": "phase1",
+    "pass": 1,
+    "changes": [
+      "docs/inventory.md",
+      "changelog.md"
+    ],
+    "trigger": "sync CRM README"
+  },
+  {
+    "phase": "phase1",
+    "pass": 2,
+    "changes": [
+      "docs/inventory.md",
+      "docs/dependencies.md",
+      "changelog.md"
+    ],
+    "trigger": "address review comments"
+  },
+  {
+    "phase": "phase1",
+    "pass": 3,
+    "changes": [
+      ".nvmrc",
+      "scripts/install.sh",
+      "docs/dependencies.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "set Node 22 as default"
+  },
+  {
+    "phase": "phase1",
+    "pass": 4,
+    "changes": [
+      "README.md",
+      "scripts/gui_loop.sh",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "build random before tests"
+  },
+  {
+    "phase": "phase1",
+    "pass": 5,
+    "changes": [
+      "README.md",
+      "scripts/gui_loop.sh",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "build storage before tests"
   }
 ]

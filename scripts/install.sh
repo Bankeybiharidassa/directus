@@ -1,12 +1,18 @@
 
 #!/bin/bash
 # Install Directus CRM extensions and register local modules
-
 set -e
 
 LOG_DIR=/var/log/nucleus
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/install.log"
+
+# Ensure Node.js 22 is active for installation
+if command -v nvm >/dev/null 2>&1; then
+  nvm install 22 >> "$LOG_FILE" 2>&1
+  nvm use 22 >> "$LOG_FILE" 2>&1
+  nvm alias default 22 >> "$LOG_FILE" 2>&1
+fi
 
 # Load environment values if present
 if [ -f .env ]; then

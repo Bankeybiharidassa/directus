@@ -132,3 +132,31 @@
 - Documented usage of `test_install.sh` in `CRM/docs/setup.md`.
 - Ran `npm test` and `pytest`; both fail due to missing dependencies.
 
+## Phase 1 – Pass 01 (2025-07-08)
+- Synced `docs/inventory.md` with `CRM/README.md` by adding portal revocation,
+  support knowledgebase links, granular RBAC, `sophos_api_mode` and OTAP
+  pipeline entry.
+- Updated inventory heading to Pass 05.
+- Logged this pass in `trace.json`.
+
+## Phase 1 – Pass 02 (2025-07-09)
+- Removed blank line in inventory table to match style guide.
+- Documented Node 22 requirement in docs/dependencies.md.
+- `npm test` fails due to unsupported Node version (v20.19.2 vs required 22).
+- Logged this pass in trace.json.
+
+## Phase 1 – Pass 03 (2025-07-10)
+- Added .nvmrc and updated install script to enforce Node.js 22
+- Ran pnpm install and npm test; tests fail due to missing @directus/random module
+- Logged this pass in trace.json.
+
+## Phase 1 – Pass 04 (2025-07-11)
+- Added persistent build step for `@directus/random` before running tests
+- Documented the step in README and automated it in `scripts/gui_loop.sh`
+- Marked todo item as done and logged pass in trace.json
+
+## Phase 1 – Pass 05 (2025-07-12)
+- Added build step for `@directus/storage` to resolve missing module error during tests
+- Documented this in README and `scripts/gui_loop.sh`
+- Logged the new loop in `trace.json` and todo list
+

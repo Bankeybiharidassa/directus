@@ -26,3 +26,5 @@
 - Review inventory for completeness in Pass 02 {status:done} {priority:low} {blocked_by:none}
 - Install Node 22 via apt using NodeSource repo {status:done} {priority:low} {blocked_by:none}
 - Resolve vitest dependency errors during npm test {status:done} {priority:low} {blocked_by:none}
+- Fix missing @directus/random module during npm test {status:done} {priority:high} {blocked_by:none}
+- Fix missing @directus/storage module during npm test {status:done} {priority:high} {blocked_by:none}
