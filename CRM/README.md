@@ -30,6 +30,12 @@ A modular, securely designed CMS/CRM/Supportdesk platform built in accordance wi
    * Create and publish pages
    * Revoke portal access
 8. Core: Nucleus Kernel (RBAC, encryption, logging)
+   * Logging export
+   * Config reload
+   * API settings management
+   * BS-check system scan
+   * Security scan via CLI
+   * Certificate request (ACME)
 9. Tenable Integration (G4.5)
 10. DMARC Analyzer (G4.6)
 

@@ -1,23 +1,28 @@
 # TODO
 
-- Setup role-based tests using lynx
-- Document extensions under /extensions
-- Integrate with upstream Directus build
-- Ensure gui_loop.sh uses headless_check.js via proxy script
+## nucleus-auth
+- Create authentication schema {status:open} {priority:high} {blocked_by:none}
 
-- [x] Enrich `docs/inventory.md` with module/plugin paths for each feature
-- [x] Revise `docs/inventory.md` to ensure classification table includes these paths
-- [x] Commit second revision to satisfy two-loop requirement
-- [x] Document updates in `changelog.md`
-- [x] Review inventory for completeness in Pass 02
-- [ ] Create nucleus-auth schema for authentication tables
-- [ ] Register each CRM extension in install.sh
-- [ ] Add CI pipeline to run npm and vitest
+## nucleus-core
+- Register each CRM extension in install.sh {status:open} {priority:medium} {blocked_by:none}
+- Automate building workspace packages before tests {status:open} {priority:medium} {blocked_by:none}
 
-- [x] Install Node 22 via apt using NodeSource repo
-- [x] Resolve vitest dependency errors during npm test
+## nucleus-api
+- Add CI pipeline to run npm and vitest {status:open} {priority:low} {blocked_by:#nucleus-core}
+- Fix npm test failure in @directus/app (exit status 129) {status:open} {priority:high} {blocked_by:none}
 
-- [ ] Fix npm test failure in @directus/app (exit status 129)
-- [ ] Document admin features in extensions modules
+## nucleus-ui
+- Setup role-based tests using lynx {status:open} {priority:medium} {blocked_by:none}
+- Document admin features in extensions modules {status:open} {priority:low} {blocked_by:none}
 
-- [ ] Automate building workspace packages before tests to prevent missing module errors
+## repository
+- Integrate with upstream Directus build {status:open} {priority:medium} {blocked_by:none}
+- Ensure gui_loop.sh uses headless_check.js via proxy script {status:open} {priority:low} {blocked_by:none}
+- Document extensions under /extensions {status:open} {priority:low} {blocked_by:none}
+- Enrich `docs/inventory.md` with module/plugin paths for each feature {status:done} {priority:low} {blocked_by:none}
+- Revise `docs/inventory.md` to ensure classification table includes these paths {status:done} {priority:low} {blocked_by:none}
+- Commit second revision to satisfy two-loop requirement {status:done} {priority:low} {blocked_by:none}
+- Document updates in `changelog.md` {status:done} {priority:low} {blocked_by:none}
+- Review inventory for completeness in Pass 02 {status:done} {priority:low} {blocked_by:none}
+- Install Node 22 via apt using NodeSource repo {status:done} {priority:low} {blocked_by:none}
+- Resolve vitest dependency errors during npm test {status:done} {priority:low} {blocked_by:none}

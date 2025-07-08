@@ -30,6 +30,13 @@ external services consume. The Node authentication service manages OTP login and
 redirects users back to `/core/<role>` dashboards. CLI scripts under
 `CRM/scripts/` mirror GUI operations as documented in `CRM/AGENTS.md`.
 
+## Multi-Tenant Authentication
+
+Each tenant is represented by a Directus role and associated database schema.
+The `nucleus-auth` extension issues JWTs scoped to the tenant so requests are
+routed to the correct schema. Admin users can switch tenants via a custom header
+`X-Nucleus-Tenant` which the backend verifies against their permissions.
+
 ## Planned Authentication Flow
 
 1. Users visit `/auth/login` served by the Node.js service.
