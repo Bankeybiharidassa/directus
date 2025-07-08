@@ -11,3 +11,4 @@ curl
 unzip
 jq
 nmap
+nvm

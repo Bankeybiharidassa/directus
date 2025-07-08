@@ -16,6 +16,20 @@ Detailed feature inventory lives in docs/inventory.md.
 
 Copy `.env.example` to `.env` and adjust values before running `scripts/install.sh`.
 
+## Build Instructions
+
+Execute the installer script to install dependencies and enable all extensions:
+
+```bash
+./scripts/install.sh
+```
+
+Run tests with:
+
+```bash
+npm test
+```
+
 ## Testing the GUI
 
 Run `scripts/gui_loop.sh` to install dependencies, launch the services and

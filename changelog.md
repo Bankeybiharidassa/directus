@@ -113,3 +113,5 @@
 - Activated Node 22 with nvm after container restart.
 - Reinstalled packages and built workspace packages via `pnpm --recursive --filter @directus/* run build`.
 - `npm test` no longer fails at `@directus/random`, but tests still fail in `@directus/app` with exit code 129.
+## Phase 1 – Pass 08 (2025-09-07)
+- Validated inventory alignment with README; added missing core features.
