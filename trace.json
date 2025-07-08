@@ -124,8 +124,7 @@
       "changelog.md"
     ],
     "trigger": "validation complete"
-  }
-  ,
+  },
   {
     "phase": "phase1",
     "pass": 11,
@@ -134,5 +133,15 @@
       "changelog.md"
     ],
     "trigger": "loop reset sync"
+  },
+  {
+    "phase": "phase1",
+    "pass": 12,
+    "changes": [
+      "docs/dependencies.md",
+      "loops/fix-env-node-version.md",
+      "changelog.md"
+    ],
+    "trigger": "node version alignment"
   }
 ]
