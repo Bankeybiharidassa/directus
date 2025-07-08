@@ -108,3 +108,8 @@
 - `npm test` now completes `@directus/extensions-sdk` tests successfully.
 - Tests fail later in `@directus/app` with exit status 129, logged in `loops/fix-phase1-pass05.md`.
 
+
+## Phase 1 – Pass 07 (2025-07-07)
+- Activated Node 22 with nvm after container restart.
+- Reinstalled packages and built workspace packages via `pnpm --recursive --filter @directus/* run build`.
+- `npm test` no longer fails at `@directus/random`, but tests still fail in `@directus/app` with exit code 129.
