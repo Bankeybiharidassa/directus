@@ -79,5 +79,50 @@
       "todo.md"
     ],
     "trigger": "build storage before tests"
+  },
+  {
+    "phase": "phase1",
+    "pass": 6,
+    "changes": [
+      "docs/inventory.md",
+      "changelog.md"
+    ],
+    "trigger": "sync new README features"
+  },
+  {
+    "phase": "phase1",
+    "pass": 7,
+    "changes": [
+      "docs/inventory.md",
+      "changelog.md"
+    ],
+    "trigger": "clarify css theme row"
+  },
+  {
+    "phase": "phase1",
+    "pass": 8,
+    "changes": [
+      "docs/inventory.md",
+      "changelog.md"
+    ],
+    "trigger": "add inventory timestamp"
+  },
+  {
+    "phase": "phase1",
+    "pass": 9,
+    "changes": [
+      "docs/inventory.md",
+      "changelog.md"
+    ],
+    "trigger": "reorder css row"
+  },
+  {
+    "phase": "phase1",
+    "pass": 10,
+    "changes": [
+      "docs/inventory.md",
+      "changelog.md"
+    ],
+    "trigger": "validation complete"
   }
 ]

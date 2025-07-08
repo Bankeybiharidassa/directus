@@ -1,5 +1,6 @@
 <!-- markdownlint-disable MD013 -->
-# Nucleus CRM – Inventory (Pass 05)
+# Nucleus CRM – Inventory (Pass 06)
+_Last updated: 2025-07-13_
 
 
 Extracted from: `/CRM/README.md`
@@ -27,6 +28,7 @@ Extracted from: `/CRM/README.md`
 | MFA with YubiKey, certificates, IP + TOTP | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
 | Role-based login page & redirect | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
 | Public landing page | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
+| Customizable CSS themes via `frontend/templates` | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
 | Support portal remote control | 🔧 Plugin/module required | `extensions/nucleus-support/` |
 | Knowledgebase links in support portal | 🔧 Plugin/module required | `extensions/nucleus-support/` |
 | Logging export | 🔧 Plugin/module required | `extensions/nucleus-core/` |
@@ -35,4 +37,5 @@ Extracted from: `/CRM/README.md`
 | BS-check system scan | 🔧 Plugin/module required | `extensions/nucleus-core/` |
 | Security scan via CLI | 🔧 Plugin/module required | `extensions/nucleus-core/` |
 | Certificate request (ACME) | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| Staged update and rollback script | ✅ Process | `CRM/scripts/update.py` |
 | OTAP pipeline with automated testing & vulnerability checks | ✅ Process | Documented in `CRM/README.md` |
