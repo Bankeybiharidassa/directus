@@ -190,3 +190,14 @@
 - Detected Node v20 in environment and enabled nvm manually.
 - Switched to Node.js 18 and attempted `npm test` which fails due to engines expecting Node 22 (#env-mismatch).
 - Documented steps in `loops/fix-env-node-version.md` and updated dependencies to recommend Node 18.
+
+## Phase 3 – Pass 13 (2025-07-08)
+- Modified `scripts/install.sh` to activate Node.js 18 instead of 22.
+- Documented engine mismatch workaround in `loops/test-env-workarounds.md`.
+- Updated `docs/dependencies.md` to clarify Node 18 usage and `PNPM_IGNORE_NODE_VERSION` flag.
+- Added `loops/refactor-node-compat.md` detailing compatibility audit.
+
+## Phase 3 – Pass 14 (2025-07-08)
+- Built workspace packages @directus/random and @directus/storage using pnpm under Node 18.
+- `npm test` fails in @directus/sdk due to Node 22-only fs.glob.
+- Logged details in `loops/fix-phase3-pass14.md` and added TODO entry.
