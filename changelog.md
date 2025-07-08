@@ -115,3 +115,16 @@
 - `npm test` no longer fails at `@directus/random`, but tests still fail in `@directus/app` with exit code 129.
 ## Phase 1 – Pass 08 (2025-09-07)
 - Validated inventory alignment with README; added missing core features.
+
+## Phase 3 – Pass 01 (2025-09-08)
+- Began deep closed loop cycle for CRM modules.
+- Built workspace packages and attempted full test run.
+- `npm test` fails in `@directus/app`; `pytest` missing dependencies.
+- Logged progress in `CRM/docs/loops/20250908_open_closed_loop.md`.
+## Phase 3 – Pass 02 (2025-09-09)
+- Activated Node 22 and installed workspace dependencies.
+- Rebuilt packages and reran tests.
+- `npm test` now runs but fails in `@directus/api` with Axios 503 errors.
+- `pytest` executed after installing `sqlalchemy` yet fails with 33 missing modules.
+- Progress logged in `CRM/docs/loops/20250908_open_closed_loop.md`.
+
