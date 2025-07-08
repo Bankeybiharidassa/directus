@@ -128,3 +128,7 @@
 - `pytest` executed after installing `sqlalchemy` yet fails with 33 missing modules.
 - Progress logged in `CRM/docs/loops/20250908_open_closed_loop.md`.
 
+## Phase 3 – Pass 03 (2025-09-10)
+- Documented usage of `test_install.sh` in `CRM/docs/setup.md`.
+- Ran `npm test` and `pytest`; both fail due to missing dependencies.
+
