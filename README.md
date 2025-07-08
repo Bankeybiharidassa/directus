@@ -24,9 +24,11 @@ Execute the installer script to install dependencies and enable all extensions:
 ./scripts/install.sh
 ```
 
-Run tests with:
+Before running tests, build the workspace packages used in vitest:
 
 ```bash
+pnpm --filter @directus/random run build
+pnpm --filter @directus/storage run build
 npm test
 ```
 
