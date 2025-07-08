@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 -->
-# Nucleus CRM – Inventory (Pass 06)
-_Last updated: 2025-07-13_
+# Nucleus CRM – Inventory (Pass 07)
+_Last updated: 2025-07-08_
 
 
 Extracted from: `/CRM/README.md`
