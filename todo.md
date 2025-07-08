@@ -14,6 +14,7 @@
 ## nucleus-ui
 - Setup role-based tests using lynx {status:in-progress} {priority:medium} {blocked_by:none}
 - Document admin features in extensions modules {status:in-progress} {priority:low} {blocked_by:none}
+- Implement customizable CSS themes via templates {status:todo} {priority:low} {blocked_by:none}
 
 ## repository
 - Integrate with upstream Directus build {status:in-progress} {priority:medium} {blocked_by:none}
@@ -28,3 +29,4 @@
 - Resolve vitest dependency errors during npm test {status:done} {priority:low} {blocked_by:none}
 - Fix missing @directus/random module during npm test {status:done} {priority:high} {blocked_by:none}
 - Fix missing @directus/storage module during npm test {status:done} {priority:high} {blocked_by:none}
+- Implement staged update and rollback script {status:todo} {priority:low} {blocked_by:none}

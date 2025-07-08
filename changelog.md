@@ -160,3 +160,24 @@
 - Documented this in README and `scripts/gui_loop.sh`
 - Logged the new loop in `trace.json` and todo list
 
+## Phase 1 – Pass 06 (2025-07-13)
+- Parsed `/CRM/README.md` again and found missing features.
+- Added `Customizable CSS themes` and `Staged update and rollback` rows to `docs/inventory.md`.
+- Updated heading to Pass 06 and recorded changes in `trace.json`.
+
+## Phase 1 – Pass 07 (2025-07-13)
+- Clarified CSS theme row to mention `frontend/templates`.
+- Recorded pass in `trace.json`.
+
+## Phase 1 – Pass 08 (2025-07-13)
+- Added inventory last updated timestamp.
+- Logged in `trace.json`.
+
+## Phase 1 – Pass 09 (2025-07-13)
+- Reordered CSS theme row next to public landing page for clarity.
+- Updated `trace.json`.
+
+## Phase 1 – Pass 10 (2025-07-13)
+- Verified inventory completeness against CRM README.
+- Phase 1 validation passes complete.
+
