@@ -125,4 +125,14 @@
     ],
     "trigger": "validation complete"
   }
+  ,
+  {
+    "phase": "phase1",
+    "pass": 11,
+    "changes": [
+      "docs/inventory.md",
+      "changelog.md"
+    ],
+    "trigger": "loop reset sync"
+  }
 ]
