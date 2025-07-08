@@ -30,3 +30,4 @@
 - Fix missing @directus/random module during npm test {status:done} {priority:high} {blocked_by:none}
 - Fix missing @directus/storage module during npm test {status:done} {priority:high} {blocked_by:none}
 - Implement staged update and rollback script {status:todo} {priority:low} {blocked_by:none}
+- Adapt @directus/sdk tests for Node 18 or polyfill fs.glob {status:todo} {priority:medium} {blocked_by:none}

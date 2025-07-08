@@ -7,11 +7,11 @@ LOG_DIR=/var/log/nucleus
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/install.log"
 
-# Ensure Node.js 22 is active for installation
+# Ensure Node.js 18 is active for installation
 if command -v nvm >/dev/null 2>&1; then
-  nvm install 22 >> "$LOG_FILE" 2>&1
-  nvm use 22 >> "$LOG_FILE" 2>&1
-  nvm alias default 22 >> "$LOG_FILE" 2>&1
+  nvm install 18 >> "$LOG_FILE" 2>&1
+  nvm use 18 >> "$LOG_FILE" 2>&1
+  nvm alias default 18 >> "$LOG_FILE" 2>&1
 fi
 
 # Load environment values if present

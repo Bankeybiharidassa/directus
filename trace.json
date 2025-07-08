@@ -143,5 +143,27 @@
       "changelog.md"
     ],
     "trigger": "node version alignment"
+  },
+  {
+    "phase": "phase3",
+    "pass": 13,
+    "changes": [
+      "scripts/install.sh",
+      "docs/dependencies.md",
+      "loops/refactor-node-compat.md",
+      "loops/test-env-workarounds.md",
+      "changelog.md"
+    ],
+    "trigger": "node18 compat"
+  },
+  {
+    "phase": "phase3",
+    "pass": 14,
+    "changes": [
+      "loops/fix-phase3-pass14.md",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "node18 test build"
   }
 ]
