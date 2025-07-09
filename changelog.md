@@ -259,3 +259,8 @@
 ## Phase 3 – Pass 35 (2025-07-09)
 - Logged Node 22 version and attempted installation.
 - npm install and tests failed due to workspace protocol.
+
+## Phase 3 – Pass 36 (2025-07-09)
+- Updated `install.sh` and `install_directus.sh` to use Node 22.
+- Adjusted README to reflect the change.
+- Node 22 environment verified; npm tests still fail due to missing @directus/random.

@@ -1,0 +1,6 @@
+{
+  "pass": 36,
+  "timestamp": "2025-07-09T21:14Z",
+  "core_modified": false,
+  "notes": "tests still fail due to missing @directus/random"
+}

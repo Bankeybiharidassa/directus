@@ -316,4 +316,17 @@
     ],
     "trigger": "node update"
   }
+,
+  {
+    "phase": "phase3",
+    "pass": 36,
+    "changes": [
+      "node_version_log_pass36.md",
+      "npm_install_phase3_pass36.log",
+      "test_output_pass36.log",
+      "tracktrace-phase3-pass36.json",
+      "phase3-progress.json"
+    ],
+    "trigger": "install script node version fix"
+  }
 ]
