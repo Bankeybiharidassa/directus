@@ -233,13 +233,49 @@
   {
     "phase": "phase3",
     "pass": 30,
-    "changes": ["traces/phase3_inventory_pass30.json","traces/phase3_fix_pass30.json","traces/phase3_tests_pass30.json","traces/phase3_verification_pass30.json","traces/phase3_integrity_pass30.json","docs/dependencies.md","changelog.md","todo.md"],
+    "changes": [
+      "traces/phase3_inventory_pass30.json",
+      "traces/phase3_fix_pass30.json",
+      "traces/phase3_tests_pass30.json",
+      "traces/phase3_verification_pass30.json",
+      "traces/phase3_integrity_pass30.json",
+      "docs/dependencies.md",
+      "changelog.md",
+      "todo.md"
+    ],
     "trigger": "python deps"
   },
   {
     "phase": "phase3",
     "pass": 31,
-    "changes": ["traces/phase3_inventory_pass31.json","traces/phase3_fix_pass31.json","traces/phase3_tests_pass31.json","traces/phase3_verification_pass31.json","traces/phase3_integrity_pass31.json","README.md","docs/dependencies.md","CRM/README.md","changelog.md","todo.md"],
+    "changes": [
+      "traces/phase3_inventory_pass31.json",
+      "traces/phase3_fix_pass31.json",
+      "traces/phase3_tests_pass31.json",
+      "traces/phase3_verification_pass31.json",
+      "traces/phase3_integrity_pass31.json",
+      "README.md",
+      "docs/dependencies.md",
+      "CRM/README.md",
+      "changelog.md",
+      "todo.md"
+    ],
     "trigger": "node18 docs"
+  },
+  {
+    "phase": "phase3",
+    "pass": 32,
+    "changes": [
+      "traces/phase3_inventory_pass32.json",
+      "traces/phase3_fix_pass32.json",
+      "traces/phase3_tests_pass32.json",
+      "traces/phase3_verification_pass32.json",
+      "traces/phase3_integrity_pass32.json",
+      "scripts/install_directus.sh",
+      "README.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "pnpm install script"
   }
 ]

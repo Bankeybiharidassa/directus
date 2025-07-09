@@ -241,3 +241,7 @@
 ## Phase 3 – Pass 31 (2025-07-09)
 - Documented Node 18 setup commands in README.
 - Listed CRM Python packages and install command in docs and README.
+
+## Phase 3 – Pass 32 (2025-07-09)
+- Added install_directus.sh script using pnpm.
+- Documented script usage in README.
