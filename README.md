@@ -45,6 +45,12 @@ pnpm install
 npm install --prefix CRM/node_backend
 ```
 
+You can automate these commands using `scripts/install_directus.sh`:
+
+```bash
+./scripts/install_directus.sh
+```
+
 This loads a polyfill for `fs.glob` and installs Jest for the CRM backend before
 executing `pnpm --workspace-root test` and `python3 -m pytest -q`.
 

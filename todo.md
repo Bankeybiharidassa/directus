@@ -36,6 +36,7 @@
 - Install vitest for workspace packages to run monorepo tests {status:todo} {priority:medium} {blocked_by:none}
 - [pass20] Fix maintenance tests path
 - [pass20] Created tests for nucleus-auth and mail-ingest
-- [pass29] Document pnpm installation and test steps in README
+- [pass29] Document pnpm installation and test steps in README {status:done} {priority:low}
 - [pass30] Install Python backend dependencies and run tests {status:done} {priority:low}
 - [pass31] Document Node 18 test setup in README {status:done} {priority:low}
+- [pass32] Add install_directus.sh script using pnpm {status:done} {priority:medium}

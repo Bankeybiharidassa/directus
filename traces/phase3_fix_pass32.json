@@ -1,0 +1,8 @@
+{
+  "pass": 32,
+  "timestamp": "2025-07-09T19:03Z",
+  "changes": [
+    "Added install_directus.sh script using pnpm",
+    "Documented script usage in README"
+  ]
+}
