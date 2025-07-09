@@ -43,6 +43,6 @@
 - [pass33] Build and test pipeline failing due to missing vitest modules and sqlalchemy
 - [pass34] Update docs to emphasize Node 22 as default runtime {status:done} {priority:low}
 - [pass36] Update install scripts to use Node 22 {status:done} {priority:low}
-- Resolve npm install workspace protocol issues {status:todo} {priority:high} {blocked_by:none}
+- Resolve npm install workspace protocol issues {status:blocked} {priority:high} {blocked_by:core policy}
 - [pass37] Added build and boot memory DB tests {status:done} {priority:low}
 - [pass38] Fix memory DB test path and node usage {status:done} {priority:low}
