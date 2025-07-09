@@ -37,3 +37,5 @@
 - [pass20] Fix maintenance tests path
 - [pass20] Created tests for nucleus-auth and mail-ingest
 - [pass29] Document pnpm installation and test steps in README
+- [pass30] Install Python backend dependencies and run tests {status:done} {priority:low}
+- [pass31] Document Node 18 test setup in README {status:done} {priority:low}

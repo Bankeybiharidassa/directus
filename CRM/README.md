@@ -114,6 +114,9 @@ cp config/.env.template .env
 # install dependencies and initialize the database
 ./scripts/install.sh
 
+# install Python dependencies for tests
+pip install -r backend/requirements.txt
+
 Ensure optional Python packages like `fpdf2` and `psutil` are installed
 to avoid runtime errors in document generation and system checks.
 
