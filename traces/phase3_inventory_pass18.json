@@ -1,0 +1,20 @@
+{
+  "pass": 18,
+  "timestamp": "2025-07-09T00:14Z",
+  "modules_scanned": [
+    "CRM/extensions/nucleus-auth",
+    "CRM/extensions/nucleus-mail-ingest",
+    "scripts/install.sh",
+    "scripts/headless_check.js",
+    "scripts/gui_loop.sh",
+    "scripts/fs-glob-polyfill.js",
+    "CRM/scripts/headless_check.js",
+    "CRM/node_backend",
+    "CRM/frontend"
+  ],
+  "node20_features": [
+    "root package.json engines.node = 22",
+    "directus/package.json engines.node >=22",
+    "fs.glob polyfill indicates Node 22 feature"
+  ]
+}

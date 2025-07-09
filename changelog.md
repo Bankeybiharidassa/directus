@@ -215,3 +215,12 @@
 ## Phase 3 – Pass 17 (2025-07-08)
 - Built @directus/constants and dependent packages for Node 18.
 - Monorepo tests progress but other packages remain unresolved.
+
+
+## Phase 3 – Pass 18 (2025-07-09)
+- Ran inventory scan of CRM modules and scripts.
+- Installed `CRM/node_backend` dependencies so Jest is available.
+- `npm test` executed under Node 18 with polyfills; monorepo tests still fail due to missing vitest.
+- Node backend tests pass.
+- Logged results in trace files for pass 18.
+

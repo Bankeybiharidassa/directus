@@ -212,5 +212,22 @@
       "todo.md"
     ],
     "trigger": "build constants"
+  },
+  {
+    "phase": "phase3",
+    "pass": 18,
+    "changes": [
+      "traces/phase3_inventory_pass18.json",
+      "traces/phase3_fix_pass18.json",
+      "traces/phase3_tests_pass18.json",
+      "traces/phase3_verification_pass18.json",
+      "traces/phase3_integrity_pass18.json",
+      "changelog.md",
+      "todo.md",
+      "loops/refactor-node-compat.md",
+      "loops/test-env-workarounds.md",
+      "docs/dependencies.md"
+    ],
+    "trigger": "jest install"
   }
 ]

@@ -20,3 +20,4 @@ Load the Node 18 polyfill with:
 export NODE_OPTIONS="--import=$(pwd)/scripts/fs-glob-polyfill.js"
 ```
 to provide `fs.glob` during tests.
+Jest is installed locally in CRM/node_backend via npm install

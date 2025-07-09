@@ -1,0 +1,8 @@
+{
+  "pass": 18,
+  "timestamp": "2025-07-09T00:14Z",
+  "results": {
+    "crm_node_backend": "passed",
+    "monorepo_tests": "failed - vitest missing"
+  }
+}
