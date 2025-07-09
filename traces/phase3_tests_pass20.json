@@ -1,0 +1,7 @@
+{
+  "pass": 20,
+  "npm_test": "fail",
+  "pytest": "pass",
+  "node_backend": "pass",
+  "new_tests": "pass"
+}

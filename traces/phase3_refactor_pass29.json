@@ -1,0 +1,5 @@
+{
+  "pass": 29,
+  "files": ["CRM/README.md"],
+  "description": "Clarify test setup using pnpm"
+}

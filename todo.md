@@ -34,3 +34,6 @@
 - Adapt @directus/sdk tests for Node 18 or polyfill fs.glob {status:in-progress} {priority:medium} {blocked_by:none}
 - Verify monorepo tests with Node 18 once fs.glob polyfill is added {status:in-progress} {priority:medium} {blocked_by:none}
 - Install vitest for workspace packages to run monorepo tests {status:todo} {priority:medium} {blocked_by:none}
+- [pass20] Fix maintenance tests path
+- [pass20] Created tests for nucleus-auth and mail-ingest
+- [pass29] Document pnpm installation and test steps in README

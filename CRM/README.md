@@ -184,7 +184,9 @@ The typical flow is: user visits `/core/login`, signs in and is redirected to th
 ## 🤝 Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the process. In short:
-Fork this repo, create a feature branch, run `pytest` and `npm test`.
+Fork this repo, create a feature branch, run `pytest` and the Node test suite.
+Install packages with `pnpm install`, build the workspace packages using
+`pnpm --workspace-root build`, then execute `pnpm --workspace-root test`.
 Before opening a Pull Request, format and lint the Python code:
 ```bash
 autoflake --remove-all-unused-imports -r backend/
