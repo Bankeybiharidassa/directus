@@ -264,3 +264,11 @@
 - Updated `install.sh` and `install_directus.sh` to use Node 22.
 - Adjusted README to reflect the change.
 - Node 22 environment verified; npm tests still fail due to missing @directus/random.
+
+## Phase 3 – Pass 37 (2025-07-09)
+- Added test to build and boot Directus using in-memory SQLite.
+- Ensured Node 22 environment and dependencies installed.
+
+## Phase 3 – Pass 38 (2025-07-09)
+- Fixed memory DB test to locate repo root and use current Node binary.
+
