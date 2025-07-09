@@ -1,0 +1,14 @@
+{
+  "pass": 15,
+  "timestamp": "2025-07-08T23:30Z",
+  "modules_scanned": [
+    "scripts/*",
+    "CRM/extensions/nucleus-auth",
+    "CRM/extensions/nucleus-mail-ingest",
+    "CRM/node_backend"
+  ],
+  "node20_features": [
+    "package.json engines.node=22",
+    "@directus/sdk uses fs.glob"
+  ]
+}

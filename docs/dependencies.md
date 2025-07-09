@@ -13,4 +13,10 @@ jq
 nmap
 Use `nvm use 18` to activate Node.js 18 for all development and testing.
 Some upstream Directus packages declare Node 22 in their `engines` field; set
-`PNPM_IGNORE_NODE_VERSION=true` when running `npm test` under Node 18.
+`PNPM_IGNORE_NODE_VERSION=true` and `NPM_CONFIG_ENGINE_STRICT=false` when running
+`npm test` under Node 18.
+Load the Node 18 polyfill with:
+```
+export NODE_OPTIONS="--import=$(pwd)/scripts/fs-glob-polyfill.js"
+```
+to provide `fs.glob` during tests.

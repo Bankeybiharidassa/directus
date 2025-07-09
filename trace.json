@@ -165,5 +165,52 @@
       "changelog.md"
     ],
     "trigger": "node18 test build"
+  },
+  {
+    "phase": "phase3",
+    "pass": 15,
+    "changes": [
+      "docs/dependencies.md",
+      "traces/phase3_inventory_pass15.json",
+      "traces/phase3_fix_pass15.json",
+      "traces/phase3_tests_pass15.json",
+      "traces/phase3_verification_pass15.json",
+      "traces/phase3_integrity_pass15.json",
+      "changelog.md"
+    ],
+    "trigger": "node18 test pass"
+  },
+  {
+    "phase": "phase3",
+    "pass": 16,
+    "changes": [
+      "scripts/fs-glob-polyfill.js",
+      "docs/dependencies.md",
+      "traces/phase3_inventory_pass16.json",
+      "traces/phase3_fix_pass16.json",
+      "traces/phase3_tests_pass16.json",
+      "traces/phase3_verification_pass16.json",
+      "traces/phase3_integrity_pass16.json",
+      "loops/fix-phase3-pass16.md",
+      "loops/test-env-workarounds.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "node18 fs.glob polyfill"
+  },
+  {
+    "phase": "phase3",
+    "pass": 17,
+    "changes": [
+      "traces/phase3_inventory_pass17.json",
+      "traces/phase3_fix_pass17.json",
+      "traces/phase3_tests_pass17.json",
+      "traces/phase3_verification_pass17.json",
+      "traces/phase3_integrity_pass17.json",
+      "loops/fix-phase3-pass17.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "build constants"
   }
 ]

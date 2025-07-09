@@ -1,0 +1,9 @@
+{
+  "pass": 16,
+  "timestamp": "2025-07-08T23:43Z",
+  "assertions": [
+    "fs.glob polyfill loads via NODE_OPTIONS",
+    "random and storage packages build on Node 18",
+    "Monorepo tests still failing due to unresolved package"
+  ]
+}

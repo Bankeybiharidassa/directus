@@ -1,0 +1,8 @@
+{
+  "pass": 17,
+  "timestamp": "2025-07-08T23:54Z",
+  "assertions": [
+    "constants and dependencies build under Node 18",
+    "monorepo tests progress beyond missing constants"
+  ]
+}

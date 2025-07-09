@@ -1,0 +1,8 @@
+{
+  "pass": 15,
+  "timestamp": "2025-07-08T23:30Z",
+  "results": {
+    "crm_node_backend": "passed",
+    "monorepo_tests": "failed - missing @directus/random"
+  }
+}
