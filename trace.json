@@ -328,5 +328,25 @@
       "phase3-progress.json"
     ],
     "trigger": "install script node version fix"
+  },
+  {
+    "phase": "phase3",
+    "pass": 37,
+    "changes": [
+      "tests/build-memory/test.mjs",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "add memory sqlite boot test"
+  },
+  {
+    "phase": "phase3",
+    "pass": 38,
+    "changes": [
+      "tests/build-memory/test.mjs",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "fix memory test path"
   }
 ]
