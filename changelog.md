@@ -272,3 +272,7 @@
 ## Phase 3 – Pass 38 (2025-07-09)
 - Fixed memory DB test to locate repo root and use current Node binary.
 
+
+## Phase 3 – Pass 39 (2025-07-09)
+- Node 22 environment logged.
+- npm install failed due to workspace protocol; core package.json not modified.

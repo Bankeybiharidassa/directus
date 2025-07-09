@@ -1,0 +1,5 @@
+
+> test
+> pnpm --recursive --filter '!tests-blackbox' test
+
+sh: 1: pnpm: not found

@@ -315,8 +315,7 @@
       "phase3-progress.json"
     ],
     "trigger": "node update"
-  }
-,
+  },
   {
     "phase": "phase3",
     "pass": 36,
@@ -348,5 +347,17 @@
       "todo.md"
     ],
     "trigger": "fix memory test path"
+  },
+  {
+    "phase": "phase3",
+    "pass": 39,
+    "changes": [
+      "traces/env_pass39.json",
+      "loops/fix-install_pass39.md",
+      "logs/npm_pass39.log",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "node22 install fails"
   }
 ]
