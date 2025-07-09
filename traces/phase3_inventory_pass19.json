@@ -1,0 +1,18 @@
+{
+  "pass": 19,
+  "timestamp": "2025-07-09T09:37Z",
+  "modules_scanned": [
+    "scripts/install.sh",
+    "scripts/gui_loop.sh",
+    "scripts/headless_check.js",
+    "scripts/fs-glob-polyfill.js",
+    "CRM/extensions/nucleus-auth",
+    "CRM/extensions/nucleus-mail-ingest",
+    "CRM/scripts/*",
+    "CRM/node_backend"
+  ],
+  "node20_features": [
+    "root .nvmrc specifies Node 22",
+    "fs.glob polyfill required for Node 18"
+  ]
+}

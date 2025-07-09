@@ -224,3 +224,8 @@
 - Node backend tests pass.
 - Logged results in trace files for pass 18.
 
+
+## Phase 3 – Pass 19 (2025-07-09)
+- Inventory scan recorded Node 22 engine and fs.glob polyfill usage.
+- `scripts/install.sh` now installs CRM node_backend dependencies for Node 18.
+- Trace files for pass 19 created.
