@@ -1,0 +1,7 @@
+{
+  "pass": 19,
+  "timestamp": "2025-07-09T09:38Z",
+  "changes": [
+    "Added npm install step for CRM/node_backend in scripts/install.sh"
+  ]
+}

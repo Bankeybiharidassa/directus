@@ -22,6 +22,12 @@ fi
 echo "Installing dependencies..." | tee "$LOG_FILE"
 pnpm install --silent >> "$LOG_FILE" 2>&1
 
+# Install node_backend dependencies for tests
+if [ -d CRM/node_backend ]; then
+  echo "Installing CRM node_backend dependencies" | tee -a "$LOG_FILE"
+  npm install --prefix CRM/node_backend --silent >> "$LOG_FILE" 2>&1
+fi
+
 for EXT in extensions/*; do
   if [ -d "$EXT" ]; then
     echo "Registering extension $EXT" | tee -a "$LOG_FILE"

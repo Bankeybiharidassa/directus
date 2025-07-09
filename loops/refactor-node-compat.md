@@ -9,3 +9,4 @@ We checked all scripts and modules under `/extensions`, `/scripts` and `/CRM` fo
 
 To restore compatibility with Node 18, we modified `scripts/install.sh` to install and use Node.js 18 instead of 22. The package.json requirement cannot be changed due to governance rules, so tests are executed with `PNPM_IGNORE_NODE_VERSION=true` to bypass the engine check.
 - Pass 18: Installed node_backend dependencies so Jest works under Node 18.
+- Pass 19: install.sh now installs CRM node_backend dependencies
