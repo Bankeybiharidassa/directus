@@ -234,3 +234,10 @@
 ## Phase 3 – Pass 29 (2025-07-09)
 - Documented use of pnpm install and pnpm test in CRM README to avoid vitest not found errors.
 
+## Phase 3 – Pass 30 (2025-07-09)
+- Installed Python backend requirements for tests.
+- All CRM Python and Node tests pass under Node 18.
+
+## Phase 3 – Pass 31 (2025-07-09)
+- Documented Node 18 setup commands in README.
+- Listed CRM Python packages and install command in docs and README.

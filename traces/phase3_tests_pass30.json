@@ -1,0 +1,9 @@
+{
+  "pass": 30,
+  "timestamp": "2025-07-09T17:42Z",
+  "results": {
+    "crm_node_backend": "passed",
+    "crm_python_tests": "passed",
+    "monorepo_tests": "failed"
+  }
+}

@@ -32,6 +32,22 @@ pnpm --filter @directus/storage run build
 npm test
 ```
 
+### Node.js 18 Compatibility
+
+Run the workspace on Node 18 using `nvm` and bypass the engines check:
+
+```bash
+nvm use 18
+export PNPM_IGNORE_NODE_VERSION=true
+export NPM_CONFIG_ENGINE_STRICT=false
+export NODE_OPTIONS="--import=$(pwd)/scripts/fs-glob-polyfill.js"
+pnpm install
+npm install --prefix CRM/node_backend
+```
+
+This loads a polyfill for `fs.glob` and installs Jest for the CRM backend before
+executing `pnpm --workspace-root test` and `python3 -m pytest -q`.
+
 ## Testing the GUI
 
 Run `scripts/gui_loop.sh` to install dependencies, launch the services and

@@ -1,0 +1,10 @@
+{
+  "pass": 31,
+  "timestamp": "2025-07-09T18:25Z",
+  "modules_scanned": [
+    "README.md",
+    "CRM/README.md",
+    "docs/dependencies.md"
+  ],
+  "node20_features": []
+}
