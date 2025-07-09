@@ -40,3 +40,5 @@
 - [pass30] Install Python backend dependencies and run tests {status:done} {priority:low}
 - [pass31] Document Node 18 test setup in README {status:done} {priority:low}
 - [pass32] Add install_directus.sh script using pnpm {status:done} {priority:medium}
+- [pass33] Build and test pipeline failing due to missing vitest modules and sqlalchemy
+- [pass34] Update docs to emphasize Node 22 as default runtime {status:done} {priority:low}

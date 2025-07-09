@@ -245,3 +245,13 @@
 ## Phase 3 – Pass 32 (2025-07-09)
 - Added install_directus.sh script using pnpm.
 - Documented script usage in README.
+
+## Phase 3 – Pass 33 (2025-07-09)
+- Node 22 runtime documented and pnpm install step added.
+- Created requirements.md and phase3-progress.json.
+- Logged failing build and tests to tracktrace-phase3-pass33.json.
+- Updated docs/dependencies.md with Node 22 entry.
+
+## Phase 3 – Pass 34 (2025-07-09)
+- Clarified that Node 22 is the default runtime.
+- Updated dependencies guide to mention Node 22 as primary version.

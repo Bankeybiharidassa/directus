@@ -32,9 +32,20 @@ pnpm --filter @directus/storage run build
 npm test
 ```
 
+### Node.js 22 Runtime (Default)
+
+Directus packages list Node 22 in their `engines` field. Use Node 22 for all
+regular development and builds:
+
+```bash
+nvm use 22
+pnpm install
+```
+
 ### Node.js 18 Compatibility
 
-Run the workspace on Node 18 using `nvm` and bypass the engines check:
+Older CRM modules can still run on Node 18. Use `nvm` to switch and bypass the
+package engines check:
 
 ```bash
 nvm use 18

@@ -4,18 +4,18 @@ build-essential
 libssl-dev
 python3-pip
 python3-venv
-nvm (install Node.js 18)
+nvm (install Node.js 22 and optionally 18)
+Node.js 22 (via `nvm install 22`)
 npm
 git
 curl
 unzip
 jq
 nmap
-Use `nvm use 18` to activate Node.js 18 for all development and testing.
-Some upstream Directus packages declare Node 22 in their `engines` field; set
-`PNPM_IGNORE_NODE_VERSION=true` and `NPM_CONFIG_ENGINE_STRICT=false` when running
-`npm test` under Node 18.
-Load the Node 18 polyfill with:
+Use `nvm use 22` for the main development flow. Node 18 can be enabled with
+`nvm use 18` for legacy modules. Set `PNPM_IGNORE_NODE_VERSION=true` and
+`NPM_CONFIG_ENGINE_STRICT=false` when running `npm test` under Node 18.
+Load the polyfill when using Node 18:
 ```
 export NODE_OPTIONS="--import=$(pwd)/scripts/fs-glob-polyfill.js"
 ```
