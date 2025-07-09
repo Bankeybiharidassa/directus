@@ -1,0 +1,25 @@
+commit 736c5844b00af4c26e3d288d711b9d7fca0510a6
+Author: Codex <codex@openai.com>
+Date:   Wed Jul 9 14:10:08 2025 +0000
+
+    [auto] Phase3-Pass20: refactor + testfix + verify
+
+ CRM/extensions/nucleus-auth/package-lock.json      |  97 +++++++++++
+ .../nucleus-mail-ingest/package-lock.json          | 192 +++++++++++++++++++++
+ CRM/tests/test_maintenance.py                      |  10 +-
+ changelog.md                                       |   2 +
+ tests/nucleus-auth/auth.test.mjs                   |  22 +++
+ tests/nucleus-auth/loader.mjs                      |   2 +
+ tests/nucleus-auth/package-lock.json               |  94 ++++++++++
+ tests/nucleus-auth/package.json                    |   6 +
+ tests/nucleus-auth/test_runner.mjs                 |  14 ++
+ tests/nucleus-mail-ingest/ingest.test.mjs          |  13 ++
+ tests/nucleus-mail-ingest/package-lock.json        | 189 ++++++++++++++++++++
+ tests/nucleus-mail-ingest/package.json             |   6 +
+ todo.md                                            |   2 +
+ traces/phase3_plan_pass20.json                     |   7 +
+ traces/phase3_refactor_pass20.json                 |   6 +
+ traces/phase3_tests_pass20.json                    |   7 +
+ traces/phase3_verification_pass20.json             |   5 +
+ 17 files changed, 671 insertions(+), 3 deletions(-)
+no remote

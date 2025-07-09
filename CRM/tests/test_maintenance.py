@@ -1,8 +1,12 @@
 import os
 
 
+CRM_DIR = os.path.dirname(os.path.dirname(__file__))
+MAINTENANCE = os.path.join(CRM_DIR, 'maintenance.sh')
+
+
 def test_menu_options_exist():
-    with open('maintenance.sh') as f:
+    with open(MAINTENANCE) as f:
         data = f.read()
     assert 'Please select an action:' in data
     assert 'Update base system' in data
@@ -12,7 +16,7 @@ def test_menu_options_exist():
 
 
 def test_update_starts_with_apt_update():
-    with open('maintenance.sh') as f:
+    with open(MAINTENANCE) as f:
         lines = f.read().splitlines()
     idx = lines.index('update_system() {')
     snippet = '\n'.join(lines[idx:idx+3])
@@ -20,7 +24,7 @@ def test_update_starts_with_apt_update():
 
 
 def test_hardening_contains_sysctl():
-    with open('maintenance.sh') as f:
+    with open(MAINTENANCE) as f:
         data = f.read()
     assert 'net.ipv4.ip_forward' in data
     assert '/var/log/maintenance.log' in data

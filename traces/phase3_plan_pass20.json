@@ -1,0 +1,7 @@
+{
+  "pass": 20,
+  "modules": ["CRM/backend", "CRM/node_backend", "CRM/extensions/nucleus-auth", "CRM/extensions/nucleus-mail-ingest"],
+  "tests_missing": ["nucleus-auth", "nucleus-mail-ingest"],
+  "actions": ["install Python deps", "fix maintenance tests", "add Node tests"],
+  "node_version": "18"
+}

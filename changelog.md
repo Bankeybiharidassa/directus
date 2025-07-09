@@ -229,3 +229,8 @@
 - Inventory scan recorded Node 22 engine and fs.glob polyfill usage.
 - `scripts/install.sh` now installs CRM node_backend dependencies for Node 18.
 - Trace files for pass 19 created.
+## Phase 3 – Pass 20
+- Added Node tests for nucleus-auth and nucleus-mail-ingest extensions.
+## Phase 3 – Pass 29 (2025-07-09)
+- Documented use of pnpm install and pnpm test in CRM README to avoid vitest not found errors.
+

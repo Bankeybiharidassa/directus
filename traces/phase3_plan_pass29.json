@@ -1,0 +1,5 @@
+{
+  "pass": 29,
+  "focus": "document npm test failure and fix instructions",
+  "changes": ["Updated CRM README with pnpm test instructions"]
+}

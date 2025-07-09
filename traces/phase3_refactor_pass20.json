@@ -1,0 +1,6 @@
+{
+  "pass": 20,
+  "changes": ["Modified maintenance tests path", "Added Node tests"],
+  "files": ["CRM/tests/test_maintenance.py", "tests/nucleus-auth/auth.test.js", "tests/nucleus-mail-ingest/ingest.test.js"],
+  "node_version": "18"
+}
