@@ -1,0 +1,10 @@
+{
+  "pass": 16,
+  "timestamp": "2025-07-08T23:41Z",
+  "changes": [
+    "Built @directus/random with pnpm",
+    "Built @directus/storage with pnpm",
+    "Added fs.glob polyfill script",
+    "Set NODE_OPTIONS to load polyfill"
+  ]
+}

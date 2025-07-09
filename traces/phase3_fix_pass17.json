@@ -1,0 +1,10 @@
+{
+  "pass": 17,
+  "timestamp": "2025-07-08T23:52Z",
+  "changes": [
+    "Built @directus/constants",
+    "Built @directus/types",
+    "Built @directus/schema-builder",
+    "Built @directus/system-data"
+  ]
+}

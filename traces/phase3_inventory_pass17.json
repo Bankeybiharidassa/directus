@@ -1,0 +1,6 @@
+{
+  "pass": 17,
+  "timestamp": "2025-07-08T23:52Z",
+  "modules_scanned": ["packages/constants", "packages/types", "packages/schema-builder", "packages/system-data"],
+  "node20_features": []
+}

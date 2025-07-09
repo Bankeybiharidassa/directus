@@ -201,3 +201,17 @@
 - Built workspace packages @directus/random and @directus/storage using pnpm under Node 18.
 - `npm test` fails in @directus/sdk due to Node 22-only fs.glob.
 - Logged details in `loops/fix-phase3-pass14.md` and added TODO entry.
+
+## Phase 3 – Pass 15 (2025-07-08)
+- Installed deps with NPM_CONFIG_ENGINE_STRICT=false and PNPM_IGNORE_NODE_VERSION.
+- Node backend tests pass on Node 18; monorepo tests still fail due to @directus/random.
+- Logged details in traces JSON files.
+
+## Phase 3 – Pass 16 (2025-07-08)
+- Built @directus/random and @directus/storage for Node 18.
+- Added `scripts/fs-glob-polyfill.js` and documented NODE_OPTIONS usage.
+- Monorepo tests still failing due to unresolved packages.
+
+## Phase 3 – Pass 17 (2025-07-08)
+- Built @directus/constants and dependent packages for Node 18.
+- Monorepo tests progress but other packages remain unresolved.

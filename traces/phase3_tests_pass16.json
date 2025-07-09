@@ -1,0 +1,8 @@
+{
+  "pass": 16,
+  "timestamp": "2025-07-08T23:43Z",
+  "results": {
+    "crm_node_backend": "passed",
+    "monorepo_tests": "failed - utils unable to resolve @directus/constants"
+  }
+}

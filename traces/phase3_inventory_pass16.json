@@ -1,0 +1,12 @@
+{
+  "pass": 16,
+  "timestamp": "2025-07-08T23:40Z",
+  "modules_scanned": [
+    "packages/random",
+    "packages/storage",
+    "sdk/tests/exports.test.ts"
+  ],
+  "node20_features": [
+    "fs.glob usage in sdk tests"
+  ]
+}
