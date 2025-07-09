@@ -16,3 +16,4 @@ export NODE_OPTIONS="--import=$(pwd)/scripts/fs-glob-polyfill.js"
 ```
 
 This polyfills `fs.glob` for packages like `@directus/sdk` during tests.
+- Pass 18: run 'npm install --prefix CRM/node_backend' before tests to provide Jest.

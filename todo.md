@@ -33,3 +33,4 @@
 - Implement staged update and rollback script {status:todo} {priority:low} {blocked_by:none}
 - Adapt @directus/sdk tests for Node 18 or polyfill fs.glob {status:in-progress} {priority:medium} {blocked_by:none}
 - Verify monorepo tests with Node 18 once fs.glob polyfill is added {status:in-progress} {priority:medium} {blocked_by:none}
+- Install vitest for workspace packages to run monorepo tests {status:todo} {priority:medium} {blocked_by:none}
