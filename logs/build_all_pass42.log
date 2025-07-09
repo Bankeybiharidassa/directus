@@ -1,0 +1,819 @@
+
+> build
+> pnpm --recursive --filter '!docs' run build
+
+Scope: 40 of 42 workspace projects
+packages/components build$ vite build
+packages/constants build$ tsup src/index.ts --format=esm --dts
+packages/format-title build$ pnpm run '/^bundle|typecheck$/'
+packages/random build$ tsup src/index.ts --format=esm --dts
+packages/constants build: CLI Building entry: src/index.ts
+packages/constants build: CLI Using tsconfig: tsconfig.json
+packages/constants build: CLI tsup v8.4.0
+packages/constants build: CLI Target: es2022
+packages/constants build: ESM Build start
+packages/random build: CLI Building entry: src/index.ts
+packages/random build: CLI Using tsconfig: tsconfig.json
+packages/random build: CLI tsup v8.4.0
+packages/random build: CLI Target: es2022
+packages/random build: ESM Build start
+packages/constants build: ESM dist/index.js 2.48 KB
+packages/constants build: ESM ⚡️ Build success in 27ms
+packages/format-title build: . bundle$ tsup src/index.ts --format=esm --dts
+packages/format-title build: . typecheck$ tsc --noEmit
+packages/random build: ESM dist/index.js 915.00 B
+packages/random build: ESM ⚡️ Build success in 46ms
+packages/random build: DTS Build start
+packages/constants build: DTS Build start
+packages/format-title build: . bundle: CLI Building entry: src/index.ts
+packages/format-title build: . bundle: CLI Using tsconfig: tsconfig.json
+packages/format-title build: . bundle: CLI tsup v8.4.0
+packages/format-title build: . bundle: CLI Target: es2022
+packages/format-title build: . bundle: ESM Build start
+packages/format-title build: . bundle: ESM dist/index.js 3.78 KB
+packages/format-title build: . bundle: ESM ⚡️ Build success in 78ms
+packages/constants build: DTS ⚡️ Build success in 802ms
+packages/constants build: DTS dist/index.d.ts 2.44 KB
+packages/constants build: Done
+packages/release-notes-generator build$ tsc --project tsconfig.prod.json
+packages/format-title build: . bundle: DTS Build start
+packages/components build: vite v5.4.19 building for production...
+packages/random build: DTS ⚡️ Build success in 1728ms
+packages/random build: DTS dist/index.d.ts 1.13 KB
+packages/format-title build: . typecheck: Done
+packages/format-title build: . bundle: DTS ⚡️ Build success in 861ms
+packages/format-title build: . bundle: DTS dist/index.d.ts 122.00 B
+packages/format-title build: . bundle: Done
+packages/random build: Done
+packages/schema build$ tsup src/index.ts --format=esm --dts
+packages/format-title build: Done
+packages/specs build$ swagger-cli bundle src/openapi.yaml -o dist/openapi.json
+packages/schema build: CLI Building entry: src/index.ts
+packages/schema build: CLI Using tsconfig: tsconfig.json
+packages/schema build: CLI tsup v8.4.0
+packages/schema build: CLI Target: es2022
+packages/schema build: ESM Build start
+packages/schema build: ESM dist/index.js 74.29 KB
+packages/schema build: ESM ⚡️ Build success in 66ms
+packages/specs build: Created dist/openapi.json from src/openapi.yaml
+packages/specs build: Done
+packages/storage build$ tsup src/index.ts --format=esm --dts
+packages/schema build: DTS Build start
+packages/release-notes-generator build: Done
+packages/stores build$ tsup src/index.ts --format=esm --dts
+packages/storage build: CLI Building entry: src/index.ts
+packages/storage build: CLI Using tsconfig: tsconfig.json
+packages/storage build: CLI tsup v8.4.0
+packages/storage build: CLI Target: es2022
+packages/storage build: ESM Build start
+packages/storage build: ESM dist/index.js 762.00 B
+packages/storage build: ESM ⚡️ Build success in 25ms
+packages/stores build: CLI Building entry: src/index.ts
+packages/stores build: CLI Using tsconfig: tsconfig.json
+packages/stores build: CLI tsup v8.4.0
+packages/stores build: CLI Target: es2022
+packages/stores build: ESM Build start
+packages/stores build: ESM dist/index.js 857.00 B
+packages/stores build: ESM ⚡️ Build success in 66ms
+packages/storage build: DTS Build start
+packages/stores build: DTS Build start
+packages/components build: transforming...
+packages/components build: ✓ 1 modules transformed.
+packages/components build: Generated an empty chunk: "index".
+packages/components build: rendering chunks...
+packages/components build: [vite:dts] Start generate declaration files...
+packages/components build: computing gzip size...
+packages/components build: dist/index.js  0.00 kB │ gzip: 0.02 kB
+packages/components build: [vite:dts] Declaration files built in 2321ms.
+packages/components build: ✓ built in 2.42s
+packages/components build: Done
+packages/system-data build$ NODE_ENV=production tsup
+packages/system-data build: CLI Building entry: src/index.ts
+packages/system-data build: CLI Using tsconfig: tsconfig.json
+packages/system-data build: CLI tsup v8.4.0
+packages/system-data build: CLI Using tsup config: /workspace/directus/packages/system-data/tsup.config.js
+packages/system-data build: CLI Target: es2020
+packages/system-data build: CLI Cleaning output folder
+packages/system-data build: CJS Build start
+packages/system-data build: ESM Build start
+packages/storage build: DTS ⚡️ Build success in 1542ms
+packages/storage build: DTS dist/index.d.ts 1.87 KB
+packages/schema build: DTS ⚡️ Build success in 2233ms
+packages/schema build: DTS dist/index.d.ts 2.68 KB
+packages/storage build: Done
+packages/update-check build$ pnpm run '/^bundle|typecheck$/'
+packages/schema build: Done
+packages/system-data build: ESM dist/index.js 50.02 KB
+packages/system-data build: ESM ⚡️ Build success in 462ms
+packages/system-data build: CJS dist/index.cjs 50.64 KB
+packages/system-data build: CJS ⚡️ Build success in 465ms
+packages/system-data build: DTS Build start
+packages/update-check build: . bundle$ tsup src/index.ts --format=esm --dts
+packages/update-check build: . typecheck$ tsc --noEmit
+packages/stores build: DTS ⚡️ Build success in 2025ms
+packages/stores build: DTS dist/index.d.ts 1.75 KB
+packages/stores build: Done
+packages/update-check build: . bundle: CLI Building entry: src/index.ts
+packages/update-check build: . bundle: CLI Using tsconfig: tsconfig.json
+packages/update-check build: . bundle: CLI tsup v8.4.0
+packages/update-check build: . bundle: CLI Target: es2022
+packages/update-check build: . bundle: ESM Build start
+packages/system-data build: DTS ⚡️ Build success in 567ms
+packages/system-data build: DTS dist/index.d.cts 4.92 KB
+packages/system-data build: DTS dist/index.d.ts  4.92 KB
+packages/system-data build: Done
+packages/update-check build: . bundle: ESM dist/index.js 3.13 KB
+packages/update-check build: . bundle: ESM ⚡️ Build success in 63ms
+packages/update-check build: . bundle: DTS Build start
+packages/update-check build: . typecheck: Done
+packages/update-check build: . bundle: DTS ⚡️ Build success in 1257ms
+packages/update-check build: . bundle: DTS dist/index.d.ts 94.00 B
+packages/update-check build: . bundle: Done
+packages/update-check build: Done
+packages/storage-driver-local build$ tsup src/index.ts --format=esm --dts
+packages/types build$ tsc
+packages/errors build$ tsup src/index.ts --format=esm --dts
+sdk build$ NODE_ENV=production tsup
+packages/errors build: CLI Building entry: src/index.ts
+packages/errors build: CLI Using tsconfig: tsconfig.json
+packages/errors build: CLI tsup v8.4.0
+packages/errors build: CLI Target: es2022
+packages/errors build: ESM Build start
+packages/storage-driver-local build: CLI Building entry: src/index.ts
+packages/storage-driver-local build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-local build: CLI tsup v8.4.0
+packages/storage-driver-local build: CLI Target: es2022
+packages/storage-driver-local build: ESM Build start
+packages/storage-driver-local build: ESM dist/index.js 3.92 KB
+packages/storage-driver-local build: ESM ⚡️ Build success in 21ms
+packages/errors build: ESM dist/index.js 10.73 KB
+packages/errors build: ESM ⚡️ Build success in 53ms
+sdk build: CLI Building entry: src/index.ts
+sdk build: CLI Using tsconfig: tsconfig.json
+sdk build: CLI tsup v8.4.0
+sdk build: CLI Using tsup config: /workspace/directus/sdk/tsup.config.js
+sdk build: CLI Target: es2022
+sdk build: CLI Cleaning output folder
+sdk build: CJS Build start
+sdk build: ESM Build start
+packages/errors build: DTS Build start
+sdk build: CJS dist/index.cjs     45.88 KB
+sdk build: CJS dist/index.cjs.map 66.66 KB
+sdk build: CJS ⚡️ Build success in 329ms
+sdk build: ESM dist/index.js     41.57 KB
+sdk build: ESM dist/index.js.map 59.53 KB
+sdk build: ESM ⚡️ Build success in 328ms
+packages/storage-driver-local build: DTS Build start
+sdk build: DTS Build start
+packages/errors build: DTS ⚡️ Build success in 834ms
+packages/errors build: DTS dist/index.d.ts 8.40 KB
+packages/errors build: Done
+packages/types build: Done
+packages/storage-driver-local build: DTS ⚡️ Build success in 1323ms
+packages/storage-driver-local build: DTS dist/index.d.ts 1.44 KB
+packages/storage-driver-local build: Done
+sdk build: DTS ⚡️ Build success in 4167ms
+sdk build: DTS dist/index.d.cts 159.14 KB
+sdk build: DTS dist/index.d.ts  159.14 KB
+sdk build: Done
+packages/schema-builder build$ tsup src/index.ts --format=esm --dts
+packages/schema-builder build: CLI Building entry: src/index.ts
+packages/schema-builder build: CLI Using tsconfig: tsconfig.json
+packages/schema-builder build: CLI tsup v8.4.0
+packages/schema-builder build: CLI Target: es2022
+packages/schema-builder build: ESM Build start
+packages/schema-builder build: ESM dist/index.js 20.93 KB
+packages/schema-builder build: ESM ⚡️ Build success in 20ms
+packages/schema-builder build: DTS Build start
+packages/schema-builder build: DTS ⚡️ Build success in 1308ms
+packages/schema-builder build: DTS dist/index.d.ts 4.24 KB
+packages/schema-builder build: Done
+packages/utils build$ pnpm run '/^build:.*/'
+packages/utils build: . build:browser$ tsup browser/index.ts --tsconfig browser/tsconfig.json --out-dir dist/browser --format=esm --dts
+packages/utils build: . build:node$ tsup node/index.ts --tsconfig node/tsconfig.json --out-dir dist/node --format=esm --dts
+packages/utils build: . build:shared$ tsup shared/index.ts --tsconfig shared/tsconfig.json --out-dir dist/shared --format=esm --dts
+packages/utils build: . build:browser: CLI Building entry: browser/index.ts
+packages/utils build: . build:browser: CLI Using tsconfig: browser/tsconfig.json
+packages/utils build: . build:browser: CLI tsup v8.4.0
+packages/utils build: . build:node: CLI Building entry: node/index.ts
+packages/utils build: . build:node: CLI Using tsconfig: node/tsconfig.json
+packages/utils build: . build:node: CLI tsup v8.4.0
+packages/utils build: . build:node: CLI Target: es2022
+packages/utils build: . build:browser: CLI Target: es2022
+packages/utils build: . build:node: ESM Build start
+packages/utils build: . build:browser: ESM Build start
+packages/utils build: . build:browser: ESM dist/browser/index.js 177.00 B
+packages/utils build: . build:browser: ESM ⚡️ Build success in 20ms
+packages/utils build: . build:shared: CLI Building entry: shared/index.ts
+packages/utils build: . build:shared: CLI Using tsconfig: shared/tsconfig.json
+packages/utils build: . build:shared: CLI tsup v8.4.0
+packages/utils build: . build:shared: CLI Target: es2022
+packages/utils build: . build:shared: ESM Build start
+packages/utils build: . build:node: ESM dist/node/index.js 3.56 KB
+packages/utils build: . build:node: ESM ⚡️ Build success in 45ms
+packages/utils build: . build:shared: ESM dist/shared/index.js 40.89 KB
+packages/utils build: . build:shared: ESM ⚡️ Build success in 52ms
+packages/utils build: . build:browser: DTS Build start
+packages/utils build: . build:shared: DTS Build start
+packages/utils build: . build:node: DTS Build start
+packages/utils build: . build:browser: DTS ⚡️ Build success in 832ms
+packages/utils build: . build:browser: DTS dist/browser/index.d.ts 149.00 B
+packages/utils build: . build:browser: Done
+packages/utils build: . build:node: DTS ⚡️ Build success in 1883ms
+packages/utils build: . build:node: DTS dist/node/index.d.ts 1.66 KB
+packages/utils build: . build:node: Done
+packages/utils build: . build:shared: DTS ⚡️ Build success in 2668ms
+packages/utils build: . build:shared: DTS dist/shared/index.d.ts 8.67 KB
+packages/utils build: . build:shared: Done
+packages/utils build: Done
+packages/env build$ tsup src/index.ts --format=esm --dts
+packages/memory build$ tsup src/index.ts --format=esm --dts
+packages/pressure build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-azure build$ tsup src/index.ts --format=esm --dts
+packages/env build: CLI Building entry: src/index.ts
+packages/storage-driver-azure build: CLI Building entry: src/index.ts
+packages/memory build: CLI Building entry: src/index.ts
+packages/env build: CLI Using tsconfig: tsconfig.json
+packages/env build: CLI tsup v8.4.0
+packages/storage-driver-azure build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-azure build: CLI tsup v8.4.0
+packages/memory build: CLI Using tsconfig: tsconfig.json
+packages/memory build: CLI tsup v8.4.0
+packages/env build: CLI Target: es2022
+packages/env build: ESM Build start
+packages/pressure build: CLI Building entry: src/index.ts
+packages/storage-driver-azure build: CLI Target: es2022
+packages/storage-driver-azure build: ESM Build start
+packages/pressure build: CLI Using tsconfig: tsconfig.json
+packages/pressure build: CLI tsup v8.4.0
+packages/memory build: CLI Target: es2022
+packages/memory build: ESM Build start
+packages/pressure build: CLI Target: es2022
+packages/pressure build: ESM Build start
+packages/storage-driver-azure build: ESM dist/index.js 3.74 KB
+packages/storage-driver-azure build: ESM ⚡️ Build success in 34ms
+packages/env build: ESM dist/index.js 17.72 KB
+packages/env build: ESM ⚡️ Build success in 48ms
+packages/pressure build: ESM dist/index.js 2.25 KB
+packages/pressure build: ESM ⚡️ Build success in 43ms
+packages/memory build: ESM dist/index.js 13.57 KB
+packages/memory build: ESM ⚡️ Build success in 85ms
+packages/pressure build: DTS Build start
+packages/memory build: DTS Build start
+packages/storage-driver-azure build: DTS Build start
+packages/env build: DTS Build start
+packages/pressure build: DTS ⚡️ Build success in 2281ms
+packages/pressure build: DTS dist/index.d.ts 885.00 B
+packages/pressure build: Done
+packages/storage-driver-cloudinary build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-azure build: DTS ⚡️ Build success in 2554ms
+packages/storage-driver-azure build: DTS dist/index.d.ts 1.52 KB
+packages/storage-driver-azure build: Done
+packages/storage-driver-gcs build$ tsup src/index.ts --format=esm --dts
+packages/env build: DTS ⚡️ Build success in 2721ms
+packages/env build: DTS dist/index.d.ts 90.00 B
+packages/storage-driver-cloudinary build: CLI Building entry: src/index.ts
+packages/storage-driver-cloudinary build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-cloudinary build: CLI tsup v8.4.0
+packages/storage-driver-cloudinary build: CLI Target: es2022
+packages/storage-driver-cloudinary build: ESM Build start
+packages/env build: Done
+packages/storage-driver-s3 build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-cloudinary build: ESM dist/index.js 13.81 KB
+packages/storage-driver-cloudinary build: ESM ⚡️ Build success in 22ms
+packages/memory build: DTS ⚡️ Build success in 2848ms
+packages/memory build: DTS dist/index.d.ts 13.45 KB
+packages/memory build: Done
+packages/storage-driver-supabase build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-gcs build: CLI Building entry: src/index.ts
+packages/storage-driver-gcs build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-gcs build: CLI tsup v8.4.0
+packages/storage-driver-gcs build: CLI Target: es2022
+packages/storage-driver-gcs build: ESM Build start
+packages/storage-driver-gcs build: ESM dist/index.js 3.54 KB
+packages/storage-driver-gcs build: ESM ⚡️ Build success in 21ms
+packages/storage-driver-s3 build: CLI Building entry: src/index.ts
+packages/storage-driver-s3 build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-s3 build: CLI tsup v8.4.0
+packages/storage-driver-cloudinary build: DTS Build start
+packages/storage-driver-s3 build: CLI Target: es2022
+packages/storage-driver-s3 build: ESM Build start
+packages/storage-driver-s3 build: ESM dist/index.js 12.19 KB
+packages/storage-driver-s3 build: ESM ⚡️ Build success in 26ms
+packages/storage-driver-supabase build: CLI Building entry: src/index.ts
+packages/storage-driver-supabase build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-supabase build: CLI tsup v8.4.0
+packages/storage-driver-supabase build: CLI Target: es2022
+packages/storage-driver-supabase build: ESM Build start
+packages/storage-driver-supabase build: ESM dist/index.js 6.46 KB
+packages/storage-driver-supabase build: ESM ⚡️ Build success in 50ms
+packages/storage-driver-gcs build: DTS Build start
+packages/storage-driver-s3 build: DTS Build start
+packages/storage-driver-supabase build: DTS Build start
+packages/storage-driver-cloudinary build: DTS ⚡️ Build success in 2447ms
+packages/storage-driver-cloudinary build: DTS dist/index.d.ts 2.85 KB
+packages/storage-driver-cloudinary build: Done
+packages/themes build$ vite build
+packages/storage-driver-gcs build: DTS ⚡️ Build success in 2581ms
+packages/storage-driver-gcs build: DTS dist/index.d.ts 1.46 KB
+packages/storage-driver-gcs build: Done
+packages/validation build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-supabase build: DTS ⚡️ Build success in 2475ms
+packages/storage-driver-supabase build: DTS dist/index.d.ts 1.76 KB
+packages/storage-driver-supabase build: Done
+packages/validation build: CLI Building entry: src/index.ts
+packages/validation build: CLI Using tsconfig: tsconfig.json
+packages/validation build: CLI tsup v8.4.0
+packages/validation build: CLI Target: es2022
+packages/validation build: ESM Build start
+packages/validation build: ESM dist/index.js 5.55 KB
+packages/validation build: ESM ⚡️ Build success in 26ms
+packages/validation build: DTS Build start
+packages/storage-driver-s3 build: DTS ⚡️ Build success in 3282ms
+packages/storage-driver-s3 build: DTS dist/index.d.ts 2.08 KB
+packages/storage-driver-s3 build: Done
+packages/themes build: vite v5.4.19 building for production...
+packages/validation build: DTS ⚡️ Build success in 1168ms
+packages/validation build: DTS dist/index.d.ts 774.00 B
+packages/validation build: Done
+packages/themes build: transforming...
+packages/themes build: ✓ 21 modules transformed.
+packages/themes build: rendering chunks...
+packages/themes build: [vite:dts] Start generate declaration files...
+packages/themes build: computing gzip size...
+packages/themes build: dist/index.js  40.85 kB │ gzip: 5.42 kB
+packages/themes build: [vite:dts] Declaration files built in 3044ms.
+packages/themes build: ✓ built in 3.36s
+packages/themes build: Done
+packages/extensions build$ pnpm run '/^build:.*/'
+packages/extensions build: . build:node$ tsup src/node.ts --tsconfig src/node/tsconfig.json --out-dir dist --format=esm --dts
+packages/extensions build: . build:shared$ tsup src/index.ts --tsconfig src/tsconfig.json --out-dir dist --format=esm --dts
+packages/extensions build: . build:node: CLI Building entry: src/node.ts
+packages/extensions build: . build:node: CLI Using tsconfig: src/node/tsconfig.json
+packages/extensions build: . build:node: CLI tsup v8.4.0
+packages/extensions build: . build:node: CLI Target: es2022
+packages/extensions build: . build:node: ESM Build start
+packages/extensions build: . build:shared: CLI Building entry: src/index.ts
+packages/extensions build: . build:shared: CLI Using tsconfig: src/tsconfig.json
+packages/extensions build: . build:shared: CLI tsup v8.4.0
+packages/extensions build: . build:node: ESM dist/node.js 11.64 KB
+packages/extensions build: . build:node: ESM ⚡️ Build success in 28ms
+packages/extensions build: . build:shared: CLI Target: es2022
+packages/extensions build: . build:shared: ESM Build start
+packages/extensions build: . build:shared: ESM dist/index.js 4.68 KB
+packages/extensions build: . build:shared: ESM ⚡️ Build success in 55ms
+packages/extensions build: . build:node: DTS Build start
+packages/extensions build: . build:shared: DTS Build start
+packages/extensions build: . build:shared: DTS ⚡️ Build success in 2287ms
+packages/extensions build: . build:shared: DTS dist/index.d.ts 54.73 KB
+packages/extensions build: . build:shared: Done
+packages/extensions build: . build:node: DTS ⚡️ Build success in 2445ms
+packages/extensions build: . build:node: DTS dist/node.d.ts 55.33 KB
+packages/extensions build: . build:node: Done
+packages/extensions build: Done
+packages/composables build$ tsup src/index.ts --format=esm --dts
+packages/extensions-registry build$ tsup src/index.ts --format=esm --dts
+packages/composables build: CLI Building entry: src/index.ts
+packages/composables build: CLI Using tsconfig: tsconfig.json
+packages/composables build: CLI tsup v8.4.0
+packages/extensions-registry build: CLI Building entry: src/index.ts
+packages/extensions-registry build: CLI Using tsconfig: tsconfig.json
+packages/extensions-registry build: CLI tsup v8.4.0
+packages/composables build: CLI Target: es2022
+packages/composables build: ESM Build start
+packages/extensions-registry build: CLI Target: es2022
+packages/extensions-registry build: ESM Build start
+packages/composables build: ESM dist/index.js 20.61 KB
+packages/composables build: ESM ⚡️ Build success in 28ms
+packages/extensions-registry build: ESM dist/index.js 7.08 KB
+packages/extensions-registry build: ESM ⚡️ Build success in 33ms
+packages/composables build: DTS Build start
+packages/extensions-registry build: DTS Build start
+packages/extensions-registry build: DTS ⚡️ Build success in 2245ms
+packages/extensions-registry build: DTS dist/index.d.ts 21.76 KB
+packages/extensions-registry build: Done
+packages/composables build: DTS ⚡️ Build success in 2573ms
+packages/composables build: DTS dist/index.d.ts 6.38 KB
+packages/composables build: Done
+packages/extensions-sdk build$ tsc --project tsconfig.prod.json
+packages/extensions-sdk build: Done
+app build$ vite build
+app build: vite v5.4.19 building for production...
+app build: transforming...
+app build: ✓ 4494 modules transformed.
+app build: rendering chunks...
+app build: [plugin:vite:reporter] [plugin vite:reporter] 
+app build: (!) /workspace/directus/node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/locale/en-US.js is dynamically imported by /workspace/directus/app/src/utils/get-date-fns-locale.ts but also statically imported by /workspace/directus/node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/_lib/defaultLocale.js, dynamic import will not move module into another chunk.
+app build: [plugin:vite:reporter] [plugin vite:reporter] 
+app build: (!) /workspace/directus/app/src/lang/translations/en-US.yaml is dynamically imported by /workspace/directus/app/src/lang/set-language.ts but also statically imported by /workspace/directus/app/src/lang/index.ts, dynamic import will not move module into another chunk.
+app build: [plugin:vite:reporter] [plugin vite:reporter] 
+app build: (!) /workspace/directus/node_modules/.pnpm/codemirror@5.65.18/node_modules/codemirror/mode/markdown/markdown.js is dynamically imported by /workspace/directus/app/src/interfaces/input-code/import-codemirror-mode.ts but also statically imported by  /workspace/directus/node_modules/.pnpm/codemirror@5.65.18/node_modules/codemirror/mode/markdown/markdown.js?commonjs-proxy, /workspace/directus/app/src/interfaces/input-rich-text-md/input-rich-text-md.vue?vue&type=script&setup=true&lang.ts, dynamic import will not move module into another chunk.
+app build: [plugin:vite:reporter] [plugin vite:reporter] 
+app build: (!) /workspace/directus/node_modules/.pnpm/codemirror@5.65.18/node_modules/codemirror/mode/javascript/javascript.js is dynamically imported by /workspace/directus/app/src/interfaces/input-code/import-codemirror-mode.ts, /workspace/directus/app/src/interfaces/input-code/input-code.vue?vue&type=script&setup=true&lang.ts but also statically imported by  /workspace/directus/node_modules/.pnpm/codemirror@5.65.18/node_modules/codemirror/mode/javascript/javascript.js?commonjs-proxy, /workspace/directus/app/src/modules/settings/routes/system-logs/logs.vue?vue&type=script&setup=true&lang.ts, dynamic import will not move module into another chunk.
+app build: computing gzip size...
+app build: dist/index.html                                             1.81 kB │ gzip:     0.75 kB
+app build: dist/assets/FiraMono-Medium-CE-6Frqh.woff2                 16.15 kB
+app build: dist/assets/FiraMono-Medium-CjwgnWCQ.woff                  21.28 kB
+app build: dist/assets/merriweather-light-MAZijcp-.woff2              23.59 kB
+app build: dist/assets/merriweather-regular-D4NWdWaV.woff2            23.86 kB
+app build: dist/assets/merriweather-bold-Ehu1LSIs.woff2               24.17 kB
+app build: dist/assets/merriweather-italic-DQHU05JA.woff2             27.18 kB
+app build: dist/assets/merriweather-light-_dgfXFiJ.woff               30.76 kB
+app build: dist/assets/merriweather-regular-B5k5JYwq.woff             31.07 kB
+app build: dist/assets/merriweather-bold-CQICjned.woff                31.46 kB
+app build: dist/assets/merriweather-italic-DDdpEp2m.woff              35.08 kB
+app build: dist/assets/Inter-Black-DQ32R15S.woff2                     93.18 kB
+app build: dist/assets/Inter-Bold-d8J9BkrN.woff2                      95.93 kB
+app build: dist/assets/Inter-Regular-C2oJmTkV.woff2                  100.12 kB
+app build: dist/assets/Inter-Medium-IZr8HYrM.woff2                   106.72 kB
+app build: dist/assets/Inter-SemiBold-1vGiIFm-.woff2                 107.23 kB
+app build: dist/assets/Inter-MediumItalic-eHnJB7Jg.woff2             112.50 kB
+app build: dist/assets/Inter-Black-tY25MZ8m.woff                     124.68 kB
+app build: dist/assets/Inter-Bold-DebvEmVN.woff                      128.01 kB
+app build: dist/assets/Inter-Regular-C9wQxk6G.woff                   134.65 kB
+app build: dist/assets/Inter-Medium-DosJTVus.woff                    142.84 kB
+app build: dist/assets/Inter-SemiBold-CUDcKm_l.woff                  143.25 kB
+app build: dist/assets/Inter-MediumItalic-C-HF1KIs.woff              149.18 kB
+app build: dist/assets/sprite-Cvp8IOkP.svg                           155.48 kB │ gzip:    69.89 kB
+app build: dist/assets/material-symbols-BLTCXYgc.woff2               295.10 kB
+app build: dist/assets/show-hint-DqpzQ0Fp.css                          0.52 kB │ gzip:     0.31 kB
+app build: dist/assets/index-DUWut2ul.css                             17.29 kB │ gzip:     3.14 kB
+app build: dist/assets/input-rich-text-html-D0_5luDc.css              88.74 kB │ gzip:    13.63 kB
+app build: dist/assets/index-CVJQHrA8.css                            554.08 kB │ gzip:    81.17 kB
+app build: dist/assets/sw-KE-CIEyP2s7.js                               0.03 kB │ gzip:     0.05 kB
+app build: dist/assets/sw-TZ-CIEyP2s7.js                               0.03 kB │ gzip:     0.05 kB
+app build: dist/assets/tg-TJ-CIEyP2s7.js                               0.03 kB │ gzip:     0.05 kB
+app build: dist/assets/isSameWeek-CuJuJrsY.js                          0.18 kB │ gzip:     0.17 kB
+app build: dist/assets/ug-DPjnv-8A.js                                  0.18 kB │ gzip:     0.21 kB
+app build: dist/assets/formatRelative-Dv7OIDgt.js                      0.19 kB │ gzip:     0.17 kB
+app build: dist/assets/ko-BclfT1S2.js                                  0.21 kB │ gzip:     0.23 kB
+app build: dist/assets/zh-tw-CWNUtgPu.js                               0.21 kB │ gzip:     0.24 kB
+app build: dist/assets/ja-VO0dQThx.js                                  0.22 kB │ gzip:     0.26 kB
+app build: dist/assets/en-au-CElxw9BR.js                               0.23 kB │ gzip:     0.20 kB
+app build: dist/assets/en-gb-xoqFlaE3.js                               0.23 kB │ gzip:     0.20 kB
+app build: dist/assets/en-nz-DZvNuVZQ.js                               0.23 kB │ gzip:     0.20 kB
+app build: dist/assets/zh-cn-BtEXDR8h.js                               0.24 kB │ gzip:     0.26 kB
+app build: dist/assets/he-0MgNsFfp.js                                  0.26 kB │ gzip:     0.24 kB
+app build: dist/assets/es-us-Bnv27Evl.js                               0.27 kB │ gzip:     0.22 kB
+app build: dist/assets/nn-DVG1X-2R.js                                  0.27 kB │ gzip:     0.22 kB
+app build: dist/assets/nl-DK4fNwkM.js                                  0.27 kB │ gzip:     0.22 kB
+app build: dist/assets/tr-nWAx0x6b.js                                  0.27 kB │ gzip:     0.23 kB
+app build: dist/assets/af-_28_aPkP.js                                  0.27 kB │ gzip:     0.22 kB
+app build: dist/assets/hu-DGnG1A8G.js                                  0.27 kB │ gzip:     0.24 kB
+app build: dist/assets/bg-B1JabSYP.js                                  0.27 kB │ gzip:     0.29 kB
+app build: dist/assets/da-1b7t9EQM.js                                  0.28 kB │ gzip:     0.22 kB
+app build: dist/assets/bn-C-JXl2PU.js                                  0.28 kB │ gzip:     0.29 kB
+app build: dist/assets/ar-JVIsLnCE.js                                  0.28 kB │ gzip:     0.27 kB
+app build: dist/assets/eo-C0r_IOYz.js                                  0.28 kB │ gzip:     0.22 kB
+app build: dist/assets/mk-Bb69r59O.js                                  0.28 kB │ gzip:     0.29 kB
+app build: dist/assets/cy-uIXFMCYY.js                                  0.28 kB │ gzip:     0.22 kB
+app build: dist/assets/ne-DE44C4nT.js                                  0.28 kB │ gzip:     0.31 kB
+app build: dist/assets/pt-BEOdVjin.js                                  0.28 kB │ gzip:     0.23 kB
+app build: dist/assets/ar-dz-BYyoW5bv.js                               0.28 kB │ gzip:     0.27 kB
+app build: dist/assets/ar-sa-rZtZT4t8.js                               0.28 kB │ gzip:     0.27 kB
+app build: dist/assets/ar-tn-DRliwBAX.js                               0.28 kB │ gzip:     0.27 kB
+app build: dist/assets/ar-kw-DkL0acqU.js                               0.28 kB │ gzip:     0.27 kB
+app build: dist/assets/ar-ly-DzhaKOfe.js                               0.28 kB │ gzip:     0.27 kB
+app build: dist/assets/ar-ma-S3iX-fpR.js                               0.28 kB │ gzip:     0.27 kB
+app build: dist/assets/eu-B8WGPnxW.js                                  0.28 kB │ gzip:     0.22 kB
+app build: dist/assets/is-DRp0RsYz.js                                  0.28 kB │ gzip:     0.24 kB
+app build: dist/assets/sl-OeJpqR8V.js                                  0.28 kB │ gzip:     0.23 kB
+app build: dist/assets/uz-DjJNMNnn.js                                  0.28 kB │ gzip:     0.23 kB
+app build: dist/assets/lt-gsORpIwD.js                                  0.29 kB │ gzip:     0.24 kB
+app build: dist/assets/ca-DPJaEvO_.js                                  0.29 kB │ gzip:     0.23 kB
+app build: dist/assets/cs-D_eu4svW.js                                  0.29 kB │ gzip:     0.26 kB
+app build: dist/assets/fr-ca-DvKGJDEU.js                               0.29 kB │ gzip:     0.24 kB
+app build: dist/assets/lb-rjeOtTUB.js                                  0.29 kB │ gzip:     0.23 kB
+app build: dist/assets/lv-0469Mz6N.js                                  0.29 kB │ gzip:     0.25 kB
+app build: dist/assets/id-Bn7suh2i.js                                  0.29 kB │ gzip:     0.23 kB
+app build: dist/assets/kk-DtOooNsd.js                                  0.29 kB │ gzip:     0.31 kB
+app build: dist/assets/ka-BSX3F3cs.js                                  0.29 kB │ gzip:     0.30 kB
+app build: dist/assets/fa-DMcZc0Uj.js                                  0.29 kB │ gzip:     0.28 kB
+app build: dist/assets/vi-DyHn0SRo.js                                  0.29 kB │ gzip:     0.29 kB
+app build: dist/assets/az-BArG7S63.js                                  0.29 kB │ gzip:     0.26 kB
+app build: dist/assets/fi-CXM2A7Fy.js                                  0.29 kB │ gzip:     0.24 kB
+app build: dist/assets/sr-CCKYIdNG.js                                  0.30 kB │ gzip:     0.25 kB
+app build: dist/assets/pl-8FWohiNn.js                                  0.30 kB │ gzip:     0.24 kB
+app build: dist/assets/sq-BXlRdXas.js                                  0.30 kB │ gzip:     0.25 kB
+app build: dist/assets/ru-DoXl6lJb.js                                  0.30 kB │ gzip:     0.30 kB
+app build: dist/assets/et-BEltiP6o.js                                  0.30 kB │ gzip:     0.24 kB
+app build: dist/assets/hi-N-_mnroV.js                                  0.30 kB │ gzip:     0.33 kB
+app build: dist/assets/sr-cyrl-BJ1Exp4k.js                             0.30 kB │ gzip:     0.30 kB
+app build: dist/assets/hr-BtwKIOlQ.js                                  0.30 kB │ gzip:     0.25 kB
+app build: dist/assets/ro-Cl8ZRrT5.js                                  0.30 kB │ gzip:     0.25 kB
+app build: dist/assets/bs-W2ypyBhS.js                                  0.30 kB │ gzip:     0.25 kB
+app build: dist/assets/fr-ch-CoIYQTTX.js                               0.30 kB │ gzip:     0.25 kB
+app build: dist/assets/sk-XMk1AXgk.js                                  0.31 kB │ gzip:     0.26 kB
+app build: dist/assets/it-g_qmz2aL.js                                  0.31 kB │ gzip:     0.24 kB
+app build: dist/assets/el-Crmizxop.js                                  0.31 kB │ gzip:     0.31 kB
+app build: dist/assets/hy-am-D2damuje.js                               0.31 kB │ gzip:     0.31 kB
+app build: dist/assets/uk-DS-g277L.js                                  0.31 kB │ gzip:     0.32 kB
+app build: dist/assets/ta-in-RVxb_NFL.js                               0.32 kB │ gzip:     0.32 kB
+app build: dist/assets/ms-ghG5JKnb.js                                  0.32 kB │ gzip:     0.25 kB
+app build: dist/assets/th-CkqJY8LF.js                                  0.32 kB │ gzip:     0.32 kB
+app build: dist/assets/fr-CQ7PX3zI.js                                  0.33 kB │ gzip:     0.26 kB
+app build: dist/assets/nb-Dad7pRLV.js                                  0.47 kB │ gzip:     0.32 kB
+app build: dist/assets/ruby-DIUmumiE.js                                0.50 kB │ gzip:     0.36 kB
+app build: dist/assets/stex-DDoA28MD.js                                0.50 kB │ gzip:     0.36 kB
+app build: dist/assets/yaml-zFwzAix9.js                                0.50 kB │ gzip:     0.36 kB
+app build: dist/assets/htmlmixed-CZpLF-Hi.js                           0.50 kB │ gzip:     0.36 kB
+app build: dist/assets/matchbrackets-DKky2t6H.js                       0.50 kB │ gzip:     0.36 kB
+app build: dist/assets/xml-_GT0Zj_r.js                                 0.50 kB │ gzip:     0.36 kB
+app build: dist/assets/gl-ZDiWBy_x.js                                  0.64 kB │ gzip:     0.38 kB
+app build: dist/assets/es-DvScwAe4.js                                  0.64 kB │ gzip:     0.39 kB
+app build: dist/assets/si-LK-BFeKlcrN.js                               0.64 kB │ gzip:     0.47 kB
+app build: dist/assets/sv-LVjaGM8m.js                                  0.65 kB │ gzip:     0.41 kB
+app build: dist/assets/@directus_extensions-sdk.SoNmVyc8.entry.js      0.67 kB │ gzip:     0.38 kB
+app build: dist/assets/pt-br-OJKF2--T.js                               0.70 kB │ gzip:     0.40 kB
+app build: dist/assets/de-B3aFfmNl.js                                  0.78 kB │ gzip:     0.45 kB
+app build: dist/assets/de-at-jiaPoFI2.js                               0.78 kB │ gzip:     0.46 kB
+app build: dist/assets/en-GB-C08i0nOK.js                               0.88 kB │ gzip:     0.46 kB
+app build: dist/assets/en-ZA-BMTA7-Vt.js                               0.88 kB │ gzip:     0.46 kB
+app build: dist/assets/en-AU-DSKnB3-Z.js                               0.89 kB │ gzip:     0.47 kB
+app build: dist/assets/en-NZ-BrdKDmSs.js                               0.89 kB │ gzip:     0.47 kB
+app build: dist/assets/en-IN-C7P728ll.js                               0.89 kB │ gzip:     0.47 kB
+app build: dist/assets/diff-zFPFxOCr.js                                0.93 kB │ gzip:     0.58 kB
+app build: dist/assets/fr-CS9PqVNR.js                                  0.93 kB │ gzip:     0.49 kB
+app build: dist/assets/fr-CA-0cJB3faK.js                               0.94 kB │ gzip:     0.49 kB
+app build: dist/assets/haskell-literate-DNZthGWd.js                    1.05 kB │ gzip:     0.60 kB
+app build: dist/assets/fr-CH-Cc933L0x.js                               1.09 kB │ gzip:     0.58 kB
+app build: dist/assets/autorefresh-BmkGQPre.js                         1.23 kB │ gzip:     0.62 kB
+app build: dist/assets/brainfuck-j69F94mC.js                           1.23 kB │ gzip:     0.66 kB
+app build: dist/assets/overlay-CtkS9zwT.js                             1.29 kB │ gzip:     0.51 kB
+app build: dist/assets/properties-uoI_-JSE.js                          1.33 kB │ gzip:     0.69 kB
+app build: dist/assets/cmake-pke1gLoX.js                               1.39 kB │ gzip:     0.79 kB
+app build: dist/assets/htmlembedded-C6gm0W95.js                        1.40 kB │ gzip:     0.69 kB
+app build: dist/assets/yaml-frontmatter-BfEu7S-a.js                    1.49 kB │ gzip:     0.76 kB
+app build: dist/assets/protobuf-D242dY4z.js                            1.51 kB │ gzip:     0.87 kB
+app build: dist/assets/solr-D463WRbI.js                                1.55 kB │ gzip:     0.82 kB
+app build: dist/assets/asciiarmor-CUgWi5ol.js                          1.57 kB │ gzip:     0.77 kB
+app build: dist/assets/http-Dl_a0VQI.js                                1.62 kB │ gzip:     0.83 kB
+app build: dist/assets/troff-DrZWNWIP.js                               1.66 kB │ gzip:     0.79 kB
+app build: dist/assets/toml-Cfwb71El.js                                1.71 kB │ gzip:     0.83 kB
+app build: dist/assets/active-line-BSzSVdDZ.js                         1.72 kB │ gzip:     0.84 kB
+app build: dist/assets/yaml-CKDAAMi7.js                                1.76 kB │ gzip:     0.84 kB
+app build: dist/assets/spreadsheet-BM07GHNd.js                         1.76 kB │ gzip:     0.86 kB
+app build: dist/assets/handlebars-CSdYsc_P.js                          1.76 kB │ gzip:     0.83 kB
+app build: dist/assets/tornado-CqdgF6R7.js                             1.76 kB │ gzip:     0.95 kB
+app build: dist/assets/pegjs-FrH4-cna.js                               1.97 kB │ gzip:     0.95 kB
+app build: dist/assets/en-CA-BZ_PRx10.js                               1.98 kB │ gzip:     0.80 kB
+app build: dist/assets/mbox-DHM8W7HJ.js                                2.03 kB │ gzip:     1.00 kB
+app build: dist/assets/mark-selection-Dea4eF8M.js                      2.15 kB │ gzip:     1.01 kB
+app build: dist/assets/vue-DrKPKfEp.js                                 2.15 kB │ gzip:     0.96 kB
+app build: dist/assets/km-KH-BPjKOhO1.js                               2.16 kB │ gzip:     1.14 kB
+app build: dist/assets/factor-CcyzmKG4.js                              2.22 kB │ gzip:     0.93 kB
+app build: dist/assets/sieve-De7TDscy.js                               2.23 kB │ gzip:     1.09 kB
+app build: dist/assets/rpm-X9yrrHWk.js                                 2.30 kB │ gzip:     1.17 kB
+app build: dist/assets/multiplex-CSCgMD6z.js                           2.33 kB │ gzip:     0.94 kB
+app build: dist/assets/z80-BNUypnMG.js                                 2.37 kB │ gzip:     1.15 kB
+app build: dist/assets/eiffel-LUj5Gosr.js                              2.39 kB │ gzip:     1.23 kB
+app build: dist/assets/elm-D6_8r7GJ.js                                 2.49 kB │ gzip:     1.14 kB
+app build: dist/assets/mathematica-BldFrz1Y.js                         2.51 kB │ gzip:     1.13 kB
+app build: dist/assets/dockerfile-C9Oi-f0d.js                          2.52 kB │ gzip:     0.99 kB
+app build: dist/assets/de-Dt4VMKoH.js                                  2.53 kB │ gzip:     0.92 kB
+app build: dist/assets/de-AT-CL0aHIpC.js                               2.54 kB │ gzip:     0.93 kB
+app build: dist/assets/twig-BnK_4zTA.js                                2.56 kB │ gzip:     1.19 kB
+app build: dist/assets/turtle-BJ6EOwzQ.js                              2.57 kB │ gzip:     1.21 kB
+app build: dist/assets/smalltalk-CbTOBA8j.js                           2.59 kB │ gzip:     1.17 kB
+app build: dist/assets/haml-BCgSAzmo.js                                2.64 kB │ gzip:     1.11 kB
+app build: dist/assets/dtd-CfoPjoR2.js                                 2.68 kB │ gzip:     1.21 kB
+app build: dist/assets/mumps-BuOxcK8l.js                               2.68 kB │ gzip:     1.32 kB
+app build: dist/assets/jsx-BHx2FsZz.js                                 2.69 kB │ gzip:     1.24 kB
+app build: dist/assets/rust-Bq0GjUf0.js                                2.71 kB │ gzip:     1.26 kB
+app build: dist/assets/fcl-DDhFAzqo.js                                 2.73 kB │ gzip:     1.29 kB
+app build: dist/assets/yacas-VBT4DkH-.js                               2.75 kB │ gzip:     1.40 kB
+app build: dist/assets/ka-GE-GMxj7JM0.js                               2.78 kB │ gzip:     1.22 kB
+app build: dist/assets/ntriples-CXyYCNrS.js                            2.82 kB │ gzip:     1.10 kB
+app build: dist/assets/pascal-DvvLNY-R.js                              2.84 kB │ gzip:     1.46 kB
+app build: dist/assets/htmlmixed-chxNOaeF.js                           2.84 kB │ gzip:     1.32 kB
+app build: dist/assets/apl-DoXH7_6g.js                                 2.86 kB │ gzip:     1.68 kB
+app build: dist/assets/octave-BikhBRm1.js                              2.92 kB │ gzip:     1.43 kB
+app build: dist/assets/commonlisp-D9NSEjkV.js                          2.93 kB │ gzip:     1.43 kB
+app build: dist/assets/ebnf-CFNEhvqP.js                                2.94 kB │ gzip:     1.28 kB
+app build: dist/assets/tcl-Dv7EG97v.js                                 2.95 kB │ gzip:     1.54 kB
+app build: dist/assets/dart-gHr7S_He.js                                2.98 kB │ gzip:     1.45 kB
+app build: dist/assets/gfm-CU866dZ9.js                                 3.06 kB │ gzip:     1.74 kB
+app build: dist/assets/match-highlighter-DsJ7SvhV.js                   3.13 kB │ gzip:     1.41 kB
+app build: dist/assets/puppet-bwoy1D_A.js                              3.15 kB │ gzip:     1.52 kB
+app build: dist/assets/webidl-2KL6E1lH.js                              3.16 kB │ gzip:     1.59 kB
+app build: dist/assets/shell-Cy5bFyU_.js                               3.19 kB │ gzip:     1.55 kB
+app build: dist/assets/jinja2-9Wdpbd9i.js                              3.23 kB │ gzip:     1.37 kB
+app build: dist/assets/pig-CehKHHUg.js                                 3.28 kB │ gzip:     1.79 kB
+app build: dist/assets/stex-DVgnh78L.js                                3.28 kB │ gzip:     1.26 kB
+app build: dist/assets/velocity-DnZhslbc.js                            3.30 kB │ gzip:     1.43 kB
+app build: dist/assets/forth-CL9uIj9s.js                               3.33 kB │ gzip:     1.74 kB
+app build: dist/assets/smarty-CaVdHOGT.js                              3.38 kB │ gzip:     1.46 kB
+app build: dist/assets/tiddlywiki-0NH6AQRO.js                          3.40 kB │ gzip:     1.41 kB
+app build: dist/assets/go-CPCFtOR7.js                                  3.46 kB │ gzip:     1.65 kB
+app build: dist/assets/oz-DQTDVsG6.js                                  3.54 kB │ gzip:     1.62 kB
+app build: dist/assets/r-BDNtrfPg.js                                   3.62 kB │ gzip:     1.72 kB
+app build: dist/assets/modelica-BK1exPp_.js                            3.69 kB │ gzip:     1.75 kB
+app build: dist/assets/javascript-hint-CYXJ6CHV.js                     3.69 kB │ gzip:     1.71 kB
+app build: dist/assets/tiki-CuONjh8k.js                                3.91 kB │ gzip:     1.63 kB
+app build: dist/assets/vhdl-DT0zb7Hr.js                                3.96 kB │ gzip:     1.85 kB
+app build: dist/assets/wast-DEGa5fWJ.js                                4.01 kB │ gzip:     1.88 kB
+app build: dist/assets/lua-BHP4hDsE.js                                 4.07 kB │ gzip:     1.80 kB
+app build: dist/assets/sparql-CLKPqMb4.js                              4.15 kB │ gzip:     1.95 kB
+app build: dist/assets/mscgen-C_CxyH_g.js                              4.26 kB │ gzip:     1.35 kB
+app build: dist/assets/d-B70iaVoi.js                                   4.39 kB │ gzip:     2.03 kB
+app build: dist/assets/cypher-TidVYOiT.js                              4.47 kB │ gzip:     2.04 kB
+app build: dist/assets/swift-C7tFBc2L.js                               4.56 kB │ gzip:     2.09 kB
+app build: dist/assets/vb-BchW8KjD.js                                  4.56 kB │ gzip:     2.15 kB
+app build: dist/assets/asn.1-LtvMZq6H.js                               4.59 kB │ gzip:     2.32 kB
+app build: dist/assets/coffeescript-BYZyWRTJ.js                        4.61 kB │ gzip:     2.06 kB
+app build: dist/assets/q-CcyV3lVD.js                                   4.62 kB │ gzip:     2.00 kB
+app build: dist/assets/dylan-Dsax6Auq.js                               4.62 kB │ gzip:     1.96 kB
+app build: dist/assets/vue.wgR5vgTp.entry.js                           4.71 kB │ gzip:     2.05 kB
+app build: dist/assets/groovy-hh1398yh.js                              4.76 kB │ gzip:     2.09 kB
+app build: dist/assets/livescript-pK3IH9ag.js                          4.79 kB │ gzip:     1.98 kB
+app build: dist/assets/ttcn-cfg-B7ybWpak.js                            4.80 kB │ gzip:     2.09 kB
+app build: dist/assets/match-9fWwkncR.js                               4.81 kB │ gzip:     1.83 kB
+app build: dist/assets/ko-Bc_NIWnD.js                                  4.82 kB │ gzip:     2.00 kB
+app build: dist/assets/gas-CP72Ho-B.js                                 4.93 kB │ gzip:     1.58 kB
+app build: dist/assets/haskell-NJ3xglnn.js                             4.94 kB │ gzip:     2.27 kB
+app build: dist/assets/match-Cc2og6Bu.js                               4.96 kB │ gzip:     1.51 kB
+app build: dist/assets/zh-TW-BSe6TJQx.js                               4.98 kB │ gzip:     2.20 kB
+app build: dist/assets/asterisk-Bgw0WbfB.js                            5.08 kB │ gzip:     2.10 kB
+app build: dist/assets/sass-YNONGfyd.js                                5.09 kB │ gzip:     1.97 kB
+app build: dist/assets/ja-CkplhjjX.js                                  5.16 kB │ gzip:     2.21 kB
+app build: dist/assets/django-CtXXthzt.js                              5.17 kB │ gzip:     1.85 kB
+app build: dist/assets/zh-CN-DEqujmn5.js                               5.22 kB │ gzip:     2.28 kB
+app build: dist/assets/fortran-ZnBcbvWn.js                             5.27 kB │ gzip:     2.34 kB
+app build: dist/assets/ht-Cg5Winzb.js                                  5.28 kB │ gzip:     2.02 kB
+app build: dist/assets/nl-BE-DHzPZFEV.js                               5.32 kB │ gzip:     2.01 kB
+app build: dist/assets/nl-Bq2Q2o6y.js                                  5.32 kB │ gzip:     2.01 kB
+app build: dist/assets/nb-DWcf761c.js                                  5.37 kB │ gzip:     2.01 kB
+app build: dist/assets/ruby-BHI1aFjJ.js                                5.38 kB │ gzip:     2.27 kB
+app build: dist/assets/mllike-e1OIXpKG.js                              5.47 kB │ gzip:     1.86 kB
+app build: dist/assets/nn-D8Z1Jqr2.js                                  5.47 kB │ gzip:     2.07 kB
+app build: dist/assets/eo-siBFCsqM.js                                  5.52 kB │ gzip:     2.10 kB
+app build: dist/assets/gu-DH02oOpc.js                                  5.56 kB │ gzip:     2.30 kB
+app build: dist/assets/mk-CPKLkzrH.js                                  5.59 kB │ gzip:     2.41 kB
+app build: dist/assets/uz-Bag-7rel.js                                  5.61 kB │ gzip:     1.99 kB
+app build: dist/assets/pinia.CgQSnxxV.entry.js                         5.66 kB │ gzip:     2.57 kB
+app build: dist/assets/ug-DcdhnAmn.js                                  5.71 kB │ gzip:     2.16 kB
+app build: dist/assets/hu-CyRsDU5L.js                                  5.72 kB │ gzip:     2.33 kB
+app build: dist/assets/crystal-snr16q4h.js                             5.74 kB │ gzip:     2.40 kB
+app build: dist/assets/sq-BC3AmGIh.js                                  5.74 kB │ gzip:     2.14 kB
+app build: dist/assets/ecl-9hQF60Jl.js                                 5.75 kB │ gzip:     2.63 kB
+app build: dist/assets/ms-DIXeE38V.js                                  5.77 kB │ gzip:     1.98 kB
+app build: dist/assets/id-Bhgvzn0K.js                                  5.78 kB │ gzip:     1.98 kB
+app build: dist/assets/ttcn-BpgSF-Jg.js                                5.85 kB │ gzip:     2.62 kB
+app build: dist/assets/af-BFMqQgdp.js                                  5.86 kB │ gzip:     2.11 kB
+app build: dist/assets/da-C8gUReE6.js                                  5.87 kB │ gzip:     2.08 kB
+app build: dist/assets/ro-CtmKfsa9.js                                  5.90 kB │ gzip:     2.14 kB
+app build: dist/assets/is-BULKOjX2.js                                  5.93 kB │ gzip:     2.16 kB
+app build: dist/assets/tr-DFiCcH0m.js                                  5.94 kB │ gzip:     2.28 kB
+app build: dist/assets/sv-DtkAy5Z-.js                                  5.94 kB │ gzip:     2.21 kB
+app build: dist/assets/fa-IR-DAxQtFsp.js                               5.96 kB │ gzip:     2.44 kB
+app build: dist/assets/hy-Cig21mgb.js                                  5.97 kB │ gzip:     2.42 kB
+app build: dist/assets/bg-Dd7j1mRp.js                                  5.98 kB │ gzip:     2.65 kB
+app build: dist/assets/gl-CWVbUfm5.js                                  6.03 kB │ gzip:     2.17 kB
+app build: dist/assets/mt-BwgWWnjM.js                                  6.04 kB │ gzip:     2.21 kB
+app build: dist/assets/hi-CniuMjWk.js                                  6.06 kB │ gzip:     2.49 kB
+app build: dist/assets/julia-DqTmlmkm.js                               6.08 kB │ gzip:     2.51 kB
+app build: dist/assets/pt-BR-Dt-GMBQP.js                               6.11 kB │ gzip:     2.23 kB
+app build: dist/assets/es-C1IYSnjN.js                                  6.20 kB │ gzip:     2.19 kB
+app build: dist/assets/pt-BnUJG9Hr.js                                  6.22 kB │ gzip:     2.15 kB
+app build: dist/assets/th-Hc5Ds2kC.js                                  6.28 kB │ gzip:     2.47 kB
+app build: dist/assets/el-DSa6P9Pq.js                                  6.30 kB │ gzip:     2.76 kB
+app build: dist/assets/ka-yf5U6aWJ.js                                  6.38 kB │ gzip:     2.36 kB
+app build: dist/assets/he-BE-vxR_K.js                                  6.42 kB │ gzip:     2.55 kB
+app build: dist/assets/it-SaLuxAw1.js                                  6.42 kB │ gzip:     2.20 kB
+app build: dist/assets/gd-CvY1y2l_.js                                  6.44 kB │ gzip:     2.36 kB
+app build: dist/assets/eu-DlyIBl_Y.js                                  6.46 kB │ gzip:     2.14 kB
+app build: dist/assets/vbscript-Cf0hRhbC.js                            6.48 kB │ gzip:     2.92 kB
+app build: dist/assets/mirc-BevlU_hA.js                                6.53 kB │ gzip:     3.03 kB
+app build: dist/assets/fi-DA6wf-N2.js                                  6.55 kB │ gzip:     2.25 kB
+app build: dist/assets/cy-CKG5vLgj.js                                  6.58 kB │ gzip:     2.35 kB
+app build: dist/assets/ar-SA-BAVUZ-gQ.js                               6.59 kB │ gzip:     2.44 kB
+app build: dist/assets/ar-MA-ChYfXdbj.js                               6.61 kB │ gzip:     2.45 kB
+app build: dist/assets/ku-TR-J1sgNKdl.js                               6.61 kB │ gzip:     2.85 kB
+app build: dist/assets/az-DtJ5nbf8.js                                  6.63 kB │ gzip:     2.40 kB
+app build: dist/assets/ar-DZ-CVSgbM5Q.js                               6.66 kB │ gzip:     2.48 kB
+app build: dist/assets/bn-aoEuPm-y.js                                  6.71 kB │ gzip:     2.59 kB
+app build: dist/assets/te-IN-B4fg5gC-.js                               6.80 kB │ gzip:     3.45 kB
+app build: dist/assets/cobol-CSHyZPea.js                               6.82 kB │ gzip:     3.31 kB
+app build: dist/assets/ca-CrgU-PbD.js                                  6.94 kB │ gzip:     2.38 kB
+app build: dist/assets/scheme-D4V_m51I.js                              6.97 kB │ gzip:     2.71 kB
+app build: dist/assets/rst-b5A5t4KM.js                                 7.00 kB │ gzip:     2.41 kB
+app build: dist/assets/python-CCu7BsLJ.js                              7.07 kB │ gzip:     3.08 kB
+app build: dist/assets/mn-D0R96W9v.js                                  7.07 kB │ gzip:     2.61 kB
+app build: dist/assets/et-CaYZkD-H.js                                  7.18 kB │ gzip:     2.20 kB
+app build: dist/assets/vi-C-sVOETh.js                                  7.28 kB │ gzip:     2.63 kB
+app build: dist/assets/xquery-DZX_4zpH.js                              7.32 kB │ gzip:     2.90 kB
+app build: dist/assets/nsis-CZ6oz4CQ.js                                7.38 kB │ gzip:     3.32 kB
+app build: dist/assets/te-DVh9vrNq.js                                  7.41 kB │ gzip:     2.53 kB
+app build: dist/assets/textile-CTtLYNsm.js                             7.49 kB │ gzip:     2.78 kB
+app build: dist/assets/lb-BxqRq4zg.js                                  7.71 kB │ gzip:     2.49 kB
+app build: dist/assets/kn-CrEE2n_O.js                                  7.77 kB │ gzip:     2.60 kB
+app build: dist/assets/slim-DKDncFly.js                                7.91 kB │ gzip:     2.92 kB
+app build: dist/assets/nginx-C0BJq4uq.js                               7.95 kB │ gzip:     3.06 kB
+app build: dist/assets/lt-CjXPRBDY.js                                  7.97 kB │ gzip:     2.70 kB
+app build: dist/assets/sr-BpCKg521.js                                  8.18 kB │ gzip:     2.70 kB
+app build: dist/assets/sk-CuFVaF1U.js                                  8.21 kB │ gzip:     2.79 kB
+app build: dist/assets/ta-CrIOiLOU.js                                  8.22 kB │ gzip:     2.78 kB
+app build: dist/assets/sr-Latn-d_H1HRuH.js                             8.24 kB │ gzip:     2.46 kB
+app build: dist/assets/powershell-Bt2-80tQ.js                          8.42 kB │ gzip:     3.67 kB
+app build: dist/assets/pl-VKEAj98A.js                                  8.46 kB │ gzip:     2.83 kB
+app build: dist/assets/pug-ctdDPYyP.js                                 8.50 kB │ gzip:     2.64 kB
+app build: dist/assets/hr-CX8KU4WA.js                                  8.51 kB │ gzip:     2.57 kB
+app build: dist/assets/gherkin-BIWpb4OT.js                             8.58 kB │ gzip:     5.49 kB
+app build: dist/assets/haxe-DfTEZxAi.js                                8.65 kB │ gzip:     3.31 kB
+app build: dist/assets/lv-C4xT-WEC.js                                  8.70 kB │ gzip:     2.57 kB
+app build: dist/assets/erlang-Dtmif1C1.js                              8.72 kB │ gzip:     3.24 kB
+app build: dist/assets/fo-FO-C8VkGziH.js                               8.78 kB │ gzip:     3.40 kB
+app build: dist/assets/bn-IN-D7zOC6lT.js                               8.98 kB │ gzip:     3.92 kB
+app build: dist/assets/af-ZA-BAgyiyXa.js                               9.86 kB │ gzip:     3.60 kB
+app build: dist/assets/sas-Cf0N_OPD.js                                 9.92 kB │ gzip:     4.43 kB
+app build: dist/assets/kk-DJWbxxqE.js                                 10.17 kB │ gzip:     3.06 kB
+app build: dist/assets/perl-Dfn6Qrr0.js                               10.39 kB │ gzip:     3.80 kB
+app build: dist/assets/cs-BRkhtubR.js                                 10.41 kB │ gzip:     2.83 kB
+app build: dist/assets/uk-Drzq3pSj.js                                 10.54 kB │ gzip:     3.33 kB
+app build: dist/assets/ru-DTFp5ZAv.js                                 10.54 kB │ gzip:     3.30 kB
+app build: dist/assets/be-C4slYhrL.js                                 10.78 kB │ gzip:     3.36 kB
+app build: dist/assets/soy-CQO7JInI.js                                10.81 kB │ gzip:     3.54 kB
+app build: dist/assets/sl-CKYhTxnf.js                                 10.85 kB │ gzip:     2.85 kB
+app build: dist/assets/verilog-5HzB1qtT.js                            11.12 kB │ gzip:     4.60 kB
+app build: dist/assets/show-hint-BldRWiT7.js                          11.12 kB │ gzip:     4.13 kB
+app build: dist/assets/jsonlint--2yu7YVM.js                           11.37 kB │ gzip:     4.44 kB
+app build: dist/assets/clojure-DwBZuzwT.js                            11.53 kB │ gzip:     4.37 kB
+app build: dist/assets/idl-D9d3B0x-.js                                12.26 kB │ gzip:     4.89 kB
+app build: dist/assets/ms-MY-aSf3-Hmv.js                              12.67 kB │ gzip:     4.62 kB
+app build: dist/assets/sr-SP-BY0Ihd9g.js                              13.63 kB │ gzip:     5.58 kB
+app build: dist/assets/php-CLMT7bZC.js                                14.36 kB │ gzip:     5.53 kB
+app build: dist/assets/az-AZ-Cpf-zHHl.js                              14.57 kB │ gzip:     5.06 kB
+app build: dist/assets/he-IL-CR-tHeJz.js                              16.01 kB │ gzip:     6.00 kB
+app build: dist/assets/clike-DNuzvCSJ.js                              21.52 kB │ gzip:     7.75 kB
+app build: dist/assets/is-IS-il6FCz_d.js                              21.97 kB │ gzip:     8.35 kB
+app build: dist/assets/vue-router.CUNOcKiw.entry.js                   25.47 kB │ gzip:    10.29 kB
+app build: dist/assets/vue.runtime.esm-bundler-5xC1UApn.js            26.10 kB │ gzip:    10.82 kB
+app build: dist/assets/stylus-CtmzlxMp.js                             26.52 kB │ gzip:     9.09 kB
+app build: dist/assets/hi-IN-CAShrw1A.js                              26.76 kB │ gzip:    10.69 kB
+app build: dist/assets/css-DpY4-dw8.js                                27.81 kB │ gzip:     8.75 kB
+app build: dist/assets/el-GR-9oh9jfbv.js                              28.12 kB │ gzip:    10.68 kB
+app build: dist/assets/index-DFaeJWVL.js                              46.65 kB │ gzip:    19.12 kB
+app build: dist/assets/vue-i18n.CR_BJTw4.entry.js                     47.61 kB │ gzip:    16.27 kB
+app build: dist/assets/sql-Ba8dNM8-.js                                47.89 kB │ gzip:    14.21 kB
+app build: dist/assets/no-NO-DcLvDlD_.js                              53.05 kB │ gzip:    17.34 kB
+app build: dist/assets/eo-UY-lyIJ4KgC.js                              57.29 kB │ gzip:    18.77 kB
+app build: dist/assets/br-FR-7KEOVXnj.js                              65.50 kB │ gzip:    20.88 kB
+app build: dist/assets/sr-CS-BC0m_BLM.js                              66.88 kB │ gzip:    22.21 kB
+app build: dist/assets/vi-VN-ComQP-dq.js                              68.70 kB │ gzip:    23.79 kB
+app build: dist/assets/ja-JP-DKAMv7zS.js                              73.09 kB │ gzip:    28.98 kB
+app build: dist/assets/sl-SI-Bkm9IRmn.js                              74.12 kB │ gzip:    24.58 kB
+app build: dist/assets/th-TH-DgnFPmTa.js                              74.14 kB │ gzip:    28.10 kB
+app build: dist/assets/et-EE-CdvjmWQp.js                              76.54 kB │ gzip:    25.61 kB
+app build: dist/assets/pt-PT-BueTVqg6.js                              78.63 kB │ gzip:    25.13 kB
+app build: dist/assets/runtime-core.esm-bundler-ClgvGijD.js           83.21 kB │ gzip:    32.94 kB
+app build: dist/assets/en-CA-QRi_97wV.js                              84.05 kB │ gzip:    26.65 kB
+app build: dist/assets/zh-TW-DeysaneG.js                              86.84 kB │ gzip:    36.21 kB
+app build: dist/assets/id-ID-Dw08yDR2.js                              88.61 kB │ gzip:    28.12 kB
+app build: dist/assets/fi-FI-DGoNUZKO.js                              92.51 kB │ gzip:    30.34 kB
+app build: dist/assets/sv-SE-BBJFS4PC.js                              95.25 kB │ gzip:    30.66 kB
+app build: dist/assets/ca-ES-Dqt2Wjp-.js                              95.62 kB │ gzip:    30.62 kB
+app build: dist/assets/ne-NP-DEYXXE2j.js                              98.54 kB │ gzip:    36.42 kB
+app build: dist/assets/ro-RO-DiqPKB5I.js                             101.66 kB │ gzip:    32.54 kB
+app build: dist/assets/nl-NL-DGjhcMuA.js                             106.00 kB │ gzip:    33.56 kB
+app build: dist/assets/bs-BA-D3aJrxC4.js                             106.01 kB │ gzip:    33.88 kB
+app build: dist/assets/en-GB-BAkLfjnm.js                             106.18 kB │ gzip:    33.54 kB
+app build: dist/assets/zh-CN-C7ej6tDU.js                             108.80 kB │ gzip:    45.55 kB
+app build: dist/assets/ko-KR-49MMgkrP.js                             109.29 kB │ gzip:    44.02 kB
+app build: dist/assets/da-DK-CDcFKEgG.js                             111.17 kB │ gzip:    35.75 kB
+app build: dist/assets/fa-IR-0qpnBaPY.js                             112.64 kB │ gzip:    40.35 kB
+app build: dist/assets/hu-HU-oyccSvBQ.js                             113.47 kB │ gzip:    37.45 kB
+app build: dist/assets/ar-SA-Bs8gwlbb.js                             117.27 kB │ gzip:    41.58 kB
+app build: dist/assets/tr-TR-BNZzxQs4.js                             131.39 kB │ gzip:    43.27 kB
+app build: dist/assets/bg-BG-CdEB3wiN.js                             136.53 kB │ gzip:    47.19 kB
+app build: dist/assets/mr-IN-BszUiu7T.js                             137.08 kB │ gzip:    51.16 kB
+app build: dist/assets/hr-HR-BxsttotG.js                             138.27 kB │ gzip:    44.48 kB
+app build: dist/assets/sk-SK-Dy6lNFfL.js                             138.32 kB │ gzip:    45.77 kB
+app build: dist/assets/cs-CZ-ogNiTDRE.js                             138.33 kB │ gzip:    45.80 kB
+app build: dist/assets/pl-PL-DTdHstk6.js                             139.24 kB │ gzip:    45.23 kB
+app build: dist/assets/ckb-IR-DKDl4iF6.js                            141.55 kB │ gzip:    48.31 kB
+app build: dist/assets/mn-MN-DerOVGXK.js                             141.99 kB │ gzip:    48.61 kB
+app build: dist/assets/kmr-TR-VRsgk1W9.js                            142.09 kB │ gzip:    45.15 kB
+app build: dist/assets/pt-BR-C7sdSzMk.js                             142.59 kB │ gzip:    45.10 kB
+app build: dist/assets/uk-UA-D5EOiEjg.js                             142.90 kB │ gzip:    51.32 kB
+app build: dist/assets/lt-LT-D1igMIAk.js                             142.94 kB │ gzip:    46.17 kB
+app build: dist/assets/sq-AL-C7-FEmTI.js                             144.07 kB │ gzip:    45.98 kB
+app build: dist/assets/de-DE-Hy65GGkk.js                             146.05 kB │ gzip:    45.62 kB
+app build: dist/assets/it-IT-CLAb84-l.js                             146.94 kB │ gzip:    44.94 kB
+app build: dist/assets/ru-RU-Bd7sM3R_.js                             146.96 kB │ gzip:    52.15 kB
+app build: dist/assets/es-419-DCcG9y8y.js                            147.35 kB │ gzip:    46.18 kB
+app build: dist/assets/es-MX-7sg_ZgLr.js                             147.53 kB │ gzip:    45.80 kB
+app build: dist/assets/es-ES-BXyvAKI0.js                             147.56 kB │ gzip:    46.15 kB
+app build: dist/assets/es-CL-BWTX-isQ.js                             147.58 kB │ gzip:    46.13 kB
+app build: dist/assets/fr-CA-CF9Z8j36.js                             149.61 kB │ gzip:    46.25 kB
+app build: dist/assets/fr-FR-CE_HHS1z.js                             149.68 kB │ gzip:    46.23 kB
+app build: dist/assets/index-CQsZK4H4.js                             450.99 kB │ gzip:   125.46 kB
+app build: dist/assets/input-rich-text-html-CM9VYG80.js            1,238.98 kB │ gzip:   429.72 kB
+app build: dist/assets/index.B2AYEqcX.entry.js                     5,883.90 kB │ gzip: 1,760.02 kB
+app build: ✓ built in 45.54s
+app build: (!) Some chunks are larger than 500 kB after minification. Consider:
+app build: - Using dynamic import() to code-split the application
+app build: - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+app build: - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+app build: Done
+api build$ rimraf ./dist && tsc --project tsconfig.prod.json && copyfiles "src/**/*.{yaml,liquid}" -u 1 dist
+api build: Done

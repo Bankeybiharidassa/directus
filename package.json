@@ -7,7 +7,8 @@
 		"build": "pnpm --recursive --filter '!docs' run build",
 		"format": "prettier --cache --check .",
 		"lint": "eslint --cache .",
-		"test": "pnpm --recursive --filter '!tests-blackbox' test",
+                "pretest": "pnpm run build",
+                "test": "pnpm --recursive --filter '!tests-blackbox' test",
 		"test:blackbox": "rimraf ./dist && pnpm --filter directus deploy --prod dist && pnpm --filter tests-blackbox test"
 	},
 	"devDependencies": {
@@ -20,9 +21,11 @@
 		"globals": "15.15.0",
 		"prettier": "3.1.0",
 		"rimraf": "6.0.1",
-		"typescript": "5.8.2",
-		"typescript-eslint": "8.25.0"
-	},
+                "typescript": "5.8.2",
+                "typescript-eslint": "8.25.0",
+                "@vitest/coverage-v8": "2.1.9",
+                "vitest": "2.1.9"
+        },
 	"packageManager": "pnpm@9.15.6",
 	"engines": {
 		"node": "22",

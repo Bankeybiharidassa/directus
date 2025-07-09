@@ -359,5 +359,73 @@
       "todo.md"
     ],
     "trigger": "node22 install fails"
+  },
+  {
+    "phase": "phase3",
+    "pass": 40,
+    "changes": [
+      "traces/env_pass40.json",
+      "loops/fix-todo_pass40.md",
+      "logs/npm_pass40.log",
+      "logs/pytest_pass40.log",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "todo updates"
+  },
+  {
+    "phase": "phase3",
+    "pass": 41,
+    "changes": [
+      "traces/env_pass41.json",
+      "loops/install-vitest_pass41.md",
+      "logs/pnpm_install_pass41.log",
+      "logs/npm_pass41.log",
+      "logs/pytest_pass41.log",
+      "package.json",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "install vitest"
+  },
+  {
+    "phase": "phase3",
+    "pass": 42,
+    "changes": [
+      "traces/env_pass42.json",
+      "loops/build-packages_pass42.md",
+      "logs/pnpm_install_pass42.log",
+      "logs/build_random_pass42.log",
+      "logs/build_storage_pass42.log",
+      "logs/build_constants_pass42.log",
+      "logs/build_schema_pass42.log",
+      "logs/build_types_pass42.log",
+      "logs/build_schema_builder_pass42.log",
+      "logs/build_system-data_pass42.log",
+      "logs/build_all_pass42.log",
+      "logs/pip_install_pass42.log",
+      "logs/npm_pass42.log",
+      "logs/pytest_pass42.log",
+      "package.json",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "build packages"
+  }
+,
+  {
+    "phase": "phase3",
+    "pass": 43,
+    "changes": [
+      "traces/env_pass43.json",
+      "logs/pnpm_install_pass43.log",
+      "logs/npm_pass43.log",
+      "logs/pip_install_pass43.log",
+      "logs/pytest_pass43.log",
+      "loops/update-vps-install_pass43.md",
+      "vps-install.sh",
+      "changelog.md"
+    ],
+    "trigger": "update install script"
   }
 ]

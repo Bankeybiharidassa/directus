@@ -1,0 +1,199 @@
+Scope: all 42 workspace projects
+ WARN  There are cyclic workspace dependencies: /workspace/directus/api, /workspace/directus/directus
+Progress: resolved 1, reused 0, downloaded 0, added 0
+
+   ╭───────────────────────────────────────────────────────────────────╮
+   │                                                                   │
+   │                Update available! 9.15.6 → 10.13.1.                │
+   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v10.13.1   │
+   │            Run "corepack use pnpm@10.13.1" to update.             │
+   │                                                                   │
+   ╰───────────────────────────────────────────────────────────────────╯
+
+Progress: resolved 81, reused 0, downloaded 70, added 0
+api                                      |  WARN  deprecated json2csv@5.0.7
+api                                      |  WARN  deprecated ldapjs@2.3.3
+Progress: resolved 145, reused 0, downloaded 134, added 0
+app                                      |  WARN  deprecated @joeattardi/emoji-button@4.6.4
+Progress: resolved 193, reused 0, downloaded 182, added 0
+Progress: resolved 215, reused 0, downloaded 204, added 0
+packages/components                      |  WARN  deprecated vite-plugin-dts@4.5.1
+packages/storage-driver-s3               |  WARN  deprecated @shopify/semaphore@3.1.0
+Progress: resolved 279, reused 0, downloaded 268, added 0
+Progress: resolved 315, reused 0, downloaded 315, added 0
+Progress: resolved 388, reused 0, downloaded 374, added 0
+Progress: resolved 444, reused 0, downloaded 430, added 0
+Progress: resolved 471, reused 0, downloaded 457, added 0
+Progress: resolved 543, reused 0, downloaded 529, added 0
+Progress: resolved 617, reused 0, downloaded 603, added 0
+Progress: resolved 707, reused 0, downloaded 693, added 0
+Progress: resolved 711, reused 0, downloaded 697, added 0
+Progress: resolved 737, reused 0, downloaded 723, added 0
+Progress: resolved 845, reused 0, downloaded 831, added 0
+Progress: resolved 965, reused 0, downloaded 951, added 0
+Progress: resolved 1080, reused 0, downloaded 1069, added 0
+Progress: resolved 1204, reused 0, downloaded 1193, added 0
+Progress: resolved 1286, reused 0, downloaded 1275, added 0
+Progress: resolved 1343, reused 0, downloaded 1294, added 0
+Progress: resolved 1397, reused 0, downloaded 1322, added 0
+Progress: resolved 1451, reused 0, downloaded 1354, added 0
+Progress: resolved 1528, reused 0, downloaded 1390, added 0
+Progress: resolved 1599, reused 0, downloaded 1460, added 0
+Progress: resolved 1654, reused 0, downloaded 1511, added 0
+Progress: resolved 1676, reused 0, downloaded 1539, added 0
+Progress: resolved 1765, reused 0, downloaded 1626, added 0
+Progress: resolved 1860, reused 0, downloaded 1723, added 0
+Progress: resolved 1957, reused 0, downloaded 1820, added 0
+Progress: resolved 2032, reused 0, downloaded 1896, added 0
+Progress: resolved 2120, reused 0, downloaded 1984, added 0
+Progress: resolved 2212, reused 0, downloaded 2081, added 0
+Progress: resolved 2314, reused 0, downloaded 2184, added 0
+Progress: resolved 2422, reused 0, downloaded 2292, added 0
+Progress: resolved 2456, reused 0, downloaded 2326, added 0
+Progress: resolved 2457, reused 0, downloaded 2328, added 0
+ WARN  18 deprecated subdependencies found: @apidevtools/swagger-cli@4.0.4, @npmcli/move-file@1.1.2, abab@2.0.6, are-we-there-yet@3.0.1, consolidate@0.15.1, domexception@4.0.0, formidable@2.1.2, gauge@4.0.4, glob@7.2.3, glob@8.1.0, inflight@1.0.6, lodash.get@4.4.2, node-domexception@1.0.0, npmlog@6.0.2, rimraf@3.0.2, shiki-es@0.2.0, sourcemap-codec@1.4.8, superagent@7.1.6
+Packages: +2332
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 2472, reused 0, downloaded 2332, added 0
+Progress: resolved 2472, reused 0, downloaded 2332, added 1154
+Progress: resolved 2472, reused 0, downloaded 2332, added 2332, done
+.../node_modules/@parcel/watcher install$ node scripts/build-from-source.js
+.../argon2@0.41.1/node_modules/argon2 install$ node-gyp-build
+.../esbuild@0.21.5/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.25.0/node_modules/esbuild postinstall$ node install.js
+.../sqlite3@5.1.7/node_modules/sqlite3 install$ prebuild-install -r napi || node-gyp rebuild
+.../node_modules/@parcel/watcher install: Done
+.../esbuild@0.21.5/node_modules/esbuild postinstall: Done
+.../argon2@0.41.1/node_modules/argon2 install: Done
+.../esbuild@0.25.0/node_modules/esbuild postinstall: Done
+.../node_modules/isolated-vm install$ prebuild-install || (node-gyp rebuild --release -j max && node-gyp clean)
+.../sharp@0.33.5/node_modules/sharp install$ node install/check
+.../sqlite3@5.1.7/node_modules/sqlite3 install: prebuild-install warn This package does not support N-API version undefined
+.../oracledb@6.8.0/node_modules/oracledb install$ node package/install.js
+.../fontawesome-common-types postinstall$ node attribution.js
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ********************************************************************************
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ** Node-oracledb 6.8.0 installed in Node.js 22.17.0 (linux, x64)
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ** To use node-oracledb in Thin mode, no additional steps are needed.
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ** To use the optional Thick mode, the Oracle Client libraries (64-bit)
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ** must be available, see the installation instructions:
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb **   https://node-oracledb.readthedocs.io/en/latest/user_guide/installation.html#node-oracledb-installation-on-linux
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ********************************************************************************
+.../oracledb@6.8.0/node_modules/oracledb install: Done
+.../sharp@0.33.5/node_modules/sharp install: Done
+.../fontawesome-common-types postinstall: Font Awesome Free 0.2.36 by @fontawesome - https://fontawesome.com
+.../fontawesome-common-types postinstall: License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+.../fontawesome-common-types postinstall: Done
+.../sqlite3@5.1.7/node_modules/sqlite3 install: prebuild-install warn install No prebuilt binaries found (target=undefined runtime=napi arch=x64 libc= platform=linux)
+.../node_modules/vue-demi postinstall$ node -e "try{require('./scripts/postinstall.js')}catch(e){}"
+.../esbuild@0.18.20/node_modules/esbuild postinstall$ node install.js
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info it worked if it ends with ok
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info using node-gyp@8.4.1
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info using node@22.17.0 | linux | x64
+.../esbuild@0.18.20/node_modules/esbuild postinstall: Done
+.../node_modules/vue-demi postinstall: Done
+.../sqlite3@5.1.7/node_modules/sqlite3 install: (node:16848) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+.../sqlite3@5.1.7/node_modules/sqlite3 install: (Use `node --trace-deprecation ...` to show where the warning was created)
+.../node_modules/isolated-vm install: Done
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info find Python using Python version 3.12.10 found at "/root/.pyenv/versions/3.12.10/bin/python3"
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp http GET https://nodejs.org/download/release/v22.17.0/node-v22.17.0-headers.tar.gz
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp http 200 https://nodejs.org/download/release/v22.17.0/node-v22.17.0-headers.tar.gz
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp http GET https://nodejs.org/download/release/v22.17.0/SHASUMS256.txt
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp http 200 https://nodejs.org/download/release/v22.17.0/SHASUMS256.txt
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn /root/.pyenv/versions/3.12.10/bin/python3
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args [
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/gyp/gyp_main.py',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   'binding.gyp',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-f',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   'make',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-I',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '/workspace/directus/node_modules/.pnpm/sqlite3@5.1.7/node_modules/sqlite3/build/config.gypi',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-I',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/addon.gypi',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-I',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '/root/.cache/node-gyp/22.17.0/include/node/common.gypi',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dlibrary=shared_library',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dvisibility=default',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dnode_root_dir=/root/.cache/node-gyp/22.17.0',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dnode_gyp_dir=/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dnode_lib_file=/root/.cache/node-gyp/22.17.0/<(target_arch)/node.lib',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dmodule_root_dir=/workspace/directus/node_modules/.pnpm/sqlite3@5.1.7/node_modules/sqlite3',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dnode_engine=v8',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '--depth=.',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '--no-parallel',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '--generator-output',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   'build',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Goutput_dir=.'
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args ]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Traceback (most recent call last):
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   File "/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/gyp/gyp_main.py", line 42, in <module>
+.../sqlite3@5.1.7/node_modules/sqlite3 install:     import gyp  # noqa: E402
+.../sqlite3@5.1.7/node_modules/sqlite3 install:     ^^^^^^^^^^
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   File "/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/gyp/pylib/gyp/__init__.py", line 9, in <module>
+.../sqlite3@5.1.7/node_modules/sqlite3 install:     import gyp.input
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   File "/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/gyp/pylib/gyp/input.py", line 19, in <module>
+.../sqlite3@5.1.7/node_modules/sqlite3 install:     from distutils.version import StrictVersion
+.../sqlite3@5.1.7/node_modules/sqlite3 install: ModuleNotFoundError: No module named 'distutils'
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! configure error 
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! stack Error: `gyp` failed with exit code: 1
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! stack     at ChildProcess.onCpExit (/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/lib/configure.js:259:16)
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! stack     at ChildProcess.emit (node:events:518:28)
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! System Linux 6.12.13
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! command "/root/.nvm/versions/node/v22.17.0/bin/node" "/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! cwd /workspace/directus/node_modules/.pnpm/sqlite3@5.1.7/node_modules/sqlite3
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! node -v v22.17.0
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! node-gyp -v v8.4.1
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp ERR! not ok 
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Failed
+.../@fortawesome/fontawesome-svg-core postinstall$ node attribution.js
+.../@fortawesome/free-regular-svg-icons postinstall$ node attribution.js
+.../@fortawesome/free-solid-svg-icons postinstall$ node attribution.js
+.../@fortawesome/fontawesome-svg-core postinstall: Font Awesome Free 1.2.36 by @fontawesome - https://fontawesome.com
+.../@fortawesome/fontawesome-svg-core postinstall: License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+.../@fortawesome/free-regular-svg-icons postinstall: Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+.../@fortawesome/free-regular-svg-icons postinstall: License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+.../@fortawesome/fontawesome-svg-core postinstall: Done
+.../@fortawesome/free-regular-svg-icons postinstall: Done
+.../@fortawesome/free-solid-svg-icons postinstall: Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+.../@fortawesome/free-solid-svg-icons postinstall: License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+.../@fortawesome/free-solid-svg-icons postinstall: Done
+
+devDependencies:
++ @changesets/cli 2.28.1
++ @directus/release-notes-generator 2.0.1 <- packages/release-notes-generator
++ @eslint/js 9.21.0
++ @vitest/coverage-v8 2.1.9 (3.2.4 is available)
++ eslint 9.21.0
++ eslint-config-prettier 9.1.0
++ eslint-plugin-vue 9.32.0
++ globals 15.15.0
++ prettier 3.1.0
++ rimraf 6.0.1
++ typescript 5.8.2
++ typescript-eslint 8.25.0
++ vitest 2.1.9 (3.2.4 is available)
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ @typescript-eslint/parser 8.25.0
+│ ├── ✕ unmet peer typescript@">=4.8.4 <5.8.0": found 5.8.2
+│ └─┬ @typescript-eslint/typescript-estree 8.25.0
+│   └── ✕ unmet peer typescript@">=4.8.4 <5.8.0": found 5.8.2
+└─┬ typescript-eslint 8.25.0
+  ├── ✕ unmet peer typescript@">=4.8.4 <5.8.0": found 5.8.2
+  ├─┬ @typescript-eslint/utils 8.25.0
+  │ └── ✕ unmet peer typescript@">=4.8.4 <5.8.0": found 5.8.2
+  └─┬ @typescript-eslint/eslint-plugin 8.25.0
+    ├── ✕ unmet peer typescript@">=4.8.4 <5.8.0": found 5.8.2
+    └─┬ @typescript-eslint/type-utils 8.25.0
+      └── ✕ unmet peer typescript@">=4.8.4 <5.8.0": found 5.8.2
+
+app
+└─┬ @pinia/testing 1.0.0
+  └── ✕ unmet peer pinia@>=3.0.0: found 2.3.1
+
+packages/extensions-sdk
+└─┬ @vitejs/plugin-vue 5.2.3
+  └── ✕ unmet peer vite@"^5.0.0 || ^6.0.0": found 4.5.14
+
+Done in 53s using pnpm v9.15.6

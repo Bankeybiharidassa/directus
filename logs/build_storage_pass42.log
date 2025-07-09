@@ -1,0 +1,14 @@
+
+> @directus/storage@12.0.0 build /workspace/directus/packages/storage
+> tsup src/index.ts --format=esm --dts
+
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.4.0
+CLI Target: es2022
+ESM Build start
+ESM dist/index.js 762.00 B
+ESM ⚡️ Build success in 19ms
+DTS Build start
+DTS ⚡️ Build success in 658ms
+DTS dist/index.d.ts 1.87 KB
