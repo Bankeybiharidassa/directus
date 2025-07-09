@@ -56,14 +56,12 @@ pnpm install
 npm install --prefix CRM/node_backend
 ```
 
-You can automate these commands using `scripts/install_directus.sh`:
+`scripts/install_directus.sh` now uses Node 22 by default. If you need to run
+the project under Node 18, execute the above commands manually instead of the
+helper script.
 
-```bash
-./scripts/install_directus.sh
-```
-
-This loads a polyfill for `fs.glob` and installs Jest for the CRM backend before
-executing `pnpm --workspace-root test` and `python3 -m pytest -q`.
+This script loads a polyfill for `fs.glob` and installs Jest for the CRM backend
+before executing `pnpm --workspace-root test` and `python3 -m pytest -q`.
 
 ## Testing the GUI
 

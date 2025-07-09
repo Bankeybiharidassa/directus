@@ -1,0 +1,244 @@
+
+> test
+> pnpm --recursive --filter '!tests-blackbox' test
+
+Scope: 39 of 41 workspace projects
+packages/format-title test$ vitest --watch=false
+packages/storage test$ vitest --watch=false
+packages/release-notes-generator test$ vitest --watch=false
+packages/random test$ vitest --watch=false
+packages/random test:  RUN  v2.1.9 /workspace/directus/packages/random
+packages/storage test:  RUN  v2.1.9 /workspace/directus/packages/storage
+packages/format-title test:  RUN  v2.1.9 /workspace/directus/packages/format-title
+packages/release-notes-generator test:  RUN  v2.1.9 /workspace/directus/packages/release-notes-generator
+packages/format-title test:  ✓ src/constants/constants.test.ts (1 test) 2ms
+packages/random test:  ✓ src/alpha.test.ts (1 test) 3ms
+packages/storage test:  ✓ src/index.test.ts (6 tests) 17ms
+packages/random test:  ✓ src/sequence.test.ts (2 tests) 10ms
+packages/random test:  ✓ src/array.test.ts (1 test) 3ms
+packages/storage test:  Test Files  1 passed (1)
+packages/storage test:       Tests  6 passed (6)
+packages/storage test:    Start at  21:17:51
+packages/storage test:    Duration  863ms (transform 146ms, setup 0ms, collect 112ms, tests 17ms, environment 3ms, prepare 251ms)
+packages/format-title test:  ✓ src/utils/handle-special-words.test.ts (9 tests) 7ms
+packages/storage test: Done
+packages/format-title test:  ✓ src/index.test.ts (5 tests) 5ms
+packages/update-check test$ vitest --watch=false
+packages/release-notes-generator test:  ✓ src/utils/generate-markdown.test.ts (3 tests) 41ms
+packages/release-notes-generator test:  ✓ src/utils/get-info.test.ts (1 test) 24ms
+packages/release-notes-generator test: stderr | src/utils/process-packages.test.ts > should fail if main version is missing
+packages/release-notes-generator test: Promise returned by `expect(actual).rejects.toThrow(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/release-notes-generator test:     at /workspace/directus/packages/release-notes-generator/src/utils/process-packages.test.ts:67:32
+packages/release-notes-generator test: stderr | src/utils/process-packages.test.ts > should fail with manually defined version when not in prerelease mode
+packages/release-notes-generator test: Promise returned by `expect(actual).rejects.toThrow(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/release-notes-generator test:     at /workspace/directus/packages/release-notes-generator/src/utils/process-packages.test.ts:84:32
+packages/release-notes-generator test:  ✓ src/utils/process-packages.test.ts (10 tests) 62ms
+packages/random test:  ✓ src/integer.test.ts (1 test) 2ms
+packages/random test:  ✓ src/identifier.test.ts (1 test) 3ms
+packages/format-title test:  ✓ src/utils/decamelize.test.ts (1 test) 7ms
+packages/format-title test:  ✓ src/utils/capitalize.test.ts (1 test) 2ms
+packages/random test:  ✓ src/uuid.test.ts (2 tests) 10ms
+packages/random test:  Test Files  6 passed (6)
+packages/random test:       Tests  8 passed (8)
+packages/random test:    Start at  21:17:51
+packages/random test:    Duration  1.57s (transform 502ms, setup 0ms, collect 764ms, tests 31ms, environment 2ms, prepare 1.32s)
+packages/format-title test:  ✓ src/utils/combine.test.ts (1 test) 3ms
+packages/format-title test:  Test Files  6 passed (6)
+packages/format-title test:       Tests  18 passed (18)
+packages/format-title test:    Start at  21:17:51
+packages/format-title test:    Duration  1.59s (transform 389ms, setup 0ms, collect 685ms, tests 26ms, environment 1ms, prepare 1.37s)
+packages/random test: Done
+packages/format-title test: Done
+packages/release-notes-generator test:  ✓ src/utils/process-release-lines.test.ts (2 tests) 3ms
+packages/release-notes-generator test:  Test Files  4 passed (4)
+packages/release-notes-generator test:       Tests  16 passed (16)
+packages/release-notes-generator test:    Start at  21:17:51
+packages/release-notes-generator test:    Duration  1.63s (transform 497ms, setup 0ms, collect 1.16s, tests 129ms, environment 1ms, prepare 962ms)
+packages/release-notes-generator test: Done
+packages/update-check test:  RUN  v2.1.9 /workspace/directus/packages/update-check
+packages/update-check test:  ✓ src/index.test.ts (2 tests) 15ms
+packages/update-check test:  Test Files  1 passed (1)
+packages/update-check test:       Tests  2 passed (2)
+packages/update-check test:    Start at  21:17:53
+packages/update-check test:    Duration  433ms (transform 80ms, setup 0ms, collect 176ms, tests 15ms, environment 0ms, prepare 64ms)
+packages/update-check test: Done
+packages/errors test$ vitest --typecheck --watch=false
+packages/storage-driver-local test$ vitest --watch=false
+sdk test$ vitest --typecheck --watch=false
+sdk test: Testing types with tsc and vue-tsc is an experimental feature.
+sdk test: Breaking changes might not follow SemVer, please pin Vitest's version when using it.
+packages/errors test: Testing types with tsc and vue-tsc is an experimental feature.
+packages/errors test: Breaking changes might not follow SemVer, please pin Vitest's version when using it.
+sdk test:  RUN  v2.1.9 /workspace/directus/sdk
+packages/errors test:  RUN  v2.1.9 /workspace/directus/packages/errors
+packages/storage-driver-local test:  RUN  v2.1.9 /workspace/directus/packages/storage-driver-local
+packages/errors test:  ❯ src/create-error.test.ts (0 test)
+sdk test: (node:18975) ExperimentalWarning: glob is an experimental feature and might change at any time
+sdk test: (Use `node --trace-warnings ...` to show where the warning was created)
+packages/errors test:  ❯ src/errors/record-not-unique.test.ts (0 test)
+sdk test:  ✓ tests/exports.test.ts (2 tests) 21ms
+packages/errors test:  ❯ src/errors/value-out-of-range.test.ts (0 test)
+packages/errors test:  ❯ src/errors/invalid-foreign-key.test.ts (0 test)
+packages/storage-driver-local test:  ✓ src/index.test.ts (28 tests) 81ms
+packages/errors test:  ❯ src/errors/value-too-long.test.ts (0 test)
+packages/errors test:  ❯ src/errors/not-null-violation.test.ts (0 test)
+packages/storage-driver-local test:  Test Files  1 passed (1)
+packages/storage-driver-local test:       Tests  28 passed (28)
+packages/storage-driver-local test:    Start at  21:17:53
+packages/storage-driver-local test:    Duration  1.50s (transform 371ms, setup 0ms, collect 745ms, tests 81ms, environment 0ms, prepare 228ms)
+packages/storage-driver-local test: Done
+packages/errors test:  ❯ src/is-directus-error.test.ts (0 test)
+packages/errors test:  ❯ src/errors/contains-null-values.test.ts (0 test)
+packages/errors test:  ❯ src/errors/range-not-satisfiable.test.ts (0 test)
+packages/errors test:  ❯ src/errors/invalid-payload.test.ts (0 test)
+packages/errors test:  ❯ src/errors/invalid-query.test.ts (0 test)
+packages/errors test:  ❯ src/errors/limit-exceeded.test.ts (0 test)
+packages/errors test:  ✓  TS  src/is-directus-error.test-d.ts (4 tests)
+packages/errors test:  ❯ src/errors/hit-rate-limit.test.ts (0 test)
+packages/errors test:  ✓ src/errors/unsupported-media-type.test.ts (1 test) 9ms
+packages/errors test: ⎯⎯⎯⎯⎯⎯ Failed Suites 13 ⎯⎯⎯⎯⎯⎯
+packages/errors test:  FAIL  src/create-error.test.ts [ src/create-error.test.ts ]
+packages/errors test:  FAIL  src/is-directus-error.test.ts [ src/is-directus-error.test.ts ]
+packages/errors test:  FAIL  src/errors/contains-null-values.test.ts [ src/errors/contains-null-values.test.ts ]
+packages/errors test:  FAIL  src/errors/hit-rate-limit.test.ts [ src/errors/hit-rate-limit.test.ts ]
+packages/errors test:  FAIL  src/errors/invalid-foreign-key.test.ts [ src/errors/invalid-foreign-key.test.ts ]
+packages/errors test:  FAIL  src/errors/invalid-payload.test.ts [ src/errors/invalid-payload.test.ts ]
+packages/errors test:  FAIL  src/errors/invalid-query.test.ts [ src/errors/invalid-query.test.ts ]
+packages/errors test:  FAIL  src/errors/limit-exceeded.test.ts [ src/errors/limit-exceeded.test.ts ]
+packages/errors test:  FAIL  src/errors/not-null-violation.test.ts [ src/errors/not-null-violation.test.ts ]
+packages/errors test:  FAIL  src/errors/range-not-satisfiable.test.ts [ src/errors/range-not-satisfiable.test.ts ]
+packages/errors test:  FAIL  src/errors/record-not-unique.test.ts [ src/errors/record-not-unique.test.ts ]
+packages/errors test:  FAIL  src/errors/value-out-of-range.test.ts [ src/errors/value-out-of-range.test.ts ]
+packages/errors test:  FAIL  src/errors/value-too-long.test.ts [ src/errors/value-too-long.test.ts ]
+packages/errors test: Error: Failed to resolve entry for package "@directus/random". The package may have incorrect main/module/exports specified in its package.json.
+packages/errors test:   Plugin: vite:import-analysis
+packages/errors test:   File: /workspace/directus/packages/errors/src/create-error.test.ts
+packages/errors test:  ❯ packageEntryFailure ../../node_modules/.pnpm/vite@5.4.14_@types+node@22.13.8_sass-embedded@1.85.1_sass@1.83.4_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:46638:15
+packages/errors test:  ❯ resolvePackageEntry ../../node_modules/.pnpm/vite@5.4.14_@types+node@22.13.8_sass-embedded@1.85.1_sass@1.83.4_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:46635:3
+packages/errors test:  ❯ tryNodeResolve ../../node_modules/.pnpm/vite@5.4.14_@types+node@22.13.8_sass-embedded@1.85.1_sass@1.83.4_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:46451:16
+packages/errors test:  ❯ ResolveIdContext.resolveId ../../node_modules/.pnpm/vite@5.4.14_@types+node@22.13.8_sass-embedded@1.85.1_sass@1.83.4_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:46201:19
+packages/errors test:  ❯ PluginContainer.resolveId ../../node_modules/.pnpm/vite@5.4.14_@types+node@22.13.8_sass-embedded@1.85.1_sass@1.83.4_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:49017:17
+packages/errors test:  ❯ TransformPluginContext.resolve ../../node_modules/.pnpm/vite@5.4.14_@types+node@22.13.8_sass-embedded@1.85.1_sass@1.83.4_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:49177:15
+packages/errors test:  ❯ normalizeUrl ../../node_modules/.pnpm/vite@5.4.14_@types+node@22.13.8_sass-embedded@1.85.1_sass@1.83.4_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:64192:26
+packages/errors test:  ❯ ../../node_modules/.pnpm/vite@5.4.14_@types+node@22.13.8_sass-embedded@1.85.1_sass@1.83.4_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:64331:39
+packages/errors test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/13]⎯
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test: ⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+packages/errors test: Vitest caught 15 unhandled errors during the test run.
+packages/errors test: This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+packages/errors test:  ❯ src/create-error.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, test, expect, vi } from 'vitest';
+packages/errors test:       3| import { createError } from './create-error.js';
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/contains-null-values.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import { messageConstructor } from './contains-null-values.js';
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/hit-rate-limit.test.ts:1:31
+packages/errors test:       1| import { randomInteger } from '@directus/random';
+packages/errors test:        |                               ^
+packages/errors test:       2| import { expect, test, vi } from 'vitest';
+packages/errors test:       3| import { messageConstructor } from './hit-rate-limit.js';
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/invalid-foreign-key.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import type { InvalidForeignKeyErrorExtensions } from './invalid-forei…
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/invalid-payload.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import type { InvalidQueryErrorExtensions } from './invalid-query.js';
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/invalid-query.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import type { InvalidQueryErrorExtensions } from './invalid-query.js';
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/limit-exceeded.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import { messageConstructor, type LimitExceededErrorExtensions } from …
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/not-null-violation.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import type { NotNullViolationErrorExtensions } from './not-null-viola…
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/range-not-satisfiable.test.ts:1:31
+packages/errors test:       1| import { randomInteger } from '@directus/random';
+packages/errors test:        |                               ^
+packages/errors test:       2| import type { Range } from '@directus/storage';
+packages/errors test:       3| import { expect, test } from 'vitest';
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/storage' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/range-not-satisfiable.test.ts:2:28
+packages/errors test:       1| import { randomInteger } from '@directus/random';
+packages/errors test:       2| import type { Range } from '@directus/storage';
+packages/errors test:        |                            ^
+packages/errors test:       3| import { expect, test } from 'vitest';
+packages/errors test:       4| import { messageConstructor } from './range-not-satisfiable.js';
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/storage' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/range-not-satisfiable.ts:1:28
+packages/errors test:       1| import type { Range } from '@directus/storage';
+packages/errors test:        |                            ^
+packages/errors test:       2| import { createError, ErrorCode } from '../index.js';
+packages/errors test:       3| 
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/record-not-unique.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import type { RecordNotUniqueErrorExtensions } from './record-not-uniq…
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/value-out-of-range.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import type { ValueOutOfRangeErrorExtensions } from './value-out-of-ra…
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/errors/value-too-long.test.ts:1:44
+packages/errors test:       1| import { randomAlpha, randomInteger } from '@directus/random';
+packages/errors test:        |                                            ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import type { ValueTooLongErrorExtensions } from './value-too-long.js';
+packages/errors test: ⎯⎯⎯ Unhandled Source Error ⎯⎯⎯
+packages/errors test: TypeCheckError: Cannot find module '@directus/random' or its corresponding type declarations.
+packages/errors test:  ❯ src/is-directus-error.test.ts:1:62
+packages/errors test:       1| import { randomAlpha, randomInteger, randomIdentifier } from '@directu…
+packages/errors test:        |                                                              ^
+packages/errors test:       2| import { beforeEach, expect, test } from 'vitest';
+packages/errors test:       3| import { createError } from './create-error.js';
+packages/errors test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+packages/errors test:  Test Files  13 failed | 2 passed (15)
+packages/errors test:       Tests  5 passed (5)
+packages/errors test: Type Errors  no errors
+packages/errors test:      Errors  15 errors
+packages/errors test:    Start at  21:17:53
+packages/errors test:    Duration  2.86s (transform 190ms, setup 0ms, collect 288ms, tests 9ms, environment 2ms, prepare 2.29s, typecheck 2.12s)
+packages/errors test: Failed
+/workspace/directus/packages/errors:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @directus/errors@2.0.2 test: `vitest --typecheck --watch=false`
+Exit status 1

@@ -5,14 +5,13 @@ LOG_DIR=/var/log/nucleus
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/install_directus.log"
 
-# Activate Node 18 via nvm when available
+# Activate Node 22 via nvm when available
 if command -v nvm >/dev/null 2>&1; then
-  nvm install 18 >>"$LOG_FILE" 2>&1
-  nvm use 18 >>"$LOG_FILE" 2>&1
+  nvm install 22 >>"$LOG_FILE" 2>&1
+  nvm use 22 >>"$LOG_FILE" 2>&1
 fi
 
-# Allow pnpm to run under Node 18
-export PNPM_IGNORE_NODE_VERSION=true
+# Allow pnpm to run under Node 22
 export NODE_OPTIONS="--import=$(pwd)/scripts/fs-glob-polyfill.js"
 
 echo "Installing monorepo dependencies via pnpm" | tee "$LOG_FILE"

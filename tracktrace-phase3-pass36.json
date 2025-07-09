@@ -1,0 +1,5 @@
+{
+  "npm_install_log": "/traces/npm_install_phase3_pass36.log",
+  "test_output": "/traces/test_output_pass36.log",
+  "node_version_log": "/traces/node_version_log_pass36.md"
+}
