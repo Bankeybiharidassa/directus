@@ -277,5 +277,30 @@
       "todo.md"
     ],
     "trigger": "pnpm install script"
+  },
+  {
+    "phase": "phase3",
+    "pass": 33,
+    "changes": [
+      "README.md",
+      "docs/dependencies.md",
+      "requirements.md",
+      "phase3-progress.json",
+      "tracktrace-phase3-pass33.json",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "build failures"
+  },
+  {
+    "phase": "phase3",
+    "pass": 34,
+    "changes": [
+      "README.md",
+      "docs/dependencies.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "documentation update"
   }
 ]
