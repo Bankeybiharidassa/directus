@@ -1,0 +1,9 @@
+{
+  "pass": 35,
+  "timestamp": "2025-07-09T19:57Z",
+  "results": {
+    "npm_test": "failed",
+    "crm_node_backend": "skipped",
+    "crm_python_tests": "skipped"
+  }
+}

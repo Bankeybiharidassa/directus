@@ -42,3 +42,4 @@
 - [pass32] Add install_directus.sh script using pnpm {status:done} {priority:medium}
 - [pass33] Build and test pipeline failing due to missing vitest modules and sqlalchemy
 - [pass34] Update docs to emphasize Node 22 as default runtime {status:done} {priority:low}
+- Resolve npm install workspace protocol issues {status:todo} {priority:high} {blocked_by:none}

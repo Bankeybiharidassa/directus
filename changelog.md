@@ -255,3 +255,7 @@
 ## Phase 3 – Pass 34 (2025-07-09)
 - Clarified that Node 22 is the default runtime.
 - Updated dependencies guide to mention Node 22 as primary version.
+
+## Phase 3 – Pass 35 (2025-07-09)
+- Logged Node 22 version and attempted installation.
+- npm install and tests failed due to workspace protocol.
