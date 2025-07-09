@@ -276,3 +276,23 @@
 ## Phase 3 – Pass 39 (2025-07-09)
 - Node 22 environment logged.
 - npm install failed due to workspace protocol; core package.json not modified.
+
+## Phase 3 – Pass 40 (2025-07-09)
+- Marked customizable CSS themes and staged update script as complete.
+- npm test failed with Node 20; pytest failed due to missing sqlalchemy.
+
+## Phase 3 – Pass 41 (2025-07-09)
+- Installed vitest for workspace packages and switched back to Node 22.
+- pnpm install succeeded but npm test failed due to missing @directus/random.
+- Pytest still fails with missing sqlalchemy module.
+
+## Phase 3 – Pass 42 (2025-07-09)
+- Added pretest script to build all workspace packages automatically.
+- Ran npm test after builds; tests still fail in @directus/app.
+- Installed Python requirements and all pytest tests now pass.
+
+
+## Phase 3 – Pass 43 (2025-07-09)
+- Updated vps-install.sh to install Node 22 instead of 18.20.2.
+- Reinstalled Node dependencies and Python requirements under Node 22.
+- npm test fails in @directus/storage-driver-s3 but pytest passes all 94 tests.

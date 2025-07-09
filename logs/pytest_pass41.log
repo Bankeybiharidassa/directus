@@ -1,0 +1,29 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.4.0, pluggy-1.6.0
+rootdir: /workspace/directus
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+__________________________ ERROR collecting CRM/tests __________________________
+/root/.pyenv/versions/3.12.10/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:186: in exec_module
+    exec(co, module.__dict__)
+CRM/tests/conftest.py:4: in <module>
+    from backend.database import Base, engine
+CRM/backend/database.py:5: in <module>
+    from sqlalchemy import create_engine
+E   ModuleNotFoundError: No module named 'sqlalchemy'
+=========================== short test summary info ============================
+ERROR CRM/tests - ModuleNotFoundError: No module named 'sqlalchemy'
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 1.38s ===============================

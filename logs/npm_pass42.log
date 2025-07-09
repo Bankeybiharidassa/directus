@@ -1,0 +1,616 @@
+
+> test
+> pnpm --recursive --filter '!tests-blackbox' test
+
+Scope: 40 of 42 workspace projects
+packages/random test$ vitest --watch=false
+packages/release-notes-generator test$ vitest --watch=false
+packages/format-title test$ vitest --watch=false
+packages/storage test$ vitest --watch=false
+packages/release-notes-generator test:  RUN  v2.1.9 /workspace/directus/packages/release-notes-generator
+packages/format-title test:  RUN  v2.1.9 /workspace/directus/packages/format-title
+packages/storage test:  RUN  v2.1.9 /workspace/directus/packages/storage
+packages/random test:  RUN  v2.1.9 /workspace/directus/packages/random
+packages/format-title test:  ✓ src/constants/constants.test.ts (1 test) 4ms
+packages/random test:  ✓ src/alpha.test.ts (1 test) 3ms
+packages/storage test:  ✓ src/index.test.ts (6 tests) 33ms
+packages/random test:  ✓ src/sequence.test.ts (2 tests) 3ms
+packages/random test:  ✓ src/array.test.ts (1 test) 3ms
+packages/format-title test:  ✓ src/index.test.ts (5 tests) 3ms
+packages/format-title test:  ✓ src/utils/handle-special-words.test.ts (9 tests) 5ms
+packages/release-notes-generator test:  ✓ src/utils/generate-markdown.test.ts (3 tests) 57ms
+packages/storage test:  Test Files  1 passed (1)
+packages/storage test:       Tests  6 passed (6)
+packages/storage test:    Start at  23:34:11
+packages/storage test:    Duration  900ms (transform 99ms, setup 0ms, collect 92ms, tests 33ms, environment 0ms, prepare 216ms)
+packages/release-notes-generator test:  ✓ src/utils/get-info.test.ts (1 test) 42ms
+packages/storage test: Done
+packages/update-check test$ vitest --watch=false
+packages/release-notes-generator test: stderr | src/utils/process-packages.test.ts > should fail if main version is missing
+packages/release-notes-generator test: Promise returned by `expect(actual).rejects.toThrow(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/release-notes-generator test:     at /workspace/directus/packages/release-notes-generator/src/utils/process-packages.test.ts:67:32
+packages/release-notes-generator test: stderr | src/utils/process-packages.test.ts > should fail with manually defined version when not in prerelease mode
+packages/release-notes-generator test: Promise returned by `expect(actual).rejects.toThrow(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/release-notes-generator test:     at /workspace/directus/packages/release-notes-generator/src/utils/process-packages.test.ts:84:32
+packages/release-notes-generator test:  ✓ src/utils/process-packages.test.ts (10 tests) 34ms
+packages/format-title test:  ✓ src/utils/capitalize.test.ts (1 test) 4ms
+packages/format-title test:  ✓ src/utils/decamelize.test.ts (1 test) 2ms
+packages/random test:  ✓ src/integer.test.ts (1 test) 2ms
+packages/release-notes-generator test:  ✓ src/utils/process-release-lines.test.ts (2 tests) 3ms
+packages/release-notes-generator test:  Test Files  4 passed (4)
+packages/release-notes-generator test:       Tests  16 passed (16)
+packages/release-notes-generator test:    Start at  23:34:11
+packages/release-notes-generator test:    Duration  1.60s (transform 492ms, setup 0ms, collect 1.09s, tests 135ms, environment 1ms, prepare 888ms)
+packages/random test:  ✓ src/identifier.test.ts (1 test) 9ms
+packages/random test:  ✓ src/uuid.test.ts (2 tests) 3ms
+packages/format-title test:  ✓ src/utils/combine.test.ts (1 test) 2ms
+packages/release-notes-generator test: Done
+packages/random test:  Test Files  6 passed (6)
+packages/random test:       Tests  8 passed (8)
+packages/random test:    Start at  23:34:11
+packages/random test:    Duration  1.60s (transform 479ms, setup 0ms, collect 693ms, tests 22ms, environment 1ms, prepare 1.21s)
+tests/build-memory test$ node --test test.mjs
+packages/format-title test:  Test Files  6 passed (6)
+packages/format-title test:       Tests  18 passed (18)
+packages/format-title test:    Start at  23:34:11
+packages/format-title test:    Duration  1.65s (transform 418ms, setup 0ms, collect 701ms, tests 21ms, environment 4ms, prepare 1.35s)
+packages/random test: Done
+packages/format-title test: Done
+tests/build-memory test: TAP version 13
+packages/update-check test:  RUN  v2.1.9 /workspace/directus/packages/update-check
+tests/build-memory test: # Subtest: build and start with in-memory sqlite
+tests/build-memory test: ok 1 - build and start with in-memory sqlite # SKIP
+tests/build-memory test:   ---
+tests/build-memory test:   duration_ms: 0.567173
+tests/build-memory test:   type: 'test'
+tests/build-memory test:   ...
+tests/build-memory test: 1..1
+tests/build-memory test: # tests 1
+tests/build-memory test: # suites 0
+tests/build-memory test: # pass 0
+tests/build-memory test: # fail 0
+tests/build-memory test: # cancelled 0
+tests/build-memory test: # skipped 1
+tests/build-memory test: # todo 0
+tests/build-memory test: # duration_ms 62.356306
+tests/build-memory test: Done
+packages/update-check test:  ✓ src/index.test.ts (2 tests) 15ms
+packages/update-check test:  Test Files  1 passed (1)
+packages/update-check test:       Tests  2 passed (2)
+packages/update-check test:    Start at  23:34:13
+packages/update-check test:    Duration  347ms (transform 61ms, setup 0ms, collect 138ms, tests 15ms, environment 0ms, prepare 56ms)
+packages/update-check test: Done
+packages/storage-driver-local test$ vitest --watch=false
+sdk test$ vitest --typecheck --watch=false
+packages/errors test$ vitest --typecheck --watch=false
+packages/errors test: Testing types with tsc and vue-tsc is an experimental feature.
+packages/errors test: Breaking changes might not follow SemVer, please pin Vitest's version when using it.
+sdk test: Testing types with tsc and vue-tsc is an experimental feature.
+sdk test: Breaking changes might not follow SemVer, please pin Vitest's version when using it.
+sdk test:  RUN  v2.1.9 /workspace/directus/sdk
+packages/errors test:  RUN  v2.1.9 /workspace/directus/packages/errors
+packages/storage-driver-local test:  RUN  v2.1.9 /workspace/directus/packages/storage-driver-local
+packages/errors test:  ✓ src/create-error.test.ts (5 tests) 8ms
+sdk test: (node:30115) ExperimentalWarning: glob is an experimental feature and might change at any time
+sdk test: (Use `node --trace-warnings ...` to show where the warning was created)
+sdk test:  ✓ tests/exports.test.ts (2 tests) 33ms
+packages/storage-driver-local test:  ✓ src/index.test.ts (28 tests) 73ms
+packages/storage-driver-local test:  Test Files  1 passed (1)
+packages/storage-driver-local test:       Tests  28 passed (28)
+packages/storage-driver-local test:    Start at  23:34:14
+packages/storage-driver-local test:    Duration  1.05s (transform 325ms, setup 0ms, collect 460ms, tests 73ms, environment 0ms, prepare 195ms)
+packages/storage-driver-local test: Done
+packages/errors test:  ✓ src/errors/record-not-unique.test.ts (5 tests) 25ms
+packages/errors test:  ✓ src/errors/value-out-of-range.test.ts (5 tests) 11ms
+packages/errors test:  ✓ src/errors/invalid-foreign-key.test.ts (5 tests) 3ms
+packages/errors test:  ✓ src/errors/not-null-violation.test.ts (4 tests) 3ms
+packages/errors test:  ✓ src/is-directus-error.test.ts (3 tests) 4ms
+packages/errors test:  ✓ src/errors/value-too-long.test.ts (5 tests) 17ms
+packages/errors test:  ✓  TS  src/is-directus-error.test-d.ts (4 tests)
+packages/errors test:  ✓ src/errors/contains-null-values.test.ts (1 test) 2ms
+packages/errors test:  ✓ src/errors/range-not-satisfiable.test.ts (1 test) 3ms
+packages/errors test:  ✓ src/errors/invalid-payload.test.ts (1 test) 2ms
+packages/errors test:  ✓ src/errors/invalid-query.test.ts (1 test) 2ms
+packages/errors test:  ✓ src/errors/limit-exceeded.test.ts (1 test) 2ms
+packages/errors test:  ✓ src/errors/hit-rate-limit.test.ts (1 test) 8ms
+packages/errors test:  ✓ src/errors/unsupported-media-type.test.ts (1 test) 8ms
+packages/errors test:  Test Files  15 passed (15)
+packages/errors test:       Tests  43 passed (43)
+packages/errors test: Type Errors  no errors
+packages/errors test:    Start at  23:34:14
+packages/errors test:    Duration  3.04s (transform 632ms, setup 0ms, collect 2.79s, tests 97ms, environment 3ms, prepare 1.92s, typecheck 1.72s)
+packages/errors test: Done
+sdk test:  ✓  TS  tests/no-schema.test-d.ts (3 tests)
+sdk test:  ✓  TS  tests/fields.test-d.ts (4 tests)
+sdk test:  ✓  TS  tests/filters.test-d.ts (1 test)
+sdk test:  Test Files  4 passed (4)
+sdk test:       Tests  10 passed (10)
+sdk test: Type Errors  no errors
+sdk test:    Start at  23:34:14
+sdk test:    Duration  4.89s (transform 23ms, setup 0ms, collect 62ms, tests 33ms, environment 0ms, prepare 198ms, typecheck 4.69s)
+sdk test: Done
+packages/schema-builder test$ vitest --watch=false
+packages/schema-builder test:  RUN  v2.1.9 /workspace/directus/packages/schema-builder
+packages/schema-builder test:  ✓ src/builder.test.ts (14 tests) 27ms
+packages/schema-builder test:  Test Files  1 passed (1)
+packages/schema-builder test:       Tests  14 passed (14)
+packages/schema-builder test:    Start at  23:34:19
+packages/schema-builder test:    Duration  684ms (transform 103ms, setup 0ms, collect 445ms, tests 27ms, environment 0ms, prepare 61ms)
+packages/schema-builder test: Done
+packages/utils test$ vitest --watch=false
+packages/utils test:  RUN  v2.1.9 /workspace/directus/packages/utils
+packages/utils test:  ✓ shared/generate-joi.test.ts (72 tests) 68ms
+packages/utils test:  ✓ shared/get-relation.test.ts (8 tests) 82ms
+packages/utils test:  ✓ shared/compress.test.ts (19 tests) 10ms
+packages/utils test:  ✓ shared/parse-filter.test.ts (25 tests) 15ms
+packages/utils test:  ✓ shared/validate-payload.test.ts (17 tests) 28ms
+packages/utils test:  ✓ shared/get-filter-operators-for-type.test.ts (9 tests) 4ms
+packages/utils test:  ✓ shared/apply-options-data.test.ts (12 tests) 7ms
+packages/utils test:  ✓ shared/get-with-arrays.test.ts (8 tests) 4ms
+packages/utils test:  ✓ shared/deep-map.test.ts (13 tests) 5ms
+packages/utils test:  ✓ shared/functions.test.ts (9 tests) 7ms
+packages/utils test:  ✓ shared/add-field-flag.test.ts (4 tests) 3ms
+packages/utils test:  ✓ shared/adjust-date.test.ts (9 tests) 6ms
+packages/utils test:  ✓ shared/get-collection-type.test.ts (3 tests) 3ms
+packages/utils test:  ✓ shared/get-relation-type.test.ts (3 tests) 3ms
+packages/utils test:  ✓ shared/sieve-functions.test.ts (6 tests) 4ms
+packages/utils test:  ✓ shared/abbreviate-number.test.ts (9 tests) 4ms
+packages/utils test:  ✓ shared/parse-filter-function-path.test.ts (6 tests) 3ms
+packages/utils test:  ✓ node/process-id.test.ts (2 tests) 5ms
+packages/utils test:  ✓ shared/normalize-path.test.ts (10 tests) 4ms
+packages/utils test:  ✓ shared/inject-function-results.test.ts (4 tests) 5ms
+packages/utils test:  ✓ node/array-helpers.test.ts (5 tests) 3ms
+packages/utils test:  ✓ shared/array-helpers.test.ts (5 tests) 3ms
+packages/utils test:  ✓ shared/move-in-array.test.ts (4 tests) 3ms
+packages/utils test:  ✓ shared/merge-filters.test.ts (4 tests) 4ms
+packages/utils test:  ✓ node/path-to-relative-url.test.ts (2 tests) 2ms
+packages/utils test:  ✓ shared/parse-json.test.ts (3 tests) 4ms
+packages/utils test:  ✓ node/list-folders.test.ts (1 test) 10ms
+packages/utils test:  ✓ shared/is-vue-component.test.ts (2 tests) 3ms
+packages/utils test:  ✓ shared/is-dynamic-variable.test.ts (8 tests) 3ms
+packages/utils test:  ✓ shared/defaults.test.ts (2 tests) 3ms
+packages/utils test:  ✓ shared/get-fields-from-template.test.ts (2 tests) 4ms
+packages/utils test:  ✓ shared/is-object.test.ts (8 tests) 3ms
+packages/utils test: stderr | node/readable-stream-to-string.test.ts > Returns readable stream as string
+packages/utils test: Promise returned by `expect(actual).resolves.toBe(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/utils test:     at /workspace/directus/packages/utils/node/readable-stream-to-string.test.ts:9:48
+packages/utils test: stderr | node/readable-stream-to-string.test.ts > Returns readable stream as string
+packages/utils test: Promise returned by `expect(actual).resolves.toBe(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/utils test:     at /workspace/directus/packages/utils/node/readable-stream-to-string.test.ts:9:48
+packages/utils test:  ✓ node/readable-stream-to-string.test.ts (2 tests) 9ms
+packages/utils test:  ✓ shared/is-valid-json.test.ts (2 tests) 3ms
+packages/utils test:  ✓ shared/get-simple-hash.test.ts (2 tests) 2ms
+packages/utils test:  ✓ shared/to-array.test.ts (2 tests) 3ms
+packages/utils test:  ✓ shared/get-endpoint.test.ts (2 tests) 2ms
+packages/utils test:  ✓ shared/to-boolean.test.ts (11 tests) 4ms
+packages/utils test:  ✓ shared/get-redacted-string.test.ts (2 tests) 2ms
+packages/utils test:  ✓ node/pluralize.test.ts (2 tests) 2ms
+packages/utils test:  ✓ shared/number-generator.test.ts (1 test) 2ms
+packages/utils test:  ✓ shared/pluralize.test.ts (2 tests) 2ms
+packages/utils test:  ✓ node/get-node-env.test.ts (1 test) 2ms
+packages/utils test:  Test Files  43 passed (43)
+packages/utils test:       Tests  323 passed (323)
+packages/utils test:    Start at  23:34:20
+packages/utils test:    Duration  6.32s (transform 712ms, setup 0ms, collect 9.37s, tests 348ms, environment 7ms, prepare 3.06s)
+packages/utils test: Done
+packages/env test$ vitest --watch=false
+packages/pressure test$ vitest --watch=false
+packages/storage-driver-azure test$ vitest --watch=false
+packages/memory test$ vitest --watch=false
+packages/storage-driver-azure test:  RUN  v2.1.9 /workspace/directus/packages/storage-driver-azure
+packages/env test:  RUN  v2.1.9 /workspace/directus/packages/env
+packages/pressure test:  RUN  v2.1.9 /workspace/directus/packages/pressure
+packages/memory test:  RUN  v2.1.9 /workspace/directus/packages/memory
+packages/pressure test:  ✓ src/monitor.test.ts (16 tests) 32ms
+packages/pressure test:  Test Files  1 passed (1)
+packages/pressure test:       Tests  16 passed (16)
+packages/pressure test:    Start at  23:34:27
+packages/pressure test:    Duration  3.58s (transform 388ms, setup 0ms, collect 2.87s, tests 32ms, environment 8ms, prepare 118ms)
+packages/pressure test: Done
+packages/storage-driver-cloudinary test$ vitest --watch=false
+packages/env test:  ✓ src/lib/cast.test.ts (11 tests) 60ms
+packages/env test:  ✓ src/lib/create-env.test.ts (9 tests) 45ms
+packages/storage-driver-cloudinary test:  RUN  v2.1.9 /workspace/directus/packages/storage-driver-cloudinary
+packages/storage-driver-azure test:  ✓ src/index.test.ts (29 tests) 121ms
+packages/storage-driver-azure test:  Test Files  1 passed (1)
+packages/storage-driver-azure test:       Tests  29 passed (29)
+packages/storage-driver-azure test:    Start at  23:34:27
+packages/storage-driver-azure test:    Duration  4.45s (transform 438ms, setup 0ms, collect 3.63s, tests 121ms, environment 0ms, prepare 206ms)
+packages/memory test: stderr | src/kv/lib/local.test.ts > increment > Errors if key does not contain number
+packages/memory test: Promise returned by `expect(actual).rejects.toMatchInlineSnapshot(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/memory test:     at /workspace/directus/packages/memory/src/kv/lib/local.test.ts:127:31
+packages/memory test: stderr | src/kv/lib/local.test.ts > setMax > Errors if key does not contain number
+packages/memory test: Promise returned by `expect(actual).rejects.toMatchInlineSnapshot(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/memory test:     at /workspace/directus/packages/memory/src/kv/lib/local.test.ts:139:39
+packages/memory test:  ✓ src/kv/lib/local.test.ts (15 tests) 65ms
+packages/storage-driver-azure test: Done
+packages/storage-driver-gcs test$ vitest --watch=false
+packages/env test:  ✓ src/lib/read-configuration-from-file.test.ts (5 tests) 11ms
+packages/memory test:  ✓ src/kv/lib/redis.test.ts (22 tests) 854ms
+packages/memory test:  ✓ src/bus/lib/redis.test.ts (18 tests) 1108ms
+packages/env test:  ✓ src/utils/guess-type.test.ts (14 tests) 10ms
+packages/storage-driver-gcs test:  RUN  v2.1.9 /workspace/directus/packages/storage-driver-gcs
+packages/memory test:  ✓ src/bus/lib/local.test.ts (7 tests) 10ms
+packages/env test:  ✓ src/utils/read-configuration-from-javascript.test.ts (5 tests) 35ms
+packages/env test:  ✓ src/utils/get-config-path.test.ts (2 tests) 8ms
+packages/env test:  ✓ src/utils/read-configuration-from-json.test.ts (3 tests) 41ms
+packages/env test:  ✓ src/utils/read-configuration-from-dotenv.test.ts (3 tests) 12ms
+packages/env test:  ✓ src/lib/create-env.int.test.ts (1 test) 14ms
+packages/env test:  ✓ src/utils/is-directus-variable.test.ts (3 tests) 16ms
+packages/env test:  ✓ src/utils/read-configuration-from-yaml.test.ts (2 tests) 16ms
+packages/memory test:  ✓ src/cache/lib/multi.test.ts (8 tests) 29ms
+packages/storage-driver-cloudinary test:  ✓ src/index.test.ts (84 tests) 293ms
+packages/env test:  ✓ src/utils/get-default-type.test.ts (3 tests) 2ms
+packages/storage-driver-cloudinary test:  Test Files  1 passed (1)
+packages/storage-driver-cloudinary test:       Tests  84 passed (84)
+packages/storage-driver-cloudinary test:    Start at  23:34:31
+packages/storage-driver-cloudinary test:    Duration  4.78s (transform 738ms, setup 0ms, collect 3.68s, tests 293ms, environment 0ms, prepare 323ms)
+packages/storage-driver-cloudinary test: Done
+packages/storage-driver-s3 test$ vitest --watch=false
+packages/memory test:  ✓ src/cache/lib/redis.test.ts (5 tests) 217ms
+packages/memory test: stderr | src/limiter/utils/consume.test.ts > Rejects error as-is if error instance is given
+packages/memory test: Promise returned by `expect(actual).rejects.toBe(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/memory test:     at /workspace/directus/packages/memory/src/limiter/utils/consume.test.ts:34:44
+packages/memory test:  ✓ src/limiter/utils/consume.test.ts (3 tests) 78ms
+packages/storage-driver-gcs test:  ✓ src/index.test.ts (26 tests) 90ms
+packages/storage-driver-gcs test:  Test Files  1 passed (1)
+packages/storage-driver-gcs test:       Tests  26 passed (26)
+packages/storage-driver-gcs test:    Start at  23:34:32
+packages/storage-driver-gcs test:    Duration  4.56s (transform 416ms, setup 0ms, collect 3.78s, tests 90ms, environment 0ms, prepare 204ms)
+packages/storage-driver-s3 test:  RUN  v2.1.9 /workspace/directus/packages/storage-driver-s3
+packages/storage-driver-gcs test: Done
+packages/storage-driver-supabase test$ vitest --watch=false
+packages/memory test:  ✓ src/cache/lib/local.test.ts (5 tests) 29ms
+packages/env test:  ✓ src/utils/has-cast-prefix.test.ts (4 tests) 3ms
+packages/memory test:  ✓ src/limiter/lib/redis.test.ts (3 tests) 90ms
+packages/storage-driver-supabase test:  RUN  v2.1.9 /workspace/directus/packages/storage-driver-supabase
+packages/env test:  ✓ src/utils/read-configuration-from-process.test.ts (1 test) 3ms
+packages/memory test:  ✓ src/limiter/lib/local.test.ts (3 tests) 16ms
+packages/memory test:  ✓ src/utils/is-compressed.test.ts (5 tests) 7ms
+packages/memory test:  ✓ src/limiter/lib/create.test.ts (3 tests) 5ms
+packages/env test:  ✓ src/utils/is-file-key.test.ts (3 tests) 7ms
+packages/memory test:  ✓ src/utils/compress.test.ts (5 tests) 19ms
+packages/env test:  ✓ src/utils/get-file-extension.test.ts (1 test) 6ms
+packages/env test:  ✓ src/utils/try-json.test.ts (2 tests) 3ms
+packages/env test:  ✓ src/utils/remove-file-suffix.test.ts (1 test) 12ms
+packages/env test:  ✓ src/lib/use-env.test.ts (2 tests) 2ms
+packages/env test:  Test Files  19 passed (19)
+packages/env test:       Tests  75 passed (75)
+packages/env test:    Start at  23:34:27
+packages/env test:    Duration  12.98s (transform 1.39s, setup 0ms, collect 26.54s, tests 305ms, environment 6ms, prepare 3.60s)
+packages/env test: Done
+packages/validation test$ vitest --watch=false
+packages/memory test:  ✓ src/cache/lib/create.test.ts (4 tests) 8ms
+packages/validation test:  RUN  v2.1.9 /workspace/directus/packages/validation
+packages/storage-driver-supabase test: stderr | src/index.test.ts > #read > Throws an error when returned stream is not a readable stream
+packages/storage-driver-supabase test: Promise returned by `expect(actual).rejects.toThrowError(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/storage-driver-supabase test:     at /workspace/directus/packages/storage-driver-supabase/src/index.test.ts:316:65
+packages/storage-driver-supabase test: stderr | src/index.test.ts > #stat > Throws an error no file is returned by list
+packages/storage-driver-supabase test: Promise returned by `expect(actual).rejects.toThrowError(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/storage-driver-supabase test:     at /workspace/directus/packages/storage-driver-supabase/src/index.test.ts:389:40
+packages/storage-driver-supabase test: stderr | src/index.test.ts > #stat > Throws an error if storage error is returned
+packages/storage-driver-supabase test: Promise returned by `expect(actual).rejects.toThrowError(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/storage-driver-supabase test:     at /workspace/directus/packages/storage-driver-supabase/src/index.test.ts:400:40
+packages/storage-driver-supabase test:  ✓ src/index.test.ts (39 tests) 69ms
+packages/storage-driver-supabase test:  Test Files  1 passed (1)
+packages/storage-driver-supabase test:       Tests  39 passed (39)
+packages/storage-driver-supabase test:    Start at  23:34:38
+packages/storage-driver-supabase test:    Duration  3.49s (transform 350ms, setup 0ms, collect 2.73s, tests 69ms, environment 3ms, prepare 194ms)
+packages/storage-driver-supabase test: Done
+packages/memory test:  ✓ src/bus/lib/create.test.ts (3 tests) 6ms
+packages/storage-driver-s3 test: stderr | src/index.test.ts > #read > Throws an error when returned stream is not a readable stream
+packages/storage-driver-s3 test: Promise returned by `expect(actual).rejects.toThrowError(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/storage-driver-s3 test:     at /workspace/directus/packages/storage-driver-s3/src/index.test.ts:374:65
+packages/storage-driver-s3 test:  ✓ src/index.test.ts (42 tests) 125ms
+packages/memory test:  ✓ src/kv/lib/create.test.ts (3 tests) 5ms
+packages/memory test:  ✓ src/utils/buffer-to-uint8array.test.ts (1 test) 4ms
+packages/storage-driver-s3 test:  Test Files  1 passed (1)
+packages/storage-driver-s3 test:       Tests  42 passed (42)
+packages/storage-driver-s3 test:    Start at  23:34:37
+packages/storage-driver-s3 test:    Duration  4.65s (transform 548ms, setup 0ms, collect 3.98s, tests 125ms, environment 0ms, prepare 198ms)
+packages/storage-driver-s3 test: Done
+packages/memory test:  ✓ src/utils/uint8array-to-buffer.test.ts (1 test) 3ms
+packages/memory test:  ✓ src/utils/string-to-uint8array.test.ts (1 test) 3ms
+packages/memory test:  ✓ src/utils/uint8array-to-string.test.ts (1 test) 3ms
+packages/memory test:  ✓ src/utils/with-namespace.test.ts (1 test) 2ms
+packages/memory test:  ✓ src/utils/serialize.test.ts (5 tests) 4ms
+packages/memory test:  Test Files  22 passed (22)
+packages/memory test:       Tests  122 passed (122)
+packages/memory test:    Start at  23:34:27
+packages/memory test:    Duration  15.55s (transform 1.11s, setup 0ms, collect 32.32s, tests 2.57s, environment 4ms, prepare 3.48s)
+packages/memory test: Done
+packages/validation test:  ✓ src/errors/failed-validation.test.ts (17 tests) 6ms
+packages/validation test:  Test Files  1 passed (1)
+packages/validation test:       Tests  17 passed (17)
+packages/validation test:    Start at  23:34:40
+packages/validation test:    Duration  2.22s (transform 213ms, setup 0ms, collect 1.72s, tests 6ms, environment 0ms, prepare 118ms)
+packages/validation test: Done
+packages/extensions test$ vitest --watch=false
+packages/extensions test:  RUN  v2.1.9 /workspace/directus/packages/extensions
+packages/extensions test:  ✓ src/shared/utils/define-extension.test.ts (9 tests) 3ms
+packages/extensions test:  ✓ src/node/utils/generate-extensions-entrypoint.test.ts (6 tests) 13ms
+packages/extensions test:  Test Files  2 passed (2)
+packages/extensions test:       Tests  15 passed (15)
+packages/extensions test:    Start at  23:34:43
+packages/extensions test:    Duration  386ms (transform 115ms, setup 0ms, collect 274ms, tests 16ms, environment 0ms, prepare 129ms)
+packages/extensions test: Done
+packages/composables test$ vitest --watch=false
+packages/extensions-registry test$ vitest --watch=false
+packages/extensions-registry test:  RUN  v2.1.9 /workspace/directus/packages/extensions-registry
+packages/composables test:  RUN  v2.1.9 /workspace/directus/packages/composables
+packages/extensions-registry test:  ✓ src/modules/list/lib/construct-url.test.ts (7 tests) 7ms
+packages/extensions-registry test:  ✓ src/utils/get-api-version.test.ts (6 tests) 7ms
+packages/extensions-registry test: stderr | src/modules/list/list.test.ts > Throws if version compatibility assertion throws
+packages/extensions-registry test: Promise returned by `expect(actual).rejects.toBe(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/extensions-registry test:     at /workspace/directus/packages/extensions-registry/src/modules/list/list.test.ts:24:23
+packages/extensions-registry test:  ✓ src/modules/list/list.test.ts (3 tests) 10ms
+packages/extensions-registry test: stderr | src/utils/assert-version-compatibility.test.ts > Throws out of date error if current version is not supported
+packages/extensions-registry test: Promise returned by `expect(actual).rejects.toBeInstanceOf(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/extensions-registry test:     at /workspace/directus/packages/extensions-registry/src/utils/assert-version-compatibility.test.ts:19:43
+packages/extensions-registry test:  ✓ src/utils/assert-version-compatibility.test.ts (2 tests) 10ms
+packages/extensions-registry test: stderr | src/modules/describe/describe.test.ts > Throws if version compatibility assertion throws
+packages/extensions-registry test: Promise returned by `expect(actual).rejects.toBe(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+packages/extensions-registry test:     at /workspace/directus/packages/extensions-registry/src/modules/describe/describe.test.ts:24:34
+packages/extensions-registry test:  ✓ src/modules/describe/describe.test.ts (3 tests) 9ms
+packages/extensions-registry test:  ✓ src/modules/describe/lib/construct-url.test.ts (3 tests) 2ms
+packages/extensions-registry test:  Test Files  6 passed (6)
+packages/extensions-registry test:       Tests  24 passed (24)
+packages/extensions-registry test:    Start at  23:34:44
+packages/extensions-registry test:    Duration  873ms (transform 237ms, setup 0ms, collect 632ms, tests 45ms, environment 1ms, prepare 600ms)
+packages/extensions-registry test: Done
+packages/composables test:  ✓ src/use-items.test.ts (8 tests) 42ms
+packages/composables test:  Test Files  1 passed (1)
+packages/composables test:       Tests  8 passed (8)
+packages/composables test:    Start at  23:34:44
+packages/composables test:    Duration  2.22s (transform 205ms, setup 0ms, collect 1.84s, tests 42ms, environment 0ms, prepare 76ms)
+packages/composables test: Done
+packages/extensions-sdk test$ vitest --watch=false
+packages/extensions-sdk test:  RUN  v2.1.9 /workspace/directus/packages/extensions-sdk
+packages/extensions-sdk test:  ✓ src/cli/utils/get-package-manager-agent.test.ts (2 tests) 3ms
+packages/extensions-sdk test:  ✓ src/cli/utils/get-package-manager.test.ts (4 tests) 3ms
+packages/extensions-sdk test:  ✓ src/cli/utils/get-sdk-version.test.ts (1 test) 2ms
+packages/extensions-sdk test: - Scaffolding Directus extension...
+packages/extensions-sdk test: ✔ Done
+packages/extensions-sdk test: stdout | directus-extension.test.ts
+packages/extensions-sdk test: Your interface extension has been created at /workspace/directus/packages/extensions-sdk/temp-extension-validate-1752104090064
+packages/extensions-sdk test: To start developing, run:
+packages/extensions-sdk test: 	cd temp-extension-validate-1752104090064
+packages/extensions-sdk test: 	pnpm run dev
+packages/extensions-sdk test: To build for production, run:
+packages/extensions-sdk test: 	pnpm run build
+packages/extensions-sdk test: - Scaffolding Directus extension...
+packages/extensions-sdk test: ✔ Done
+packages/extensions-sdk test: stdout | directus-extension.test.ts > create and build > 'interface' extension with 'extension.config.js' config file
+packages/extensions-sdk test: Your interface extension has been created at /workspace/directus/packages/extensions-sdk/temp-extension-init-interface-javascript-1752104093962
+packages/extensions-sdk test: To start developing, run:
+packages/extensions-sdk test: 	cd temp-extension-init-interface-javascript-1752104093962
+packages/extensions-sdk test: 	pnpm run dev
+packages/extensions-sdk test: To build for production, run:
+packages/extensions-sdk test: 	pnpm run build
+packages/extensions-sdk test: - Scaffolding Directus extension...
+packages/extensions-sdk test: ✔ Done
+packages/extensions-sdk test: stdout | directus-extension.test.ts > create and build > 'interface' extension with 'extension.config.js' config file
+packages/extensions-sdk test: Your interface extension has been created at /workspace/directus/packages/extensions-sdk/temp-extension-init-interface-typescript-1752104093962
+packages/extensions-sdk test: To start developing, run:
+packages/extensions-sdk test: 	cd temp-extension-init-interface-typescript-1752104093962
+packages/extensions-sdk test: 	pnpm run dev
+packages/extensions-sdk test: To build for production, run:
+packages/extensions-sdk test: 	pnpm run build
+packages/extensions-sdk test: - Scaffolding Directus extension...
+packages/extensions-sdk test: ✔ Done
+packages/extensions-sdk test: stdout | directus-extension.test.ts > create and build > 'endpoint' extension with 'extension.config.mjs' config file
+packages/extensions-sdk test: Your endpoint extension has been created at /workspace/directus/packages/extensions-sdk/temp-extension-init-endpoint-javascript-1752104108711
+packages/extensions-sdk test: To start developing, run:
+packages/extensions-sdk test: 	cd temp-extension-init-endpoint-javascript-1752104108711
+packages/extensions-sdk test: 	pnpm run dev
+packages/extensions-sdk test: To build for production, run:
+packages/extensions-sdk test: 	pnpm run build
+packages/extensions-sdk test: - Scaffolding Directus extension...
+packages/extensions-sdk test: ✔ Done
+packages/extensions-sdk test: stdout | directus-extension.test.ts > create and build > 'endpoint' extension with 'extension.config.mjs' config file
+packages/extensions-sdk test: Your endpoint extension has been created at /workspace/directus/packages/extensions-sdk/temp-extension-init-endpoint-typescript-1752104108711
+packages/extensions-sdk test: To start developing, run:
+packages/extensions-sdk test: 	cd temp-extension-init-endpoint-typescript-1752104108711
+packages/extensions-sdk test: 	pnpm run dev
+packages/extensions-sdk test: To build for production, run:
+packages/extensions-sdk test: 	pnpm run build
+packages/extensions-sdk test: - Scaffolding Directus extension...
+packages/extensions-sdk test: ✔ Done
+packages/extensions-sdk test: stdout | directus-extension.test.ts > create and build > 'operation' extension with 'extension.config.cjs' config file
+packages/extensions-sdk test: Your operation extension has been created at /workspace/directus/packages/extensions-sdk/temp-extension-init-operation-javascript-1752104122768
+packages/extensions-sdk test: To start developing, run:
+packages/extensions-sdk test: 	cd temp-extension-init-operation-javascript-1752104122768
+packages/extensions-sdk test: 	pnpm run dev
+packages/extensions-sdk test: To build for production, run:
+packages/extensions-sdk test: 	pnpm run build
+packages/extensions-sdk test: - Scaffolding Directus extension...
+packages/extensions-sdk test: ✔ Done
+packages/extensions-sdk test: stdout | directus-extension.test.ts > create and build > 'operation' extension with 'extension.config.cjs' config file
+packages/extensions-sdk test: Your operation extension has been created at /workspace/directus/packages/extensions-sdk/temp-extension-init-operation-typescript-1752104122768
+packages/extensions-sdk test: To start developing, run:
+packages/extensions-sdk test: 	cd temp-extension-init-operation-typescript-1752104122768
+packages/extensions-sdk test: 	pnpm run dev
+packages/extensions-sdk test: To build for production, run:
+packages/extensions-sdk test: 	pnpm run build
+packages/extensions-sdk test:  ✓ directus-extension.test.ts (7 tests) 63290ms
+packages/extensions-sdk test:    ✓ create and build > 'interface' extension with 'extension.config.js' config file 14749ms
+packages/extensions-sdk test:    ✓ create and build > 'endpoint' extension with 'extension.config.mjs' config file 14056ms
+packages/extensions-sdk test:    ✓ create and build > 'operation' extension with 'extension.config.cjs' config file 14665ms
+packages/extensions-sdk test:    ✓ validate extension > built-code 7787ms
+packages/extensions-sdk test:    ✓ validate extension > directus-config 2200ms
+packages/extensions-sdk test:    ✓ validate extension > license 4951ms
+packages/extensions-sdk test:    ✓ validate extension > readme 4868ms
+packages/extensions-sdk test:  Test Files  4 passed (4)
+packages/extensions-sdk test:       Tests  14 passed (14)
+packages/extensions-sdk test:    Start at  23:34:47
+packages/extensions-sdk test:    Duration  70.14s (transform 250ms, setup 0ms, collect 6.74s, tests 63.30s, environment 1ms, prepare 272ms)
+packages/extensions-sdk test: Done
+app test$ vitest --watch=false
+app test:  RUN  v2.1.9 /workspace/directus/app
+app test: Sourcemap for "/workspace/directus/sdk/dist/index.js" points to missing source files
+app test:  ✓ src/utils/get-local-type.test.ts (13 tests) 17ms
+app test:  ✓ src/composables/use-field-tree.test.ts (8 tests) 23ms
+app test:  ✓ src/composables/use-relation-multiple.test.ts (8 tests) 33ms
+app test:  ✓ src/stores/server.test.ts (11 tests) 18ms
+app test:  ✓ src/composables/use-permissions/item/lib/get-fields.test.ts (21 tests) 28ms
+app test:  ✓ src/composables/use-relation-permissions.test.ts (4 tests) 6ms
+app test:  ✓ src/components/v-input.test.ts (21 tests) 79ms
+app test:  ✓ src/utils/format-date.test.ts (25 tests) 31ms
+app test:  ✓ src/layouts/kanban/kanban.test.ts (2 tests) 54ms
+app test:  ✓ src/stores/settings.test.ts (7 tests) 17ms
+app test:  ✓ src/stores/permissions.test.ts (27 tests) 38ms
+app test:  ✓ src/composables/use-item/lib/get-graphql-query-fields.test.ts (4 tests) 10ms
+app test:  ✓ src/composables/use-permissions/item/lib/is-action-allowed.test.ts (30 tests) 34ms
+app test:  ✓ src/stores/user.test.ts (8 tests) 28ms
+app test:  ✓ src/utils/push-group-options-down.test.ts (5 tests) 5ms
+app test:  ✓ src/composables/use-permissions/lib/is-archive-allowed.test.ts (9 tests) 13ms
+app test: stderr | src/composables/use-item/index.test.ts > Save As Copy > should use graphql to fetch existing item
+app test: [Vue warn]: provide() can only be used inside setup().
+app test: stderr | src/composables/use-item/index.test.ts > Save As Copy > should keep manual primary key
+app test: [Vue warn]: provide() can only be used inside setup().
+app test: stderr | src/composables/use-item/index.test.ts > Save As Copy > should omit auto incremented primary key
+app test: [Vue warn]: provide() can only be used inside setup().
+app test: stderr | src/composables/use-item/index.test.ts > Save As Copy > should omit special uuid primary key
+app test: [Vue warn]: provide() can only be used inside setup().
+app test:  ✓ src/composables/use-item/index.test.ts (4 tests) 27ms
+app test:  ✓ src/components/v-menu.test.ts (7 tests) 155ms
+app test:  ✓ src/utils/query-to-gql-string.test.ts (12 tests) 68ms
+app test:  ✓ src/modules/settings/routes/data-model/field-detail/store/index.test.ts (4 tests | 1 skipped) 18ms
+app test: stderr | src/routes/login/login.test.ts > show continue-as when authenticated
+app test: [Vue warn]: injection "usehead" not found. 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: Unhead is missing Vue context, falling back to shared context. This may have unexpected results.
+app test: [Vue warn]: Failed to resolve component: v-text-overflow
+app test: If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: [Vue warn]: Failed to resolve component: v-text-overflow
+app test: If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+app test:   at <PublicView> 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: stderr | src/routes/login/login.test.ts > show login form and sso links when unauthenticated
+app test: [Vue warn]: injection "usehead" not found. 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: Unhead is missing Vue context, falling back to shared context. This may have unexpected results.
+app test: [Vue warn]: Failed to resolve component: v-text-overflow
+app test: If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: [Vue warn]: Failed to resolve component: v-text-overflow
+app test: If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+app test:   at <PublicView> 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: stderr | src/routes/login/login.test.ts > show login form when unauthenticated and driver is local
+app test: [Vue warn]: injection "usehead" not found. 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: Unhead is missing Vue context, falling back to shared context. This may have unexpected results.
+app test: [Vue warn]: Failed to resolve component: v-text-overflow
+app test: If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: [Vue warn]: Failed to resolve component: v-text-overflow
+app test: If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+app test:   at <PublicView> 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: stderr | src/routes/login/login.test.ts > show ldap form when unauthenticated and driver is ldap
+app test: [Vue warn]: injection "usehead" not found. 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: Unhead is missing Vue context, falling back to shared context. This may have unexpected results.
+app test: [Vue warn]: Failed to resolve component: v-text-overflow
+app test: If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: [Vue warn]: Failed to resolve component: v-text-overflow
+app test: If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+app test:   at <PublicView> 
+app test:   at <Login ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test:  ✓ src/routes/login/login.test.ts (4 tests) 78ms
+app test:  ✓ src/composables/use-clipboard.test.ts (9 tests) 35ms
+app test:  ✓ src/composables/use-permissions/item/utils/fetch-item-permissions.test.ts (5 tests) 9ms
+app test:  ✓ src/composables/use-permissions/collection/lib/is-sort-allowed.test.ts (9 tests) 13ms
+app test:  ✓ src/stores/fields.test.ts (4 tests) 18ms
+app test:  ✓ src/utils/flatten-field-groups.test.ts (3 tests) 3ms
+app test:  ✓ src/composables/use-folders.test.ts (2 tests) 16ms
+app test:  ✓ src/utils/get-default-values-from-fields.test.ts (3 tests) 3ms
+app test:  ✓ src/router.test.ts (5 tests) 2454ms
+app test:    ✓ onBeforeEach > should try retrieving a fresh access token on first load 2066ms
+app test:  ✓ src/idle.test.ts (4 tests) 26ms
+app test: stderr | src/components/v-select/v-select.test.ts > should render with object items
+app test: [Vue warn]: Failed to resolve directive: tooltip 
+app test:   at <VSelect items= [
+app test:   { text: 'Item 1', value: 'item1' },
+app test:   { text: 'Item 2', value: 'item2' },
+app test:   { text: 'Item 3', value: 'item3' }
+app test: ] ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: stderr | src/components/v-select/v-select.test.ts > should render with string items
+app test: [Vue warn]: Failed to resolve directive: tooltip 
+app test:   at <VSelect items= [ 'Item 1', 'Item 2', 'Item 3' ] ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: stderr | src/components/v-select/v-select.test.ts > should hide items not matching search value > object items
+app test: [Vue warn]: Failed to resolve directive: tooltip 
+app test:   at <VSelect items= [
+app test:   { text: 'Item 1', value: 'item1' },
+app test:   { text: 'Item 2', value: 'item2' },
+app test:   { text: 'Item 3', value: 'item3' },
+app test:   { text: 'Item 4', value: 'item4' },
+app test:   { text: 'Item 5', value: 'item5' },
+app test:   { text: 'Item 6', value: 'item6' },
+app test:   { text: 'Item 7', value: 'item7' },
+app test:   { text: 'Item 8', value: 'item8' },
+app test:   { text: 'Item 9', value: 'item9' },
+app test:   { text: 'Item 10', value: 'item10' },
+app test:   { text: 'Item 11', value: 'item11' }
+app test: ] ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test: stderr | src/components/v-select/v-select.test.ts > should hide items not matching search value > string items
+app test: [Vue warn]: Failed to resolve directive: tooltip 
+app test:   at <VSelect items= [
+app test:   'Item 1',  'Item 2',
+app test:   'Item 3',  'Item 4',
+app test:   'Item 5',  'Item 6',
+app test:   'Item 7',  'Item 8',
+app test:   'Item 9',  'Item 10',
+app test:   'Item 11'
+app test: ] ref="VTU_COMPONENT" > 
+app test:   at <VTUROOT>
+app test:  ✓ src/components/v-select/v-select.test.ts (4 tests) 148ms
+app test:  ✓ src/composables/use-local-storage.test.ts (6 tests) 279ms
+app test:  ✓ src/components/v-form/utils/get-form-fields.test.ts (6 tests) 15ms
+app test:  ✓ src/utils/get-js-type.test.ts (8 tests) 5ms
+app test:  ✓ src/composables/use-alias-fields.test.ts (2 tests) 14ms
+app test:  ✓ src/stores/flows.test.ts (4 tests) 12ms
+app test:  ✓ src/utils/get-route.test.ts (12 tests) 5ms
+app test:  ✓ src/composables/use-page-size.test.ts (6 tests) 5ms
+app test:  ✓ src/interfaces/input-rich-text-html/useImage.test.ts (4 tests) 9ms
+app test:  ✓ src/utils/get-minimal-grid-class.test.ts (10 tests) 6ms
+app test:  ✓ src/stores/collections.test.ts (2 tests) 26ms
+app test:  ✓ src/utils/get-related-collection.test.ts (4 tests) 7ms
+app test:  ✓ src/components/v-form/utils/update-field-widths.test.ts (2 tests) 10ms
+app test:  ✓ src/components/use-datetime.test.ts (2 tests) 43ms
+app test:  ✓ src/utils/add-related-primary-key-to-fields.test.ts (5 tests) 9ms
+app test:  ✓ src/components/v-hover.test.ts (5 tests) 32ms
+app test:  ✓ src/utils/flatten-grouped-collection.test.ts (2 tests) 5ms
+app test:  ✓ src/components/v-checkbox.test.ts (6 tests) 55ms
+app test:  ✓ src/hydrate.test.ts (4 tests) 25ms
+app test:  ✓ src/utils/is-css-var.test.ts (8 tests) 4ms
+app test:  ✓ src/composables/use-permissions/collection/lib/is-action-allowed.test.ts (12 tests) 14ms
+app test:  ✓ src/composables/use-shortcut.test.ts (3 tests) 19ms
+app test:  ✓ src/lang/get-current-language.test.ts (4 tests) 3ms
+app test:  ✓ src/utils/format-field-function.test.ts (4 tests) 11ms
+app test:  ✓ src/components/v-error-boundary.test.ts (3 tests) 24ms
+app test:  ✓ src/utils/get-groups.test.ts (2 tests) 3ms
+app test:  ✓ src/components/v-textarea.test.ts (4 tests) 37ms
+app test:  ✓ src/interfaces/index.test.ts (1 test) 18ms
+app test: Failed
+/workspace/directus/app:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @directus/app@13.11.3 test: `vitest --watch=false`
+Exit status 129

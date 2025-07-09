@@ -1,0 +1,9 @@
+........................................................................ [ 76%]
+......................                                                   [100%]
+=============================== warnings summary ===============================
+CRM/tests/test_login_page.py::test_cookie_authentication
+  /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/starlette/testclient.py:437: DeprecationWarning: Setting per-request cookies=<...> is being deprecated, because the expected behaviour on cookie persistence is ambiguous. Set cookies directly on the client instance instead.
+    return super().request(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+94 passed, 1 warning in 33.90s

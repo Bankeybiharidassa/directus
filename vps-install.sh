@@ -11,7 +11,7 @@ DB_NAME="nucleus_crm"
 DB_USER="nucleus"
 DB_PASS="supersecurepass"
 DB_HOST="localhost"
-NODE_VERSION="18.20.2"
+NODE_VERSION="22"
 
 # === Ask for MariaDB root password ===
 echo -n "Enter MariaDB root password: "
