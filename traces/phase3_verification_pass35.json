@@ -1,0 +1,6 @@
+{
+  "pass": 35,
+  "timestamp": "2025-07-09T19:57Z",
+  "core_modified": false,
+  "notes": "npm install fails due to workspace protocol"
+}

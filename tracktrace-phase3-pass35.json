@@ -1,0 +1,5 @@
+{
+  "npm_install_log": "/traces/npm_install_phase3_pass35.log",
+  "npm_errors": "/traces/npm_errors_pass35.json",
+  "test_output": "/traces/test_output_pass35.log"
+}

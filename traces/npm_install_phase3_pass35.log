@@ -1,0 +1,15 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+npm warn Unknown project config "shell-emulator". This will stop working in the next major version of npm.
+npm error code EUNSUPPORTEDPROTOCOL
+npm error Unsupported URL Type "workspace:": workspace:*
+npm error A complete log of this run can be found in: /root/.npm/_logs/2025-07-09T19_57_13_548Z-debug-0.log
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+npm warn Unknown project config "shell-emulator". This will stop working in the next major version of npm.
+npm error code EUNSUPPORTEDPROTOCOL
+npm error Unsupported URL Type "workspace:": workspace:*
+npm error A complete log of this run can be found in: /root/.npm/_logs/2025-07-09T19_57_48_321Z-debug-0.log
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+npm warn Unknown project config "shell-emulator". This will stop working in the next major version of npm.
+npm error code EUNSUPPORTEDPROTOCOL
+npm error Unsupported URL Type "workspace:": workspace:*
+npm error A complete log of this run can be found in: /root/.npm/_logs/2025-07-09T19_57_55_658Z-debug-0.log
