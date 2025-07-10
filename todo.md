@@ -13,13 +13,13 @@
 
 ## nucleus-ui
 - Setup role-based tests using lynx {status:in-progress} {priority:medium} {blocked_by:none}
-- Document admin features in extensions modules {status:in-progress} {priority:low} {blocked_by:none}
+- Document admin features in extensions modules {status:done} {priority:low} {blocked_by:none}
 - Implement customizable CSS themes via templates {status:done} {priority:low} {blocked_by:none}
 
 ## repository
 - Integrate with upstream Directus build {status:in-progress} {priority:medium} {blocked_by:none}
  - Ensure gui_loop.sh uses headless_check.js via proxy script {status:done} {priority:low} {blocked_by:none}
-- Document extensions under /extensions {status:in-progress} {priority:low} {blocked_by:none}
+- Document extensions under /extensions {status:done} {priority:low} {blocked_by:none}
 - Enrich `docs/inventory.md` with module/plugin paths for each feature {status:done} {priority:low} {blocked_by:none}
 - Revise `docs/inventory.md` to ensure classification table includes these paths {status:done} {priority:low} {blocked_by:none}
 - Commit second revision to satisfy two-loop requirement {status:done} {priority:low} {blocked_by:none}
@@ -43,6 +43,6 @@
 - [pass33] Build and test pipeline failing due to missing vitest modules and sqlalchemy
 - [pass34] Update docs to emphasize Node 22 as default runtime {status:done} {priority:low}
 - [pass36] Update install scripts to use Node 22 {status:done} {priority:low}
-- Resolve npm install workspace protocol issues {status:blocked} {priority:high} {blocked_by:core policy}
+ - Resolve npm install workspace protocol issues {status:done} {priority:high} {blocked_by:none}
 - [pass37] Added build and boot memory DB tests {status:done} {priority:low}
 - [pass38] Fix memory DB test path and node usage {status:done} {priority:low}

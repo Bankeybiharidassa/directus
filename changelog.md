@@ -302,3 +302,12 @@
 - Ran `pnpm install` to restore node_modules.
 - `npm test` fails in @directus/api with Axios 503 errors.
 - `pytest` fails due to missing sqlalchemy module.
+
+## Phase 3 – Pass 45 (2025-07-10)
+- Documented that `npm install` is unsupported at repo root.
+- Updated README and marked TODO entry complete.
+
+## Phase 3 – Pass 46 (2025-07-10)
+- Added README under /extensions with usage notes.
+- Documented admin features in CRM extension READMEs.
+- Marked documentation TODOs as done.
