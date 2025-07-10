@@ -333,3 +333,4 @@
   protocol errors.
 - `npm test` fails in `@directus/extensions-sdk` with vitest exit code 129.
 - Installed Python requirements and `pytest` passes all 94 tests.
+
