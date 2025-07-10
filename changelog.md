@@ -350,3 +350,8 @@
 ## Phase 3 – Pass 54 (2025-07-13)
 - Ran pnpm install and npm test (still failing in @directus/api).
 - Installed Python requirements and pytest passed (94 tests).
+
+## Phase 3 – Pass 55 (2025-07-13)
+- Added Keycloak auth extension and test.
+- Documented extension in `extensions/README.md`.
+- npm test still fails in @directus/api; pytest missing sqlalchemy.
