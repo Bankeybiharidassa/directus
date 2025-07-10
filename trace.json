@@ -558,4 +558,16 @@
     ],
     "trigger": "test & resolve"
   }
+  ,{
+    "phase": "phase3",
+    "pass": 55,
+    "changes": [
+      "extensions/auth/keycloak/index.js",
+      "tests/keycloak-auth/keycloak.test.mjs",
+      "extensions/README.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "add keycloak auth"
+  }
 ]
