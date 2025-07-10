@@ -2207,6 +2207,8 @@ importers:
 
   tests/build-memory: {}
 
+  tests/keycloak-auth: {}
+
   tests/nucleus-auth:
     dependencies:
       passport:

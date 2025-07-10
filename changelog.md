@@ -360,3 +360,7 @@
 - Scaffolded missing Directus extensions under `extensions/`.
 - Ran `npx directus extension install` for each; command not recognized.
 - Executed `pnpm install` and `npm test` (tests still failing in @directus/themes).
+\n## Phase 3 – Pass 57 (2025-07-15)
+- Migrated nucleus-auth and nucleus-mail-ingest from CRM to extensions.
+- Updated tests to load new extension paths.
+- npm test fails in @directus/api with exit code 129.
