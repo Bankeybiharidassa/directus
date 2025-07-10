@@ -411,8 +411,7 @@
       "changelog.md"
     ],
     "trigger": "build packages"
-  }
-,
+  },
   {
     "phase": "phase3",
     "pass": 43,
@@ -427,5 +426,18 @@
       "changelog.md"
     ],
     "trigger": "update install script"
+  },
+  {
+    "phase": "phase3",
+    "pass": 44,
+    "changes": [
+      "traces/env_pass44.json",
+      "logs/pnpm_install_pass44.log",
+      "logs/npm_pass44.log",
+      "logs/pytest_pass44.log",
+      "loops/test-pass44.md",
+      "changelog.md"
+    ],
+    "trigger": "test run"
   }
 ]

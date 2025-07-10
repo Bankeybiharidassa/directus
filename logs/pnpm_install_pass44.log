@@ -1,0 +1,288 @@
+Scope: all 42 workspace projects
+ WARN  There are cyclic workspace dependencies: /workspace/directus/api, /workspace/directus/directus
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +2332
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   ╭───────────────────────────────────────────────────────────────────╮
+   │                                                                   │
+   │                Update available! 9.15.6 → 10.13.1.                │
+   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v10.13.1   │
+   │            Run "corepack use pnpm@10.13.1" to update.             │
+   │                                                                   │
+   ╰───────────────────────────────────────────────────────────────────╯
+
+Progress: resolved 2332, reused 0, downloaded 32, added 32
+Progress: resolved 2332, reused 0, downloaded 145, added 141
+Progress: resolved 2332, reused 0, downloaded 230, added 229
+Progress: resolved 2332, reused 0, downloaded 366, added 364
+Progress: resolved 2332, reused 0, downloaded 507, added 505
+Progress: resolved 2332, reused 0, downloaded 582, added 572
+Progress: resolved 2332, reused 0, downloaded 711, added 710
+Progress: resolved 2332, reused 0, downloaded 825, added 819
+Progress: resolved 2332, reused 0, downloaded 927, added 924
+Progress: resolved 2332, reused 0, downloaded 1078, added 1078
+Progress: resolved 2332, reused 0, downloaded 1201, added 1200
+Progress: resolved 2332, reused 0, downloaded 1339, added 1339
+Progress: resolved 2332, reused 0, downloaded 1459, added 1457
+Progress: resolved 2332, reused 0, downloaded 1545, added 1541
+Progress: resolved 2332, reused 0, downloaded 1677, added 1676
+Progress: resolved 2332, reused 0, downloaded 1780, added 1779
+Progress: resolved 2332, reused 0, downloaded 1895, added 1896
+Progress: resolved 2332, reused 0, downloaded 2037, added 2037
+Progress: resolved 2332, reused 0, downloaded 2178, added 2178
+Progress: resolved 2332, reused 0, downloaded 2247, added 2239
+Progress: resolved 2332, reused 0, downloaded 2331, added 2332, done
+.../node_modules/@parcel/watcher install$ node scripts/build-from-source.js
+.../node_modules/isolated-vm install$ prebuild-install || (node-gyp rebuild --release -j max && node-gyp clean)
+.../sqlite3@5.1.7/node_modules/sqlite3 install$ prebuild-install -r napi || node-gyp rebuild
+.../argon2@0.41.1/node_modules/argon2 install$ node-gyp-build
+.../esbuild@0.21.5/node_modules/esbuild postinstall$ node install.js
+.../node_modules/@parcel/watcher install: Done
+.../sharp@0.33.5/node_modules/sharp install$ node install/check
+.../esbuild@0.21.5/node_modules/esbuild postinstall: Done
+.../sqlite3@5.1.7/node_modules/sqlite3 install: prebuild-install warn This package does not support N-API version undefined
+.../argon2@0.41.1/node_modules/argon2 install: Done
+.../oracledb@6.8.0/node_modules/oracledb install$ node package/install.js
+.../esbuild@0.25.0/node_modules/esbuild postinstall$ node install.js
+.../sharp@0.33.5/node_modules/sharp install: Done
+.../fontawesome-common-types postinstall$ node attribution.js
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ********************************************************************************
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ** Node-oracledb 6.8.0 installed in Node.js 22.17.0 (linux, x64)
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ** To use node-oracledb in Thin mode, no additional steps are needed.
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ** To use the optional Thick mode, the Oracle Client libraries (64-bit)
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ** must be available, see the installation instructions:
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb **   https://node-oracledb.readthedocs.io/en/latest/user_guide/installation.html#node-oracledb-installation-on-linux
+.../oracledb@6.8.0/node_modules/oracledb install: oracledb ********************************************************************************
+.../oracledb@6.8.0/node_modules/oracledb install: Done
+.../esbuild@0.25.0/node_modules/esbuild postinstall: Done
+.../fontawesome-common-types postinstall: Font Awesome Free 0.2.36 by @fontawesome - https://fontawesome.com
+.../fontawesome-common-types postinstall: License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+.../fontawesome-common-types postinstall: Done
+.../node_modules/vue-demi postinstall$ node -e "try{require('./scripts/postinstall.js')}catch(e){}"
+.../sqlite3@5.1.7/node_modules/sqlite3 install: prebuild-install warn install No prebuilt binaries found (target=undefined runtime=napi arch=x64 libc= platform=linux)
+.../esbuild@0.18.20/node_modules/esbuild postinstall$ node install.js
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info it worked if it ends with ok
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info using node-gyp@8.4.1
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info using node@22.17.0 | linux | x64
+.../esbuild@0.18.20/node_modules/esbuild postinstall: Done
+.../node_modules/vue-demi postinstall: Done
+.../sqlite3@5.1.7/node_modules/sqlite3 install: (node:14993) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+.../sqlite3@5.1.7/node_modules/sqlite3 install: (Use `node --trace-deprecation ...` to show where the warning was created)
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info find Python using Python version 3.12.3 found at "/usr/bin/python3"
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp http GET https://nodejs.org/download/release/v22.17.0/node-v22.17.0-headers.tar.gz
+.../node_modules/isolated-vm install: Done
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp http 200 https://nodejs.org/download/release/v22.17.0/node-v22.17.0-headers.tar.gz
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp http GET https://nodejs.org/download/release/v22.17.0/SHASUMS256.txt
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp http 200 https://nodejs.org/download/release/v22.17.0/SHASUMS256.txt
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn /usr/bin/python3
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args [
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/gyp/gyp_main.py',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   'binding.gyp',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-f',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   'make',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-I',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '/workspace/directus/node_modules/.pnpm/sqlite3@5.1.7/node_modules/sqlite3/build/config.gypi',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-I',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp/addon.gypi',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-I',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '/root/.cache/node-gyp/22.17.0/include/node/common.gypi',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dlibrary=shared_library',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dvisibility=default',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dnode_root_dir=/root/.cache/node-gyp/22.17.0',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dnode_gyp_dir=/workspace/directus/node_modules/.pnpm/node-gyp@8.4.1/node_modules/node-gyp',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dnode_lib_file=/root/.cache/node-gyp/22.17.0/<(target_arch)/node.lib',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dmodule_root_dir=/workspace/directus/node_modules/.pnpm/sqlite3@5.1.7/node_modules/sqlite3',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Dnode_engine=v8',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '--depth=.',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '--no-parallel',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '--generator-output',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   'build',
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args   '-Goutput_dir=.'
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args ]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn make
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: make: Entering directory '/workspace/directus/node_modules/.pnpm/sqlite3@5.1.7/node_modules/sqlite3/build'
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   CC(target) Release/obj.target/nothing/../../../node-addon-api@7.1.1/node_modules/node-addon-api/nothing.o
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   AR(target) Release/obj.target/../../../node-addon-api@7.1.1/node_modules/node-addon-api/nothing.a
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   COPY Release/nothing.a
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   ACTION deps_sqlite3_gyp_action_before_build_target_unpack_sqlite_dep Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   TOUCH Release/obj.target/deps/action_before_build.stamp
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   CC(target) Release/obj.target/sqlite3/gen/sqlite-autoconf-3440200/sqlite3.o
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c: In function ‘sqlite3VdbeExec’:
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95855:50: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95855 |                    zPayload[6] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |                                                ~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95856:11: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95856 |           case 6:  zPayload[5] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |           ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95857:50: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95857 |                    zPayload[4] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |                                                ~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95858:11: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95858 |           case 4:  zPayload[3] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |           ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95858:50: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95858 |           case 4:  zPayload[3] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |                                                ~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95859:11: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95859 |           case 3:  zPayload[2] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |           ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95859:50: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95859 |           case 3:  zPayload[2] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |                                                ~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95860:11: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95860 |           case 2:  zPayload[1] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |           ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95860:50: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95860 |           case 2:  zPayload[1] = (u8)(v&0xff); v >>= 8;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |                                                ~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:95861:11: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 95861 |           case 1:  zPayload[0] = (u8)(v&0xff);
+.../sqlite3@5.1.7/node_modules/sqlite3 install:       |           ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c: In function ‘jsonParseValue’:
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:204385:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 204385 |     if( strncmp(z+i,"null",4)==0 && !sqlite3Isalnum(z[i+4]) ){
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:204391:3: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 204391 |   default: {
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |   ^~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c: In function ‘cellArea’:
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208625:22: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208625 |       case 5:  area  = p->aCoord[9].f - p->aCoord[8].f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208626:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208626 |       case 4:  area *= p->aCoord[7].f - p->aCoord[6].f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208626:21: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208626 |       case 4:  area *= p->aCoord[7].f - p->aCoord[6].f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208627:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208627 |       case 3:  area *= p->aCoord[5].f - p->aCoord[4].f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208627:21: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208627 |       case 3:  area *= p->aCoord[5].f - p->aCoord[4].f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208628:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208628 |       case 2:  area *= p->aCoord[3].f - p->aCoord[2].f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208628:21: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208628 |       case 2:  area *= p->aCoord[3].f - p->aCoord[2].f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208629:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208629 |       default: area *= p->aCoord[1].f - p->aCoord[0].f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208635:22: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208635 |       case 5:  area  = (i64)p->aCoord[9].i - (i64)p->aCoord[8].i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208636:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208636 |       case 4:  area *= (i64)p->aCoord[7].i - (i64)p->aCoord[6].i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208636:21: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208636 |       case 4:  area *= (i64)p->aCoord[7].i - (i64)p->aCoord[6].i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208637:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208637 |       case 3:  area *= (i64)p->aCoord[5].i - (i64)p->aCoord[4].i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208637:21: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208637 |       case 3:  area *= (i64)p->aCoord[5].i - (i64)p->aCoord[4].i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208638:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208638 |       case 2:  area *= (i64)p->aCoord[3].i - (i64)p->aCoord[2].i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208638:21: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208638 |       case 2:  area *= (i64)p->aCoord[3].i - (i64)p->aCoord[2].i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:208639:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 208639 |       default: area *= (i64)p->aCoord[1].i - (i64)p->aCoord[0].i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c: In function ‘rtreeCallbackConstraint’:
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207746:56: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207746 |                 readCoord(pCellData+32, &c); aCoord[8] = c.f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                                              ~~~~~~~~~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207747:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207747 |       case 8:   readCoord(pCellData+28, &c); aCoord[7] = c.f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207748:56: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207748 |                 readCoord(pCellData+24, &c); aCoord[6] = c.f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                                              ~~~~~~~~~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207749:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207749 |       case 6:   readCoord(pCellData+20, &c); aCoord[5] = c.f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207750:56: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207750 |                 readCoord(pCellData+16, &c); aCoord[4] = c.f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                                              ~~~~~~~~~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207751:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207751 |       case 4:   readCoord(pCellData+12, &c); aCoord[3] = c.f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207752:56: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207752 |                 readCoord(pCellData+8,  &c); aCoord[2] = c.f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                                              ~~~~~~~~~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207753:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207753 |       default:  readCoord(pCellData+4,  &c); aCoord[1] = c.f;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207761:56: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207761 |                 readCoord(pCellData+32, &c); aCoord[8] = c.i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                                              ~~~~~~~~~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207762:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207762 |       case 8:   readCoord(pCellData+28, &c); aCoord[7] = c.i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207763:56: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207763 |                 readCoord(pCellData+24, &c); aCoord[6] = c.i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                                              ~~~~~~~~~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207764:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207764 |       case 6:   readCoord(pCellData+20, &c); aCoord[5] = c.i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207765:56: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207765 |                 readCoord(pCellData+16, &c); aCoord[4] = c.i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                                              ~~~~~~~~~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207766:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207766 |       case 4:   readCoord(pCellData+12, &c); aCoord[3] = c.i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207767:56: warning: this statement may fall through [-Wimplicit-fallthrough=]
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207767 |                 readCoord(pCellData+8,  &c); aCoord[2] = c.i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |                                              ~~~~~~~~~~^~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Release/obj/gen/sqlite-autoconf-3440200/sqlite3.c:207768:7: note: here
+.../sqlite3@5.1.7/node_modules/sqlite3 install: 207768 |       default:  readCoord(pCellData+4,  &c); aCoord[1] = c.i;
+.../sqlite3@5.1.7/node_modules/sqlite3 install:        |       ^~~~~~~
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   AR(target) Release/obj.target/deps/sqlite3.a
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   COPY Release/sqlite3.a
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   CXX(target) Release/obj.target/node_sqlite3/src/backup.o
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   CXX(target) Release/obj.target/node_sqlite3/src/database.o
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   CXX(target) Release/obj.target/node_sqlite3/src/node_sqlite3.o
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   CXX(target) Release/obj.target/node_sqlite3/src/statement.o
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   SOLINK_MODULE(target) Release/obj.target/node_sqlite3.node
+.../sqlite3@5.1.7/node_modules/sqlite3 install:   COPY Release/node_sqlite3.node
+.../sqlite3@5.1.7/node_modules/sqlite3 install: make: Leaving directory '/workspace/directus/node_modules/.pnpm/sqlite3@5.1.7/node_modules/sqlite3/build'
+.../sqlite3@5.1.7/node_modules/sqlite3 install: gyp info ok 
+.../sqlite3@5.1.7/node_modules/sqlite3 install: Done
+.../@fortawesome/free-solid-svg-icons postinstall$ node attribution.js
+.../@fortawesome/fontawesome-svg-core postinstall$ node attribution.js
+.../@fortawesome/free-regular-svg-icons postinstall$ node attribution.js
+.../@fortawesome/free-solid-svg-icons postinstall: Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+.../@fortawesome/free-solid-svg-icons postinstall: License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+.../@fortawesome/free-solid-svg-icons postinstall: Done
+.../@fortawesome/fontawesome-svg-core postinstall: Font Awesome Free 1.2.36 by @fontawesome - https://fontawesome.com
+.../@fortawesome/fontawesome-svg-core postinstall: License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+.../@fortawesome/fontawesome-svg-core postinstall: Done
+.../@fortawesome/free-regular-svg-icons postinstall: Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+.../@fortawesome/free-regular-svg-icons postinstall: License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+.../@fortawesome/free-regular-svg-icons postinstall: Done
+
+devDependencies:
++ @changesets/cli 2.28.1
++ @directus/release-notes-generator 2.0.1 <- packages/release-notes-generator
++ @eslint/js 9.21.0
++ @vitest/coverage-v8 2.1.9
++ eslint 9.21.0
++ eslint-config-prettier 9.1.0
++ eslint-plugin-vue 9.32.0
++ globals 15.15.0
++ prettier 3.1.0
++ rimraf 6.0.1
++ typescript 5.8.2
++ typescript-eslint 8.25.0
++ vitest 2.1.9
+
+Done in 2m 21.4s using pnpm v9.15.6
