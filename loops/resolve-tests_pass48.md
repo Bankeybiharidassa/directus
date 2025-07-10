@@ -1,0 +1,1 @@
+Installed Node 22 and Python dependencies (sqlalchemy, fastapi, requests, httpx, pyyaml, pyotp, cryptography, psutil, fpdf2). Python tests now pass (94 tests). npm test still fails during the vite build with exit code 129.

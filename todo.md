@@ -4,7 +4,7 @@
 - Create authentication schema {status:in-progress} {priority:high} {blocked_by:none}
 
 ## nucleus-core
-- Register each CRM extension in install.sh {status:in-progress} {priority:medium} {blocked_by:none}
+- Register each CRM extension in install.sh {status:done} {priority:medium} {blocked_by:none}
  - Automate building workspace packages before tests {status:done} {priority:medium} {blocked_by:none}
 
 ## nucleus-api
@@ -40,7 +40,7 @@
 - [pass30] Install Python backend dependencies and run tests {status:done} {priority:low}
 - [pass31] Document Node 18 test setup in README {status:done} {priority:low}
 - [pass32] Add install_directus.sh script using pnpm {status:done} {priority:medium}
-- [pass33] Build and test pipeline failing due to missing vitest modules and sqlalchemy
+- [pass33] Build and test pipeline failing due to missing vitest modules and sqlalchemy {status:done}
 - [pass34] Update docs to emphasize Node 22 as default runtime {status:done} {priority:low}
 - [pass36] Update install scripts to use Node 22 {status:done} {priority:low}
  - Resolve npm install workspace protocol issues {status:done} {priority:high} {blocked_by:none}

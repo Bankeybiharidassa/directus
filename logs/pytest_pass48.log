@@ -1,0 +1,52 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.4.0, pluggy-1.6.0
+rootdir: /workspace/directus
+plugins: anyio-4.9.0
+collected 94 items
+
+CRM/tests/test_acme.py .                                                 [  1%]
+CRM/tests/test_assets.py ....                                            [  5%]
+CRM/tests/test_auth.py ...                                               [  8%]
+CRM/tests/test_backup.py ...                                             [ 11%]
+CRM/tests/test_cases.py .                                                [ 12%]
+CRM/tests/test_cli.py ........                                           [ 21%]
+CRM/tests/test_cms.py ..                                                 [ 23%]
+CRM/tests/test_config_api.py ..                                          [ 25%]
+CRM/tests/test_contracts.py .                                            [ 26%]
+CRM/tests/test_core.py ....                                              [ 30%]
+CRM/tests/test_cors.py .                                                 [ 31%]
+CRM/tests/test_crm.py ..                                                 [ 34%]
+CRM/tests/test_crm_dmarc.py .....                                        [ 39%]
+CRM/tests/test_crm_domains.py .                                          [ 40%]
+CRM/tests/test_crm_sync.py .                                             [ 41%]
+CRM/tests/test_distributors.py .                                         [ 42%]
+CRM/tests/test_dmarc.py ..                                               [ 44%]
+CRM/tests/test_docs.py ...                                               [ 47%]
+CRM/tests/test_edi.py .                                                  [ 48%]
+CRM/tests/test_keycloak.py ...                                           [ 52%]
+CRM/tests/test_lint.py .                                                 [ 53%]
+CRM/tests/test_login_page.py .............                               [ 67%]
+CRM/tests/test_mail.py .                                                 [ 68%]
+CRM/tests/test_maintenance.py ...                                        [ 71%]
+CRM/tests/test_partners.py .                                             [ 72%]
+CRM/tests/test_portal.py .                                               [ 73%]
+CRM/tests/test_public.py .                                               [ 74%]
+CRM/tests/test_root.py .                                                 [ 75%]
+CRM/tests/test_security.py .                                             [ 76%]
+CRM/tests/test_security_scan.py ...                                      [ 79%]
+CRM/tests/test_sophos.py ..                                              [ 81%]
+CRM/tests/test_status.py .                                               [ 82%]
+CRM/tests/test_support.py .                                              [ 84%]
+CRM/tests/test_system_check.py .                                         [ 85%]
+CRM/tests/test_tenable.py ..                                             [ 87%]
+CRM/tests/test_tickets.py ..                                             [ 89%]
+CRM/tests/test_update.py ...                                             [ 92%]
+CRM/tests/test_yubikey.py .......                                        [100%]
+
+=============================== warnings summary ===============================
+CRM/tests/test_login_page.py::test_cookie_authentication
+  /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/starlette/testclient.py:437: DeprecationWarning: Setting per-request cookies=<...> is being deprecated, because the expected behaviour on cookie persistence is ambiguous. Set cookies directly on the client instance instead.
+    return super().request(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 94 passed, 1 warning in 55.61s ========================

@@ -463,5 +463,30 @@
       "changelog.md"
     ],
     "trigger": "document extensions"
+  },
+  {
+    "phase": "phase3",
+    "pass": 47,
+    "changes": [
+      "loops/register-extensions_pass47.md",
+      "CRM/scripts/install.sh",
+      "todo.md",
+      "changelog.md",
+      "logs/npm_pass47.log",
+      "logs/pytest_pass47.log"
+    ],
+    "trigger": "register extensions dynamically"
+  },
+  {
+    "phase": "phase3",
+    "pass": 48,
+    "changes": [
+      "loops/resolve-tests_pass48.md",
+      "logs/npm_pass48.log",
+      "logs/pytest_pass48.log",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "resolve failing tests"
   }
 ]
