@@ -47,3 +47,5 @@
 - [pass37] Added build and boot memory DB tests {status:done} {priority:low}
 - [pass38] Fix memory DB test path and node usage {status:done} {priority:low}
 - Document running CRM/test_install.sh before GUI testing {status:done} {priority:low} {blocked_by:none}
+- [pass50] Investigate vitest exit code 129 in extensions-sdk tests {status:open} {priority:medium} {blocked_by:none}
+

@@ -327,3 +327,10 @@
 - Documented test_install.sh usage in agents.md and README.
 - Installed Node 22 with pnpm, ran npm test (fails due to missing packages).
 - Installed Python dependencies and ran pytest successfully (94 tests).
+
+## Phase 3 – Pass 50 (2025-07-10)
+- Switched to Node 22 via nvm and executed `pnpm install` to resolve workspace
+  protocol errors.
+- `npm test` fails in `@directus/extensions-sdk` with vitest exit code 129.
+- Installed Python requirements and `pytest` passes all 94 tests.
+

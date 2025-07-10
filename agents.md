@@ -5,7 +5,8 @@ Agents must:
 
 1. Record every code change in `changelog.md` with a numbered pass.
 2. Track unresolved items in `todo.md`.
-3. Run `npm test` whenever dependencies or code change.
+3. Run `npm test` whenever dependencies or code change. Use `nvm use 22` and
+   `pnpm install` first so workspace packages build correctly.
 
 Codex operates at temperature **0.2** and performs closed-loop passes until all
 tests pass or a blocking issue is logged. Each loop must update `trace.json` and

@@ -42,6 +42,10 @@ nvm use 22
 pnpm install
 ```
 
+Always run `pnpm install` with Node 22 before executing `npm test`. Skipping this
+step leads to `Unsupported URL Type "workspace:"` errors because `npm install`
+cannot resolve workspace protocols.
+
 `npm install` is not supported at the repository root because the monorepo uses
 the `workspace:` protocol. Use `pnpm install` or run `scripts/install.sh` to
 install all dependencies.
