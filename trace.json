@@ -557,8 +557,8 @@
       "logs/pytest_pass53.log"
     ],
     "trigger": "test & resolve"
-  }
-  ,{
+  },
+  {
     "phase": "phase3",
     "pass": 55,
     "changes": [
@@ -569,5 +569,38 @@
       "todo.md"
     ],
     "trigger": "add keycloak auth"
+  },
+  {
+    "phase": "phase3",
+    "pass": 56,
+    "changes": [
+      "extensions/nucleus-crm/index.js",
+      "extensions/nucleus-crm/package.json",
+      "extensions/nucleus-contracts/index.js",
+      "extensions/nucleus-contracts/package.json",
+      "extensions/nucleus-docs/index.js",
+      "extensions/nucleus-docs/package.json",
+      "extensions/nucleus-edi/index.js",
+      "extensions/nucleus-edi/package.json",
+      "extensions/nucleus-support/index.js",
+      "extensions/nucleus-support/package.json",
+      "extensions/nucleus-tenable/index.js",
+      "extensions/nucleus-tenable/package.json",
+      "extensions/nucleus-sophos/index.js",
+      "extensions/nucleus-sophos/package.json",
+      "extensions/nucleus-portal/index.js",
+      "extensions/nucleus-portal/package.json",
+      "extensions/nucleus-dmarc/index.js",
+      "extensions/nucleus-dmarc/package.json",
+      "extensions/nucleus-ui/index.js",
+      "extensions/nucleus-ui/package.json",
+      "extensions/nucleus-api/index.js",
+      "extensions/nucleus-api/package.json",
+      "logs/pnpm_install_pass56.log",
+      "logs/npm_pass56.log",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "scaffold extensions"
   }
 ]
