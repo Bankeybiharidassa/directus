@@ -311,3 +311,14 @@
 - Added README under /extensions with usage notes.
 - Documented admin features in CRM extension READMEs.
 - Marked documentation TODOs as done.
+
+## Phase 3 – Pass 47 (2025-07-10)
+- Updated CRM/scripts/install.sh to copy all extensions automatically.
+- Marked TODO for extension registration as done.
+- npm and pytest runs fail due to missing Node 22 and sqlalchemy.
+
+## Phase 3 – Pass 48 (2025-07-10)
+- Installed Node 22 using n and updated PATH for tests.
+- Installed Python modules to satisfy pytest: sqlalchemy, fastapi, requests, httpx, pyyaml, pyotp, cryptography, psutil, fpdf2.
+- All 94 Python tests now pass.
+- npm test still fails with vite build exit code 129.

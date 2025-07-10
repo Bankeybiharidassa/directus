@@ -21,8 +21,11 @@ fi
 
 step "Copying extensions"
 mkdir -p "$DIRECTUS_DIR/extensions"
-cp -r "$(dirname "$0")/../extensions/nucleus-auth" "$DIRECTUS_DIR/extensions/" 2>/dev/null || true
-cp -r "$(dirname "$0")/../extensions/nucleus-mail-ingest" "$DIRECTUS_DIR/extensions/" 2>/dev/null || true
+EXT_SRC="$(dirname "$0")/../extensions"
+for ext in "$EXT_SRC"/*; do
+  [ -d "$ext" ] || continue
+  cp -r "$ext" "$DIRECTUS_DIR/extensions/" 2>/dev/null || true
+done
 
 step "Configuring environment"
 if [ ! -f "$DIRECTUS_DIR/.env" ]; then
