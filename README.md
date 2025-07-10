@@ -42,6 +42,10 @@ nvm use 22
 pnpm install
 ```
 
+`npm install` is not supported at the repository root because the monorepo uses
+the `workspace:` protocol. Use `pnpm install` or run `scripts/install.sh` to
+install all dependencies.
+
 ### Node.js 18 Compatibility
 
 Older CRM modules can still run on Node 18. Use `nvm` to switch and bypass the

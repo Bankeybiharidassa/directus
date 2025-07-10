@@ -6,3 +6,5 @@ Required environment variables:
 - `IMAP_HOST`
 - `IMAP_USER`
 - `IMAP_PASSWORD`
+
+Admins manage the connection settings under **Support → Mail Ingest**. Parsed messages are stored as tickets in the support module.

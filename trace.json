@@ -439,5 +439,29 @@
       "changelog.md"
     ],
     "trigger": "test run"
+  },
+  {
+    "phase": "phase3",
+    "pass": 45,
+    "changes": [
+      "loops/fix-workspace-protocol_pass45.md",
+      "README.md",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "document pnpm usage"
+  },
+  {
+    "phase": "phase3",
+    "pass": 46,
+    "changes": [
+      "loops/doc-extensions_pass46.md",
+      "extensions/README.md",
+      "CRM/extensions/nucleus-auth/README.md",
+      "CRM/extensions/nucleus-mail-ingest/README.md",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "document extensions"
   }
 ]
