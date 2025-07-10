@@ -533,5 +533,29 @@
       "changelog.md"
     ],
     "trigger": "open closed loop"
+  },
+  {
+    "phase": "phase3",
+    "pass": 52,
+    "changes": [
+      "loops/open-closed-loop_pass52.md",
+      "logs/pnpm_install_pass52.log",
+      "logs/npm_pass52.log",
+      "logs/pip_pass52.log",
+      "logs/pytest_pass52.log"
+    ],
+    "trigger": "resolve issues"
+  },
+  {
+    "phase": "phase3",
+    "pass": 53,
+    "changes": [
+      "loops/open-closed-loop_pass53.md",
+      "logs/pnpm_install_pass53.log",
+      "logs/npm_pass53.log",
+      "logs/pip_pass53.log",
+      "logs/pytest_pass53.log"
+    ],
+    "trigger": "test & resolve"
   }
 ]
