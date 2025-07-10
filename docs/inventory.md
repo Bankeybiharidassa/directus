@@ -20,7 +20,7 @@ Extracted from: `/CRM/README.md`
 | CMS & public portal | 🔧 Plugin/module required | `extensions/nucleus-portal/` |
 | Portal access revocation | 🔧 Plugin/module required | `extensions/nucleus-portal/` |
 | DMARC analyzer & tenant stats | 🔧 Plugin/module required | `extensions/nucleus-dmarc/` |
-| Audit logging & encrypted storage | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| Audit logging & encrypted storage | ✅ Implemented (nucleus-core) | `extensions/nucleus-core/` |
 | Granular RBAC for all actions & data | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
 | Config via GUI + `.env` | ✅ Native Directus (partially) | Use Directus settings with env overrides |
 | Role dashboards & menus | 🔧 Plugin/module required | `extensions/nucleus-ui/` |

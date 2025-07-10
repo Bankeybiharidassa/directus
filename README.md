@@ -14,6 +14,9 @@ Refer to [CRM/README.md](CRM/README.md) for full documentation.
 See readme.md for Directus upstream instructions.
 Detailed feature inventory lives in docs/inventory.md.
 
+Custom extensions belong in the `extensions/` directory. A basic `nucleus-core`
+plugin is included which logs a startup message when Directus loads.
+
 Copy `.env.example` to `.env` and adjust values before running `scripts/install.sh`.
 
 ## Build Instructions

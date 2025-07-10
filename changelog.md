@@ -334,3 +334,9 @@
 - `npm test` fails in `@directus/extensions-sdk` with vitest exit code 129.
 - Installed Python requirements and `pytest` passes all 94 tests.
 
+
+## Phase 3 – Pass 51 (2025-07-11)
+- Added a `nucleus-core` extension that logs a startup message.
+- Documented the new plugin in README and marked it implemented in docs/inventory.md.
+- Executed `pnpm install` and `npm test` using Node 22 (test fails).
+- Ran `pytest` which passes all 94 tests.
