@@ -296,3 +296,9 @@
 - Updated vps-install.sh to install Node 22 instead of 18.20.2.
 - Reinstalled Node dependencies and Python requirements under Node 22.
 - npm test fails in @directus/storage-driver-s3 but pytest passes all 94 tests.
+
+## Phase 3 – Pass 44 (2025-07-10)
+- Installed Node 22 using nodesource apt repository and updated PATH.
+- Ran `pnpm install` to restore node_modules.
+- `npm test` fails in @directus/api with Axios 503 errors.
+- `pytest` fails due to missing sqlalchemy module.
