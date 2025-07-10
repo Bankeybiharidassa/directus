@@ -69,7 +69,8 @@ before executing `pnpm --workspace-root test` and `python3 -m pytest -q`.
 
 ## Testing the GUI
 
-Run `scripts/gui_loop.sh` to install dependencies, launch the services and
-execute the headless browser checks via `scripts/headless_check.js`. Results are
-stored in the `logs/` directory.
+Run `CRM/test_install.sh` first to start the backend and auth services locally.
+After the services are active, execute `scripts/gui_loop.sh` to install
+dependencies and run the headless browser checks via `scripts/headless_check.js`.
+Results are stored in the `logs/` directory.
 

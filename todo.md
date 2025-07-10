@@ -46,3 +46,4 @@
  - Resolve npm install workspace protocol issues {status:done} {priority:high} {blocked_by:none}
 - [pass37] Added build and boot memory DB tests {status:done} {priority:low}
 - [pass38] Fix memory DB test path and node usage {status:done} {priority:low}
+- Document running CRM/test_install.sh before GUI testing {status:done} {priority:low} {blocked_by:none}

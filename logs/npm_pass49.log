@@ -1,0 +1,34 @@
+
+> pretest
+> pnpm run build
+
+
+> directus-monorepo@ build /workspace/directus
+> pnpm --recursive --filter '!docs' run build
+
+Scope: 40 of 42 workspace projects
+packages/components build$ vite build
+packages/constants build$ tsup src/index.ts --format=esm --dts
+packages/format-title build$ pnpm run '/^bundle|typecheck$/'
+packages/random build$ tsup src/index.ts --format=esm --dts
+packages/components build: command not found: vite
+packages/components build: Failed
+/workspace/directus/packages/components:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @directus/components@1.1.1 build: `vite build`
+Exit status 127
+packages/constants build: command not found: tsup
+packages/constants build: Failed
+packages/random build: command not found: tsup
+packages/random build: Failed
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?
+packages/release-notes-generator build$ tsc --project tsconfig.prod.json
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?
+packages/schema build$ tsup src/index.ts --format=esm --dts
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?
+packages/specs build$ swagger-cli bundle src/openapi.yaml -o dist/openapi.json
+packages/schema build: command not found: tsup
+packages/schema build: Failed
+packages/specs build: command not found: swagger-cli
+packages/specs build: Failed
+ ELIFECYCLE  Command failed with exit code 127.
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?

@@ -15,4 +15,5 @@ Governance rules forbid touching upstream Directus code outside the `CRM/` and `
 Current prompt roles: **system**, **developer**, **user**.
 
 For detailed CLI↔GUI mapping see `CRM/AGENTS.md`.
+Run `CRM/test_install.sh` before executing any browser-based or headless GUI tests so the backend and auth services are running locally.
 
