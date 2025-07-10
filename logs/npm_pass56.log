@@ -1,0 +1,348 @@
+
+> pretest
+> pnpm run build
+
+
+> directus-monorepo@ build /workspace/directus
+> pnpm --recursive --filter '!docs' run build
+
+Scope: 41 of 43 workspace projects
+packages/components build$ vite build
+packages/constants build$ tsup src/index.ts --format=esm --dts
+packages/random build$ tsup src/index.ts --format=esm --dts
+packages/format-title build$ pnpm run '/^bundle|typecheck$/'
+packages/random build: CLI Building entry: src/index.ts
+packages/random build: CLI Using tsconfig: tsconfig.json
+packages/random build: CLI tsup v8.4.0
+packages/constants build: CLI Building entry: src/index.ts
+packages/constants build: CLI Using tsconfig: tsconfig.json
+packages/constants build: CLI tsup v8.4.0
+packages/random build: CLI Target: es2022
+packages/random build: ESM Build start
+packages/constants build: CLI Target: es2022
+packages/constants build: ESM Build start
+packages/random build: ESM dist/index.js 915.00 B
+packages/random build: ESM ⚡️ Build success in 33ms
+packages/format-title build: . bundle$ tsup src/index.ts --format=esm --dts
+packages/format-title build: . typecheck$ tsc --noEmit
+packages/constants build: ESM dist/index.js 2.48 KB
+packages/constants build: ESM ⚡️ Build success in 58ms
+packages/random build: DTS Build start
+packages/constants build: DTS Build start
+packages/format-title build: . bundle: CLI Building entry: src/index.ts
+packages/format-title build: . bundle: CLI Using tsconfig: tsconfig.json
+packages/format-title build: . bundle: CLI tsup v8.4.0
+packages/format-title build: . bundle: CLI Target: es2022
+packages/format-title build: . bundle: ESM Build start
+packages/format-title build: . bundle: ESM dist/index.js 3.78 KB
+packages/format-title build: . bundle: ESM ⚡️ Build success in 143ms
+packages/format-title build: . bundle: DTS Build start
+packages/constants build: DTS ⚡️ Build success in 1409ms
+packages/constants build: DTS dist/index.d.ts 2.44 KB
+packages/constants build: Done
+packages/release-notes-generator build$ tsc --project tsconfig.prod.json
+packages/components build: vite v5.4.19 building for production...
+packages/format-title build: . bundle: DTS ⚡️ Build success in 1199ms
+packages/format-title build: . bundle: DTS dist/index.d.ts 122.00 B
+packages/format-title build: . bundle: Done
+packages/format-title build: . typecheck: Done
+packages/format-title build: Done
+packages/schema build$ tsup src/index.ts --format=esm --dts
+packages/random build: DTS ⚡️ Build success in 3066ms
+packages/random build: DTS dist/index.d.ts 1.13 KB
+packages/random build: Done
+packages/specs build$ swagger-cli bundle src/openapi.yaml -o dist/openapi.json
+packages/schema build: CLI Building entry: src/index.ts
+packages/schema build: CLI Using tsconfig: tsconfig.json
+packages/schema build: CLI tsup v8.4.0
+packages/schema build: CLI Target: es2022
+packages/schema build: ESM Build start
+packages/schema build: ESM dist/index.js 74.29 KB
+packages/schema build: ESM ⚡️ Build success in 130ms
+packages/specs build: Created dist/openapi.json from src/openapi.yaml
+packages/specs build: Done
+packages/storage build$ tsup src/index.ts --format=esm --dts
+packages/schema build: DTS Build start
+packages/release-notes-generator build: Done
+packages/stores build$ tsup src/index.ts --format=esm --dts
+packages/storage build: CLI Building entry: src/index.ts
+packages/storage build: CLI Using tsconfig: tsconfig.json
+packages/storage build: CLI tsup v8.4.0
+packages/storage build: CLI Target: es2022
+packages/storage build: ESM Build start
+packages/storage build: ESM dist/index.js 762.00 B
+packages/storage build: ESM ⚡️ Build success in 36ms
+packages/stores build: CLI Building entry: src/index.ts
+packages/stores build: CLI Using tsconfig: tsconfig.json
+packages/stores build: CLI tsup v8.4.0
+packages/stores build: CLI Target: es2022
+packages/stores build: ESM Build start
+packages/stores build: ESM dist/index.js 857.00 B
+packages/stores build: ESM ⚡️ Build success in 55ms
+packages/storage build: DTS Build start
+packages/stores build: DTS Build start
+packages/components build: transforming...
+packages/components build: ✓ 1 modules transformed.
+packages/components build: Generated an empty chunk: "index".
+packages/components build: rendering chunks...
+packages/components build: [vite:dts] Start generate declaration files...
+packages/components build: computing gzip size...
+packages/components build: dist/index.js  0.00 kB │ gzip: 0.02 kB
+packages/components build: [vite:dts] Declaration files built in 4011ms.
+packages/components build: ✓ built in 4.57s
+packages/components build: Done
+packages/system-data build$ NODE_ENV=production tsup
+packages/storage build: DTS ⚡️ Build success in 2572ms
+packages/storage build: DTS dist/index.d.ts 1.87 KB
+packages/storage build: Done
+packages/update-check build$ pnpm run '/^bundle|typecheck$/'
+packages/schema build: DTS ⚡️ Build success in 4033ms
+packages/schema build: DTS dist/index.d.ts 2.68 KB
+packages/schema build: Done
+packages/system-data build: CLI Building entry: src/index.ts
+packages/system-data build: CLI Using tsconfig: tsconfig.json
+packages/system-data build: CLI tsup v8.4.0
+packages/system-data build: CLI Using tsup config: /workspace/directus/packages/system-data/tsup.config.js
+packages/system-data build: CLI Target: es2020
+packages/system-data build: CLI Cleaning output folder
+packages/system-data build: CJS Build start
+packages/system-data build: ESM Build start
+packages/update-check build: . bundle$ tsup src/index.ts --format=esm --dts
+packages/update-check build: . typecheck$ tsc --noEmit
+packages/system-data build: ESM dist/index.js 50.02 KB
+packages/system-data build: ESM ⚡️ Build success in 571ms
+packages/system-data build: CJS dist/index.cjs 50.64 KB
+packages/system-data build: CJS ⚡️ Build success in 572ms
+packages/system-data build: DTS Build start
+packages/stores build: DTS ⚡️ Build success in 3218ms
+packages/stores build: DTS dist/index.d.ts 1.75 KB
+packages/stores build: Done
+packages/update-check build: . bundle: CLI Building entry: src/index.ts
+packages/update-check build: . bundle: CLI Using tsconfig: tsconfig.json
+packages/update-check build: . bundle: CLI tsup v8.4.0
+packages/update-check build: . bundle: CLI Target: es2022
+packages/update-check build: . bundle: ESM Build start
+packages/update-check build: . bundle: ESM dist/index.js 3.13 KB
+packages/update-check build: . bundle: ESM ⚡️ Build success in 49ms
+packages/update-check build: . bundle: DTS Build start
+packages/system-data build: DTS ⚡️ Build success in 798ms
+packages/system-data build: DTS dist/index.d.cts 4.92 KB
+packages/system-data build: DTS dist/index.d.ts  4.92 KB
+packages/system-data build: Done
+packages/update-check build: . typecheck: Done
+packages/update-check build: . bundle: DTS ⚡️ Build success in 1400ms
+packages/update-check build: . bundle: DTS dist/index.d.ts 94.00 B
+packages/update-check build: . bundle: Done
+packages/update-check build: Done
+packages/storage-driver-local build$ tsup src/index.ts --format=esm --dts
+packages/errors build$ tsup src/index.ts --format=esm --dts
+packages/types build$ tsc
+sdk build$ NODE_ENV=production tsup
+packages/storage-driver-local build: CLI Building entry: src/index.ts
+packages/storage-driver-local build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-local build: CLI tsup v8.4.0
+packages/storage-driver-local build: CLI Target: es2022
+packages/storage-driver-local build: ESM Build start
+packages/errors build: CLI Building entry: src/index.ts
+packages/errors build: CLI Using tsconfig: tsconfig.json
+packages/errors build: CLI tsup v8.4.0
+packages/storage-driver-local build: ESM dist/index.js 3.92 KB
+packages/storage-driver-local build: ESM ⚡️ Build success in 39ms
+packages/errors build: CLI Target: es2022
+packages/errors build: ESM Build start
+sdk build: CLI Building entry: src/index.ts
+sdk build: CLI Using tsconfig: tsconfig.json
+sdk build: CLI tsup v8.4.0
+sdk build: CLI Using tsup config: /workspace/directus/sdk/tsup.config.js
+sdk build: CLI Target: es2022
+sdk build: CLI Cleaning output folder
+sdk build: CJS Build start
+sdk build: ESM Build start
+packages/errors build: ESM dist/index.js 10.73 KB
+packages/errors build: ESM ⚡️ Build success in 85ms
+packages/errors build: DTS Build start
+packages/storage-driver-local build: DTS Build start
+sdk build: CJS dist/index.cjs     45.88 KB
+sdk build: CJS dist/index.cjs.map 66.66 KB
+sdk build: CJS ⚡️ Build success in 942ms
+sdk build: ESM dist/index.js     41.57 KB
+sdk build: ESM dist/index.js.map 59.53 KB
+sdk build: ESM ⚡️ Build success in 942ms
+sdk build: DTS Build start
+packages/types build: Done
+packages/errors build: DTS ⚡️ Build success in 1765ms
+packages/errors build: DTS dist/index.d.ts 8.40 KB
+packages/errors build: Done
+packages/storage-driver-local build: DTS ⚡️ Build success in 2388ms
+packages/storage-driver-local build: DTS dist/index.d.ts 1.44 KB
+packages/storage-driver-local build: Done
+sdk build: DTS ⚡️ Build success in 6716ms
+sdk build: DTS dist/index.d.cts 159.14 KB
+sdk build: DTS dist/index.d.ts  159.14 KB
+sdk build: Done
+packages/schema-builder build$ tsup src/index.ts --format=esm --dts
+packages/schema-builder build: CLI Building entry: src/index.ts
+packages/schema-builder build: CLI Using tsconfig: tsconfig.json
+packages/schema-builder build: CLI tsup v8.4.0
+packages/schema-builder build: CLI Target: es2022
+packages/schema-builder build: ESM Build start
+packages/schema-builder build: ESM dist/index.js 20.93 KB
+packages/schema-builder build: ESM ⚡️ Build success in 78ms
+packages/schema-builder build: DTS Build start
+packages/schema-builder build: DTS ⚡️ Build success in 2244ms
+packages/schema-builder build: DTS dist/index.d.ts 4.24 KB
+packages/schema-builder build: Done
+packages/utils build$ pnpm run '/^build:.*/'
+packages/utils build: . build:browser$ tsup browser/index.ts --tsconfig browser/tsconfig.json --out-dir dist/browser --format=esm --dts
+packages/utils build: . build:node$ tsup node/index.ts --tsconfig node/tsconfig.json --out-dir dist/node --format=esm --dts
+packages/utils build: . build:shared$ tsup shared/index.ts --tsconfig shared/tsconfig.json --out-dir dist/shared --format=esm --dts
+packages/utils build: . build:node: CLI Building entry: node/index.ts
+packages/utils build: . build:node: CLI Using tsconfig: node/tsconfig.json
+packages/utils build: . build:node: CLI tsup v8.4.0
+packages/utils build: . build:browser: CLI Building entry: browser/index.ts
+packages/utils build: . build:browser: CLI Using tsconfig: browser/tsconfig.json
+packages/utils build: . build:browser: CLI tsup v8.4.0
+packages/utils build: . build:shared: CLI Building entry: shared/index.ts
+packages/utils build: . build:shared: CLI Using tsconfig: shared/tsconfig.json
+packages/utils build: . build:shared: CLI tsup v8.4.0
+packages/utils build: . build:node: CLI Target: es2022
+packages/utils build: . build:node: ESM Build start
+packages/utils build: . build:browser: CLI Target: es2022
+packages/utils build: . build:browser: ESM Build start
+packages/utils build: . build:shared: CLI Target: es2022
+packages/utils build: . build:shared: ESM Build start
+packages/utils build: . build:browser: ESM dist/browser/index.js 177.00 B
+packages/utils build: . build:browser: ESM ⚡️ Build success in 28ms
+packages/utils build: . build:node: ESM dist/node/index.js 3.56 KB
+packages/utils build: . build:node: ESM ⚡️ Build success in 37ms
+packages/utils build: . build:shared: ESM dist/shared/index.js 40.89 KB
+packages/utils build: . build:shared: ESM ⚡️ Build success in 87ms
+packages/utils build: . build:shared: DTS Build start
+packages/utils build: . build:browser: DTS Build start
+packages/utils build: . build:node: DTS Build start
+packages/utils build: . build:browser: DTS ⚡️ Build success in 1514ms
+packages/utils build: . build:browser: DTS dist/browser/index.d.ts 149.00 B
+packages/utils build: . build:browser: Done
+packages/utils build: . build:node: DTS ⚡️ Build success in 2836ms
+packages/utils build: . build:node: DTS dist/node/index.d.ts 1.66 KB
+packages/utils build: . build:node: Done
+packages/utils build: . build:shared: DTS ⚡️ Build success in 3695ms
+packages/utils build: . build:shared: DTS dist/shared/index.d.ts 8.67 KB
+packages/utils build: . build:shared: Done
+packages/utils build: Done
+packages/env build$ tsup src/index.ts --format=esm --dts
+packages/memory build$ tsup src/index.ts --format=esm --dts
+packages/pressure build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-azure build$ tsup src/index.ts --format=esm --dts
+packages/pressure build: CLI Building entry: src/index.ts
+packages/pressure build: CLI Using tsconfig: tsconfig.json
+packages/pressure build: CLI tsup v8.4.0
+packages/env build: CLI Building entry: src/index.ts
+packages/pressure build: CLI Target: es2022
+packages/env build: CLI Using tsconfig: tsconfig.json
+packages/env build: CLI tsup v8.4.0
+packages/memory build: CLI Building entry: src/index.ts
+packages/pressure build: ESM Build start
+packages/memory build: CLI Using tsconfig: tsconfig.json
+packages/memory build: CLI tsup v8.4.0
+packages/env build: CLI Target: es2022
+packages/memory build: CLI Target: es2022
+packages/env build: ESM Build start
+packages/memory build: ESM Build start
+packages/storage-driver-azure build: CLI Building entry: src/index.ts
+packages/storage-driver-azure build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-azure build: CLI tsup v8.4.0
+packages/pressure build: ESM dist/index.js 2.25 KB
+packages/pressure build: ESM ⚡️ Build success in 59ms
+packages/storage-driver-azure build: CLI Target: es2022
+packages/storage-driver-azure build: ESM Build start
+packages/memory build: ESM dist/index.js 13.57 KB
+packages/memory build: ESM ⚡️ Build success in 104ms
+packages/storage-driver-azure build: ESM dist/index.js 3.74 KB
+packages/storage-driver-azure build: ESM ⚡️ Build success in 57ms
+packages/env build: ESM dist/index.js 17.72 KB
+packages/env build: ESM ⚡️ Build success in 124ms
+packages/pressure build: DTS Build start
+packages/env build: DTS Build start
+packages/storage-driver-azure build: DTS Build start
+packages/memory build: DTS Build start
+packages/pressure build: DTS ⚡️ Build success in 3436ms
+packages/pressure build: DTS dist/index.d.ts 885.00 B
+packages/pressure build: Done
+packages/storage-driver-cloudinary build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-azure build: DTS ⚡️ Build success in 3543ms
+packages/storage-driver-azure build: DTS dist/index.d.ts 1.52 KB
+packages/storage-driver-azure build: Done
+packages/storage-driver-gcs build$ tsup src/index.ts --format=esm --dts
+packages/env build: DTS ⚡️ Build success in 3652ms
+packages/env build: DTS dist/index.d.ts 90.00 B
+packages/env build: Done
+packages/storage-driver-s3 build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-cloudinary build: CLI Building entry: src/index.ts
+packages/storage-driver-cloudinary build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-cloudinary build: CLI tsup v8.4.0
+packages/storage-driver-cloudinary build: CLI Target: es2022
+packages/storage-driver-cloudinary build: ESM Build start
+packages/storage-driver-cloudinary build: ESM dist/index.js 13.81 KB
+packages/storage-driver-cloudinary build: ESM ⚡️ Build success in 42ms
+packages/storage-driver-gcs build: CLI Building entry: src/index.ts
+packages/storage-driver-gcs build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-gcs build: CLI tsup v8.4.0
+packages/storage-driver-gcs build: CLI Target: es2022
+packages/storage-driver-gcs build: ESM Build start
+packages/memory build: DTS ⚡️ Build success in 4115ms
+packages/memory build: DTS dist/index.d.ts 13.45 KB
+packages/storage-driver-gcs build: ESM dist/index.js 3.54 KB
+packages/storage-driver-gcs build: ESM ⚡️ Build success in 65ms
+packages/memory build: Done
+packages/storage-driver-supabase build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-s3 build: CLI Building entry: src/index.ts
+packages/storage-driver-s3 build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-s3 build: CLI tsup v8.4.0
+packages/storage-driver-s3 build: CLI Target: es2022
+packages/storage-driver-s3 build: ESM Build start
+packages/storage-driver-s3 build: ESM dist/index.js 12.19 KB
+packages/storage-driver-s3 build: ESM ⚡️ Build success in 30ms
+packages/storage-driver-cloudinary build: DTS Build start
+packages/storage-driver-gcs build: DTS Build start
+packages/storage-driver-supabase build: CLI Building entry: src/index.ts
+packages/storage-driver-supabase build: CLI Using tsconfig: tsconfig.json
+packages/storage-driver-supabase build: CLI tsup v8.4.0
+packages/storage-driver-supabase build: CLI Target: es2022
+packages/storage-driver-supabase build: ESM Build start
+packages/storage-driver-s3 build: DTS Build start
+packages/storage-driver-supabase build: ESM dist/index.js 6.46 KB
+packages/storage-driver-supabase build: ESM ⚡️ Build success in 158ms
+packages/storage-driver-supabase build: DTS Build start
+packages/storage-driver-cloudinary build: DTS ⚡️ Build success in 3578ms
+packages/storage-driver-cloudinary build: DTS dist/index.d.ts 2.85 KB
+packages/storage-driver-cloudinary build: Done
+packages/themes build$ vite build
+packages/storage-driver-gcs build: DTS ⚡️ Build success in 4039ms
+packages/storage-driver-gcs build: DTS dist/index.d.ts 1.46 KB
+packages/storage-driver-gcs build: Done
+packages/validation build$ tsup src/index.ts --format=esm --dts
+packages/storage-driver-supabase build: DTS ⚡️ Build success in 3255ms
+packages/storage-driver-supabase build: DTS dist/index.d.ts 1.76 KB
+packages/storage-driver-supabase build: Done
+packages/validation build: CLI Building entry: src/index.ts
+packages/validation build: CLI Using tsconfig: tsconfig.json
+packages/validation build: CLI tsup v8.4.0
+packages/validation build: CLI Target: es2022
+packages/validation build: ESM Build start
+packages/validation build: ESM dist/index.js 5.55 KB
+packages/validation build: ESM ⚡️ Build success in 48ms
+packages/storage-driver-s3 build: DTS ⚡️ Build success in 4640ms
+packages/storage-driver-s3 build: DTS dist/index.d.ts 2.08 KB
+packages/storage-driver-s3 build: Done
+packages/validation build: DTS Build start
+packages/themes build: vite v5.4.19 building for production...
+packages/validation build: DTS ⚡️ Build success in 2587ms
+packages/validation build: DTS dist/index.d.ts 774.00 B
+packages/validation build: Done
+packages/themes build: transforming...
+packages/themes build: Failed
+/workspace/directus/packages/themes:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @directus/themes@1.1.2 build: `vite build`
+Exit status 129
+ ELIFECYCLE  Command failed with exit code 129.

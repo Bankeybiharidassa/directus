@@ -355,3 +355,8 @@
 - Added Keycloak auth extension and test.
 - Documented extension in `extensions/README.md`.
 - npm test still fails in @directus/api; pytest missing sqlalchemy.
+
+## Phase 3 – Pass 56 (2025-07-14)
+- Scaffolded missing Directus extensions under `extensions/`.
+- Ran `npx directus extension install` for each; command not recognized.
+- Executed `pnpm install` and `npm test` (tests still failing in @directus/themes).
