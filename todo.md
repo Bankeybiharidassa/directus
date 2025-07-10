@@ -50,3 +50,8 @@
 - [pass50] Investigate vitest exit code 129 in extensions-sdk tests {status:open} {priority:medium} {blocked_by:none}
 - [pass51] Created nucleus-core extension; npm test still fails with vitest exit code 129 {status:in-progress} {priority:medium} {blocked_by:none}
 
+- [pass52] npm test fails in @directus/api due to port 503 error {status:open} {priority:medium}
+
+- [pass53] npm test fails again in @directus/api with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL {status:open} {priority:medium}
+
+- [pass54] npm test fails with Axios 503 in @directus/api {status:open} {priority:medium}
