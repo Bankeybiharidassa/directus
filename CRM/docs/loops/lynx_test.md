@@ -1,6 +1,6 @@
 # Lynx test procedure
 
-Run `./test_install.sh` to start the backend and auth services locally. This script installs Python and Node dependencies, launches the servers on localhost, and waits for ports 8000 and 3001 to respond.
+From the repository root run `CRM/test_install.sh` to start the backend and auth services locally. This script installs Python and Node dependencies, launches the servers on localhost, and waits for ports 8000 and 3001 to respond.
 Do not run `install.sh` or `scripts/patch_services.sh` in the Codex environment; they are production only.
 Ensure `fpdf2` and `psutil` are installed in the Python environment before running tests.
 

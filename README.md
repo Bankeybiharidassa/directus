@@ -42,6 +42,10 @@ nvm use 22
 pnpm install
 ```
 
+Always run `pnpm install` with Node 22 before executing `npm test`. Skipping this
+step leads to `Unsupported URL Type "workspace:"` errors because `npm install`
+cannot resolve workspace protocols.
+
 `npm install` is not supported at the repository root because the monorepo uses
 the `workspace:` protocol. Use `pnpm install` or run `scripts/install.sh` to
 install all dependencies.
@@ -69,7 +73,8 @@ before executing `pnpm --workspace-root test` and `python3 -m pytest -q`.
 
 ## Testing the GUI
 
-Run `scripts/gui_loop.sh` to install dependencies, launch the services and
-execute the headless browser checks via `scripts/headless_check.js`. Results are
-stored in the `logs/` directory.
+Run `CRM/test_install.sh` first to start the backend and auth services locally.
+After the services are active, execute `scripts/gui_loop.sh` to install
+dependencies and run the headless browser checks via `scripts/headless_check.js`.
+Results are stored in the `logs/` directory.
 

@@ -322,3 +322,14 @@
 - Installed Python modules to satisfy pytest: sqlalchemy, fastapi, requests, httpx, pyyaml, pyotp, cryptography, psutil, fpdf2.
 - All 94 Python tests now pass.
 - npm test still fails with vite build exit code 129.
+
+## Phase 3 – Pass 49 (2025-07-10)
+- Documented test_install.sh usage in agents.md and README.
+- Installed Node 22 with pnpm, ran npm test (fails due to missing packages).
+- Installed Python dependencies and ran pytest successfully (94 tests).
+
+## Phase 3 – Pass 50 (2025-07-10)
+- Switched to Node 22 via nvm and executed `pnpm install` to resolve workspace
+  protocol errors.
+- `npm test` fails in `@directus/extensions-sdk` with vitest exit code 129.
+- Installed Python requirements and `pytest` passes all 94 tests.
