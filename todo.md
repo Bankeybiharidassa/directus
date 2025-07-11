@@ -58,3 +58,5 @@
 - [pass55] Add Keycloak auth extension and tests {status:done} {priority:low}
 - [pass56] Scaffold remaining Directus extensions {status:done} {priority:low}
 - [pass57] Migrated auth/mail ingest extensions to root {status:done} {priority:low}
+- [pass58] Document full implementation plan for remaining extensions {status:done} {priority:low}
+- [pass59] Install Python requirements to fix sqlalchemy error {status:done} {priority:low}

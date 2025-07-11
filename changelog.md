@@ -364,3 +364,10 @@
 - Migrated nucleus-auth and nucleus-mail-ingest from CRM to extensions.
 - Updated tests to load new extension paths.
 - npm test fails in @directus/api with exit code 129.
+\n## Phase 3 – Pass 58 (2025-09-08)
+- Added action_plan.md outlining steps to complete all extensions.
+
+## Phase 3 – Pass 59 (2025-09-08)
+- Installed Python backend requirements so pytest finds sqlalchemy.
+- All 94 Python tests pass.
+- `npm test` still fails in `@directus/extensions-sdk` with exit code 129.

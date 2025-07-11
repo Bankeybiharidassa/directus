@@ -602,5 +602,24 @@
       "todo.md"
     ],
     "trigger": "scaffold extensions"
+  },
+  {
+    "phase": "phase3",
+    "pass": 58,
+    "changes": [
+      "docs/action_plan.md",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "document action plan"
+  },
+  {
+    "phase": "phase3",
+    "pass": 59,
+    "changes": [
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "fix pytest"
   }
 ]
