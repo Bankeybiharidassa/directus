@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import register from '../../CRM/extensions/nucleus-mail-ingest/index.js';
+import register from '../../extensions/nucleus-mail-ingest/index.js';
 
 let cronExp;
 const schedule = (exp, fn) => { cronExp = exp; };

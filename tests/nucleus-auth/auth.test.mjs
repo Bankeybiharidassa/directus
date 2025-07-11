@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import passport from 'passport';
-import register from '../../CRM/extensions/nucleus-auth/index.js';
+import register from '../../extensions/nucleus-auth/index.js';
 
 // Reset strategy before each run
 passport.unuse('nucleus-oauth');

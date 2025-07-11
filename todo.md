@@ -57,3 +57,4 @@
 - [pass54] npm test fails with Axios 503 in @directus/api {status:open} {priority:medium}
 - [pass55] Add Keycloak auth extension and tests {status:done} {priority:low}
 - [pass56] Scaffold remaining Directus extensions {status:done} {priority:low}
+- [pass57] Migrated auth/mail ingest extensions to root {status:done} {priority:low}
