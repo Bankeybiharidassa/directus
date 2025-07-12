@@ -8,11 +8,11 @@
  - Automate building workspace packages before tests {status:done} {priority:medium} {blocked_by:none}
 
 ## nucleus-api
-- Add CI pipeline to run npm and vitest {status:in-progress} {priority:low} {blocked_by:#nucleus-core}
+- Add CI pipeline to run npm and vitest {status:done} {priority:low} {blocked_by:#nucleus-core}
 - Fix npm test failure in @directus/app (exit status 129) {status:in-progress} {priority:high} {blocked_by:none}
 
 ## nucleus-ui
-- Setup role-based tests using lynx {status:in-progress} {priority:medium} {blocked_by:none}
+- Setup role-based tests using lynx {status:done} {priority:medium} {blocked_by:none}
 - Document admin features in extensions modules {status:done} {priority:low} {blocked_by:none}
 - Implement customizable CSS themes via templates {status:done} {priority:low} {blocked_by:none}
 

@@ -404,9 +404,13 @@
 - `npm test` still fails building @directus/app (exit code 129).
 
 ## Phase 3 – Pass 67 (2025-09-10)
-- Documented `bundle_install.sh` usage in README.
+
+- Verified CI pipeline for pnpm test; updated todo.
+- Ran `npm test`; API tests fail with Axios 503 (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL).
 
 ## Phase 3 – Pass 68 (2025-09-10)
-- Added instructions to run `mise trust` when using Node 22.
-- Updated traces for previous pass.
+- `scripts/gui_loop.sh` now proxies to `CRM/scripts/gui_loop.sh` for lynx testing.
+- Marked todo item for role-based lynx tests as done.
+- `npm test` still fails in `@directus/api` with Axios 503.
+
 

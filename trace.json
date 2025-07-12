@@ -699,20 +699,21 @@
   {
     "pass": 67,
     "files": [
-      "README.md",
+      "loops/open-closed-loop_pass67.md",
       "changelog.md",
       "todo.md"
     ],
-    "trigger": "document bundle_install"
+    "trigger": "verify ci and test"
   },
   {
     "pass": 68,
     "files": [
-      "README.md",
-      "changelog.md",
+      "loops/open-closed-loop_pass68.md",
+      "scripts/gui_loop.sh",
       "todo.md",
-      "trace.json"
+      "changelog.md"
     ],
-    "trigger": "trust mise config"
+    "trigger": "lynx role tests"
+
   }
 ]
