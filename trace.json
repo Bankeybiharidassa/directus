@@ -714,9 +714,7 @@
       "changelog.md"
     ],
     "trigger": "lynx role tests"
-
-  }
-  ,
+  },
   {
     "pass": 69,
     "files": [
@@ -734,8 +732,8 @@
       "todo.md"
     ],
     "trigger": "verify extensions and add minimal routes"
-  }
-,  {
+  },
+  {
     "pass": 70,
     "files": [
       "loops/open-closed-loop_pass70.md",
@@ -748,5 +746,17 @@
       "todo.md"
     ],
     "trigger": "document CRM as legacy"
+  },
+  {
+    "pass": 71,
+    "files": [
+      "extensions/nucleus-ui/index.js",
+      "tests/nucleus-ui/ui.test.mjs",
+      "tests/nucleus-ui/package.json",
+      "loops/open-closed-loop_pass71.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "add theme env css"
   }
 ]
