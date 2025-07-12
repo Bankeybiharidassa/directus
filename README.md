@@ -27,6 +27,10 @@ Execute the installer script to install dependencies and enable all extensions:
 ./scripts/install.sh
 ```
 
+Alternatively run `./bundle_install.sh` as root for an automated server
+setup. This installs Node 22, configures Keycloak and Directus services
+and provisions HTTPS via Let's Encrypt.
+
 Before running tests, build the workspace packages used in vitest:
 
 ```bash
@@ -43,6 +47,9 @@ regular development and builds:
 ```bash
 nvm use 22
 pnpm install
+
+# Trust mise version files to suppress warnings
+mise trust .mise.toml
 ```
 
 Always run `pnpm install` with Node 22 before executing `npm test`. Skipping this
