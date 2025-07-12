@@ -386,3 +386,6 @@
 ## Phase 3 – Pass 62 (2025-09-09)
 - Added tests for nucleus-docs extension.
 - `npm test` fails building @directus/app (exit code 129).
+## Phase 3 – Pass 63 (2025-09-09)
+- Added check_extensions.cjs script to validate extension files.
+- Verified extensions via new script and ran `npm test`, which still fails building @directus/app (exit code 129).

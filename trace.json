@@ -655,5 +655,15 @@
       "todo.md"
     ],
     "trigger": "add tests for nucleus-docs"
+  },
+  {
+    "pass": 63,
+    "files": [
+      "extensions/check_extensions.cjs",
+      "README.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "verify extensions and run tests"
   }
 ]

@@ -52,6 +52,9 @@ cannot resolve workspace protocols.
 `npm install` is not supported at the repository root because the monorepo uses
 the `workspace:` protocol. Use `pnpm install` or run `scripts/install.sh` to
 install all dependencies.
+### Verifying extension structure
+Run `node extensions/check_extensions.cjs` to list each extension and verify that required files are present.
+
 
 ### Node.js 18 Compatibility
 
