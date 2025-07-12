@@ -68,3 +68,5 @@
 - [pass64] Add auth schema and token tests {status:done} {priority:low}
 - [pass65] Add role mapping and token exchange route {status:done} {priority:low}
 - [pass66] Configure mise to honor .nvmrc {status:done} {priority:low}
+- [pass67] Document bundle_install.sh usage and validate script {status:done} {priority:low}
+- [pass68] Trust mise config to remove warnings and update docs {status:done} {priority:low}

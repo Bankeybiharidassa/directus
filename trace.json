@@ -714,5 +714,6 @@
       "changelog.md"
     ],
     "trigger": "lynx role tests"
+
   }
 ]
