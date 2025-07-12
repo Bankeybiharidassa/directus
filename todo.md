@@ -62,3 +62,5 @@
 - [pass59] Install Python requirements to fix sqlalchemy error {status:done} {priority:low}
 - [pass60] Replace placeholder Keycloak auth with real token exchange {status:done} {priority:low}
 - [pass61] Flesh out docs, edi and portal extensions {status:done} {priority:low}
+
+- [pass62] Add tests for nucleus-docs extension {status:done} {priority:low}

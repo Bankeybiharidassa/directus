@@ -382,3 +382,7 @@
 - Added PDF and CSV generation endpoint, EDI XML parsing, and public frontpage route.
 - Updated extension package.json files with required dependencies.
 - `npm test` fails in @directus/app with exit code 129.
+
+## Phase 3 – Pass 62 (2025-09-09)
+- Added tests for nucleus-docs extension.
+- `npm test` fails building @directus/app (exit code 129).

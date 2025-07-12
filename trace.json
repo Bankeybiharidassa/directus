@@ -645,5 +645,15 @@
       "todo.md"
     ],
     "trigger": "implement docs, edi and portal extensions"
+  },
+  {
+    "pass": 62,
+    "files": [
+      "tests/nucleus-docs/docs.test.mjs",
+      "tests/nucleus-docs/package.json",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "add tests for nucleus-docs"
   }
 ]

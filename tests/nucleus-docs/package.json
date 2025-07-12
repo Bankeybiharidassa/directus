@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pdfkit": "^0.15.0",
+    "csv-stringify": "^6.5.0"
+  }
+}
