@@ -414,3 +414,12 @@
 - `npm test` still fails in `@directus/api` with Axios 503.
 
 
+
+## Phase 3 – Pass 69 (2025-09-10)
+- Added missing package.json for keycloak auth extension.
+- Replaced placeholder extensions with minimal route handlers.
+- Ran `npm test`; multiple packages still fail with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL.
+
+## Phase 3 – Pass 70 (2025-09-10)
+- Marked CRM directory as legacy; updated README and docs.
+- pnpm install and npm test still fail during app build.

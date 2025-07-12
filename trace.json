@@ -716,4 +716,37 @@
     "trigger": "lynx role tests"
 
   }
+  ,
+  {
+    "pass": 69,
+    "files": [
+      "loops/open-closed-loop_pass69.md",
+      "extensions/auth/keycloak/package.json",
+      "extensions/nucleus-crm/index.js",
+      "extensions/nucleus-contracts/index.js",
+      "extensions/nucleus-dmarc/index.js",
+      "extensions/nucleus-tenable/index.js",
+      "extensions/nucleus-sophos/index.js",
+      "extensions/nucleus-ui/index.js",
+      "extensions/nucleus-support/index.js",
+      "extensions/nucleus-api/index.js",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "verify extensions and add minimal routes"
+  }
+,  {
+    "pass": 70,
+    "files": [
+      "loops/open-closed-loop_pass70.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/dependencies.md",
+      "docs/inventory.md",
+      "docs/action_plan.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "document CRM as legacy"
+  }
 ]

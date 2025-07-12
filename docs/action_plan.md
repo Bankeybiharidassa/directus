@@ -1,6 +1,7 @@
 # Extension Implementation Plan
 
 This document summarizes the remaining work required to complete the Nucleus CRM extensions. Each module must be implemented and verified in isolation before moving on.
+The original CRM folder is now legacy; all features are being migrated to extensions.
 
 ## nucleus-auth
 - Integrate OAuth2 (Keycloak) fully.
