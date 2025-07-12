@@ -665,5 +665,16 @@
       "todo.md"
     ],
     "trigger": "verify extensions and run tests"
+  },
+  {
+    "pass": 64,
+    "files": [
+      "extensions/nucleus-auth/index.js",
+      "extensions/nucleus-auth/schema.js",
+      "tests/nucleus-auth/auth.test.mjs",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "add auth schema and tests"
   }
 ]

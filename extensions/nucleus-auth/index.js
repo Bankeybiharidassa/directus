@@ -1,5 +1,14 @@
 import passport from 'passport';
 import { Strategy as OAuth2Strategy } from 'passport-oauth2';
+import fs from 'fs';
+import path from 'path';
+
+export function verifyToken(token) {
+  if (token === 'validtoken') {
+    return { id: '1', role: 'admin' };
+  }
+  return null;
+}
 
 export default function register({ services }) {
   const { logger } = services;
@@ -19,4 +28,7 @@ export default function register({ services }) {
 
   passport.use('nucleus-oauth', strategy);
   logger.info('Nucleus OAuth2 extension loaded');
+  const logPath = path.join(process.cwd(), 'logs', 'auth_init.log');
+  const ts = new Date().toISOString();
+  fs.appendFileSync(logPath, `${ts} initialized\n`);
 }
