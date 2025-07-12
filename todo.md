@@ -65,3 +65,4 @@
 
 - [pass62] Add tests for nucleus-docs extension {status:done} {priority:low}
 - [pass63] Verify extension structure and note npm test failure (exit code 129)
+- [pass64] Add auth schema and token tests {status:done} {priority:low}
