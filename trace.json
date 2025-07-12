@@ -695,5 +695,24 @@
       "todo.md"
     ],
     "trigger": "enable idiomatic version files"
+  },
+  {
+    "pass": 67,
+    "files": [
+      "loops/open-closed-loop_pass67.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "verify ci and test"
+  },
+  {
+    "pass": 68,
+    "files": [
+      "loops/open-closed-loop_pass68.md",
+      "scripts/gui_loop.sh",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "lynx role tests"
   }
 ]

@@ -1,13 +1,11 @@
-#!/bin/bash
-# Start backend and auth services then run headless and lynx tests
-./scripts/install.sh
+#!/usr/bin/env bash
+set -euo pipefail
 
-# Build packages required for vitest
-pnpm --filter @directus/random run build
-pnpm --filter @directus/storage run build
-
-# Run the test suite (may fail on missing modules)
-npm test || true
-
-node scripts/headless_check.js
-# placeholder for lynx loops
+# Proxy to the CRM implementation so role-based tests run via lynx
+CRM_LOOP="CRM/scripts/gui_loop.sh"
+if [[ -x "$CRM_LOOP" ]]; then
+  exec "$CRM_LOOP" "$@"
+else
+  echo "Missing $CRM_LOOP" >&2
+  exit 1
+fi
