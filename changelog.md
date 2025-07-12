@@ -423,3 +423,7 @@
 ## Phase 3 – Pass 70 (2025-09-10)
 - Marked CRM directory as legacy; updated README and docs.
 - pnpm install and npm test still fail during app build.
+## Phase 3 – Pass 71 (2025-09-10)
+- Replaced placeholder CSS in nucleus-ui extension with env-driven theme.
+- Added unit test for theme route.
+

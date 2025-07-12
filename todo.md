@@ -72,3 +72,4 @@
 - [pass68] Trust mise config to remove warnings and update docs {status:done} {priority:low}
 - [pass69] Replace placeholders in extensions with minimal routes; npm test fails (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL)
 - [pass70] Document CRM folder as legacy; tests still failing
+- [pass71] Add env-based theme support to nucleus-ui {status:done} {priority:low}
