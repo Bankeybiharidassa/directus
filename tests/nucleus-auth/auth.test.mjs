@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import passport from 'passport';
-import register from '../../extensions/nucleus-auth/index.js';
+import register, { verifyToken } from '../../extensions/nucleus-auth/index.js';
 
 // Reset strategy before each run
 passport.unuse('nucleus-oauth');
@@ -19,4 +19,13 @@ register({ services });
 
 test('strategy registered', () => {
   assert.ok(passport._strategy('nucleus-oauth'));
+});
+
+test('invalid token', () => {
+  assert.equal(verifyToken('bad'), null);
+});
+
+test('valid token', () => {
+  const user = verifyToken('validtoken');
+  assert.equal(user.role, 'admin');
 });
