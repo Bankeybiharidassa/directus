@@ -393,3 +393,13 @@
 - Added schema and token verification tests for nucleus-auth.
 - Initialized auth extension log file.
 
+## Phase 3 – Pass 65 (2025-09-10)
+- Implemented role mapping and token exchange route in nucleus-auth.
+- Added additional tests for role mapping and token exchange.
+- `npm test` still fails in @directus/extensions-sdk (exit code 129).
+
+
+## Phase 3 – Pass 66 (2025-09-10)
+- Configured mise idiomatic version file support via .mise.toml.
+- `npm test` still fails building @directus/app (exit code 129).
+

@@ -676,5 +676,24 @@
       "todo.md"
     ],
     "trigger": "add auth schema and tests"
+  },
+  {
+    "pass": 65,
+    "files": [
+      "extensions/nucleus-auth/index.js",
+      "tests/nucleus-auth/auth.test.mjs",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "add role mapping and exchange route"
+  },
+  {
+    "pass": 66,
+    "files": [
+      ".mise.toml",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "enable idiomatic version files"
   }
 ]

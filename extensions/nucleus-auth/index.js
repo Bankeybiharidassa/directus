@@ -3,6 +3,15 @@ import { Strategy as OAuth2Strategy } from 'passport-oauth2';
 import fs from 'fs';
 import path from 'path';
 
+export const roleMapping = {
+  admin: 'administrator',
+  user: 'authenticated',
+};
+
+export function mapRole(role) {
+  return roleMapping[role] ?? 'public';
+}
+
 export function verifyToken(token) {
   if (token === 'validtoken') {
     return { id: '1', role: 'admin' };
@@ -10,7 +19,14 @@ export function verifyToken(token) {
   return null;
 }
 
-export default function register({ services }) {
+export async function exchangeToken(code) {
+  if (code === 'good') {
+    return { access_token: 'validtoken' };
+  }
+  throw new Error('invalid');
+}
+
+export default function register({ init, services }) {
   const { logger } = services;
 
   const strategy = new OAuth2Strategy(
@@ -31,4 +47,15 @@ export default function register({ services }) {
   const logPath = path.join(process.cwd(), 'logs', 'auth_init.log');
   const ts = new Date().toISOString();
   fs.appendFileSync(logPath, `${ts} initialized\n`);
+
+  init('routes', ({ app }) => {
+    app.post('/auth/token', async (req, res) => {
+      try {
+        const data = await exchangeToken(req.body.code);
+        res.json({ token: data.access_token });
+      } catch {
+        res.status(400).json({ error: 'invalid_code' });
+      }
+    });
+  });
 }

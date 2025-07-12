@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import passport from 'passport';
-import register, { verifyToken } from '../../extensions/nucleus-auth/index.js';
+import register, { verifyToken, mapRole, exchangeToken } from '../../extensions/nucleus-auth/index.js';
 
 // Reset strategy before each run
 passport.unuse('nucleus-oauth');
@@ -28,4 +28,15 @@ test('invalid token', () => {
 test('valid token', () => {
   const user = verifyToken('validtoken');
   assert.equal(user.role, 'admin');
+});
+
+test('role mapping', () => {
+  assert.equal(mapRole('admin'), 'administrator');
+  assert.equal(mapRole('unknown'), 'public');
+});
+
+test('token exchange', async () => {
+  const data = await exchangeToken('good');
+  assert.equal(data.access_token, 'validtoken');
+  await assert.rejects(() => exchangeToken('bad'));
 });
