@@ -60,3 +60,5 @@
 - [pass57] Migrated auth/mail ingest extensions to root {status:done} {priority:low}
 - [pass58] Document full implementation plan for remaining extensions {status:done} {priority:low}
 - [pass59] Install Python requirements to fix sqlalchemy error {status:done} {priority:low}
+- [pass60] Replace placeholder Keycloak auth with real token exchange {status:done} {priority:low}
+- [pass61] Flesh out docs, edi and portal extensions {status:done} {priority:low}

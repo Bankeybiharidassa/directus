@@ -2,5 +2,9 @@
   "name": "nucleus-docs",
   "version": "0.1.0",
   "main": "index.js",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pdfkit": "^0.13.0",
+    "csv-stringify": "^6.4.0"
+  }
 }

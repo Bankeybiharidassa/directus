@@ -371,3 +371,14 @@
 - Installed Python backend requirements so pytest finds sqlalchemy.
 - All 94 Python tests pass.
 - `npm test` still fails in `@directus/extensions-sdk` with exit code 129.
+
+## Phase 3 – Pass 60 (2025-09-09)
+- Replaced Keycloak auth placeholder with real token exchange logic.
+- Updated docs and tests for new Keycloak integration.
+- `npm test` fails building @directus/app (exit code 129).
+
+## Phase 3 – Pass 61 (2025-09-09)
+- Implemented initial logic for nucleus-docs, nucleus-edi and nucleus-portal extensions.
+- Added PDF and CSV generation endpoint, EDI XML parsing, and public frontpage route.
+- Updated extension package.json files with required dependencies.
+- `npm test` fails in @directus/app with exit code 129.

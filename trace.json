@@ -621,5 +621,29 @@
       "todo.md"
     ],
     "trigger": "fix pytest"
+  },
+  {
+    "pass": 60,
+    "files": [
+      "extensions/auth/keycloak/index.js",
+      "extensions/README.md",
+      "tests/keycloak-auth/keycloak.test.mjs",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "replace placeholder keycloak auth"
+  },
+  {
+    "pass": 61,
+    "files": [
+      "extensions/nucleus-docs/index.js",
+      "extensions/nucleus-docs/package.json",
+      "extensions/nucleus-edi/index.js",
+      "extensions/nucleus-edi/package.json",
+      "extensions/nucleus-portal/index.js",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "implement docs, edi and portal extensions"
   }
 ]
