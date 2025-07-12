@@ -20,8 +20,8 @@ Load the polyfill when using Node 18:
 export NODE_OPTIONS="--import=$(pwd)/scripts/fs-glob-polyfill.js"
 ```
 to provide `fs.glob` during tests.
-Jest is installed locally in `CRM/node_backend` via `npm install`.
-Install the Python backend requirements for tests with:
+Jest is installed locally in `CRM/node_backend` via `npm install` (legacy backend)
+Install the Python backend requirements for the legacy services with:
 
 ```bash
 pip install -r CRM/backend/requirements.txt

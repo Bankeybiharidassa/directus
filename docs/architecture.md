@@ -1,7 +1,7 @@
 
 # Project Architecture
 
-The repository contains a Directus-based platform with a modular CRM under the `CRM/` directory.
+The repository contains a Directus-based platform with modular extensions under the `extensions/` directory. The old `CRM/` folder remains for historical reference.
 Core extensions reside in `extensions/` and are installed via `scripts/install.sh`.
 
 # Nucleus CRM Architecture
@@ -13,7 +13,7 @@ Extensions live under /extensions and are loaded by Directus.
 ## Module Layout
 
 ```
-CRM/                # CRM specific React and FastAPI modules
+CRM/                # legacy React and FastAPI modules (not used at runtime)
 extensions/         # Directus extensions (endpoints, hooks, interfaces)
 scripts/            # Helper CLI scripts and installers
 docs/               # User and developer documentation
@@ -27,8 +27,7 @@ The CRM hooks into Directus only via supported extension mechanisms. Custom
 endpoints and event handlers live in `/extensions` and are loaded at runtime.
 The FastAPI backend exposes REST endpoints such as `/health` that Directus and
 external services consume. The Node authentication service manages OTP login and
-redirects users back to `/core/<role>` dashboards. CLI scripts under
-`CRM/scripts/` mirror GUI operations as documented in `CRM/AGENTS.md`.
+Legacy CLI scripts under `CRM/scripts/` mirror GUI operations as documented in `CRM/AGENTS.md`.
 
 ## Multi-Tenant Authentication
 

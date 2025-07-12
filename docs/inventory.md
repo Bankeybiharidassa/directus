@@ -3,6 +3,7 @@
 _Last updated: 2025-07-08_
 
 
+The `CRM` folder is kept for legacy reference only. All listed modules are implemented as Directus extensions.
 Extracted from: `/CRM/README.md`
 
 | Feature | Category | Notes / Proposed Module |

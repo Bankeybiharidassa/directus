@@ -70,3 +70,5 @@
 - [pass66] Configure mise to honor .nvmrc {status:done} {priority:low}
 - [pass67] Document bundle_install.sh usage and validate script {status:done} {priority:low}
 - [pass68] Trust mise config to remove warnings and update docs {status:done} {priority:low}
+- [pass69] Replace placeholders in extensions with minimal routes; npm test fails (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL)
+- [pass70] Document CRM folder as legacy; tests still failing

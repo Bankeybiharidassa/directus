@@ -1,16 +1,16 @@
 
 # Directus CRM Workspace
 
-This repository bundles Directus with a Nucleus CRM example. The original `readme.md` provides upstream documentation.
+This repository bundles Directus with a set of Nucleus extensions. The original `readme.md` provides upstream documentation.
 
-- `CRM/` contains the custom CRM modules
-- `extensions/` holds additional Directus extensions
+- `CRM/` holds the legacy CRM implementation used only for reference
+- `extensions/` contains the active Directus extensions
 - `scripts/install.sh` installs dependencies
 
 # Nucleus CRM Extensions
 
-This repository contains a modular Directus setup with the Nucleus CRM code in the `CRM/` directory.
-Refer to [CRM/README.md](CRM/README.md) for full documentation.
+The CRM directory is retained only for legacy reference. All new modules are implemented as Directus extensions under `extensions/`.
+Legacy docs remain at [CRM/README.md](CRM/README.md) but no runtime code depends on them.
 See readme.md for Directus upstream instructions.
 Detailed feature inventory lives in docs/inventory.md.
 
@@ -74,7 +74,7 @@ export PNPM_IGNORE_NODE_VERSION=true
 export NPM_CONFIG_ENGINE_STRICT=false
 export NODE_OPTIONS="--import=$(pwd)/scripts/fs-glob-polyfill.js"
 pnpm install
-npm install --prefix CRM/node_backend
+npm install --prefix CRM/node_backend   # legacy backend tests only
 ```
 
 `scripts/install_directus.sh` now uses Node 22 by default. If you need to run
@@ -86,7 +86,7 @@ before executing `pnpm --workspace-root test` and `python3 -m pytest -q`.
 
 ## Testing the GUI
 
-Run `CRM/test_install.sh` first to start the backend and auth services locally.
+Run `CRM/test_install.sh` first to start the legacy backend and auth services locally.
 After the services are active, execute `scripts/gui_loop.sh` to install
 dependencies and run the headless browser checks via `scripts/headless_check.js`.
 Results are stored in the `logs/` directory.
