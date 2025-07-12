@@ -695,5 +695,24 @@
       "todo.md"
     ],
     "trigger": "enable idiomatic version files"
+  },
+  {
+    "pass": 67,
+    "files": [
+      "README.md",
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "document bundle_install"
+  },
+  {
+    "pass": 68,
+    "files": [
+      "README.md",
+      "changelog.md",
+      "todo.md",
+      "trace.json"
+    ],
+    "trigger": "trust mise config"
   }
 ]

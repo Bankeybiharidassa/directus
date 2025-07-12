@@ -403,3 +403,10 @@
 - Configured mise idiomatic version file support via .mise.toml.
 - `npm test` still fails building @directus/app (exit code 129).
 
+## Phase 3 – Pass 67 (2025-09-10)
+- Documented `bundle_install.sh` usage in README.
+
+## Phase 3 – Pass 68 (2025-09-10)
+- Added instructions to run `mise trust` when using Node 22.
+- Updated traces for previous pass.
+
