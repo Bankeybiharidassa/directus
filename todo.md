@@ -1,7 +1,7 @@
 # TODO
 
 ## nucleus-auth
-- Create authentication schema {status:in-progress} {priority:high} {blocked_by:none}
+- Create authentication schema {status:done} {priority:high} {blocked_by:none}
 
 ## nucleus-core
 - Register each CRM extension in install.sh {status:done} {priority:medium} {blocked_by:none}
@@ -66,3 +66,5 @@
 - [pass62] Add tests for nucleus-docs extension {status:done} {priority:low}
 - [pass63] Verify extension structure and note npm test failure (exit code 129)
 - [pass64] Add auth schema and token tests {status:done} {priority:low}
+- [pass65] Add role mapping and token exchange route {status:done} {priority:low}
+- [pass66] Configure mise to honor .nvmrc {status:done} {priority:low}
