@@ -758,5 +758,19 @@
       "todo.md"
     ],
     "trigger": "add theme env css"
+  },
+  {
+    "pass": 72,
+    "files": [],
+    "trigger": "extension evaluation"
+  },
+  {
+    "pass": 73,
+    "files": [
+      "pnpm-workspace.yaml",
+      "todo.md",
+      "changelog.md"
+    ],
+    "trigger": "add extensions to workspace"
   }
 ]
