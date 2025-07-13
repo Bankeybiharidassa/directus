@@ -794,4 +794,13 @@
     ],
     "trigger": "add missing keycloak README"
   }
+,
+  {
+    "pass": 77,
+    "files": [
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "evaluated extensions and recorded failing tests"
+  }
 ]
