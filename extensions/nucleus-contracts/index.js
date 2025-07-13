@@ -15,5 +15,16 @@ export default function register({ init }) {
       contracts.push({ id, name });
       res.json({ id, name });
     });
+
+    app.post('/contracts/:id/terminate', (req, res) => {
+      const contract = contracts.find(
+        (c) => c.id === Number.parseInt(req.params.id, 10)
+      );
+      if (!contract) {
+        return res.status(404).json({ error: 'not found' });
+      }
+      contract.status = 'terminated';
+      res.json({ id: contract.id, status: contract.status });
+    });
   });
 }

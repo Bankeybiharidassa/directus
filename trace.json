@@ -793,8 +793,7 @@
       "extensions/auth/keycloak/README.md"
     ],
     "trigger": "add missing keycloak README"
-  }
-,
+  },
   {
     "pass": 77,
     "files": [
@@ -802,5 +801,42 @@
       "todo.md"
     ],
     "trigger": "evaluated extensions and recorded failing tests"
+  },
+  {
+    "pass": 78,
+    "files": [
+      "CRM/backend/models/supplier.py",
+      "CRM/backend/routes/suppliers.py",
+      "CRM/backend/main.py",
+      "CRM/backend/routes/contracts.py",
+      "CRM/backend/models/__init__.py",
+      "CRM/backend/routes/__init__.py",
+      "CRM/tests/test_suppliers.py",
+      "CRM/tests/test_contracts.py",
+      "CRM/TODO.md",
+      "changelog.md"
+    ],
+    "trigger": "add suppliers and contract termination"
+  },
+  {
+    "pass": 79,
+    "files": [
+      "extensions/nucleus-suppliers/index.js",
+      "extensions/nucleus-suppliers/README.md",
+      "extensions/nucleus-suppliers/package.json",
+      "extensions/nucleus-contracts/index.js",
+      "tests/nucleus-suppliers/test.mjs",
+      "tests/nucleus-suppliers/package.json",
+      "tests/nucleus-contracts/test.mjs",
+      "tests/nucleus-contracts/package.json",
+      "CRM/backend/main.py",
+      "CRM/backend/models/__init__.py",
+      "CRM/backend/routes/__init__.py",
+      "CRM/backend/routes/contracts.py",
+      "CRM/tests/test_contracts.py",
+      "CRM/TODO.md",
+      "changelog.md"
+    ],
+    "trigger": "migrate supplier feature to extensions and add contract termination"
   }
 ]
