@@ -442,3 +442,6 @@
 - Implemented minimal logic for CRM, DMARC, Contracts, Tenable and Sophos extensions.
 - Updated README docs accordingly.
 - npm test fails in @directus/app (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL).
+\n## Phase 3 – Pass 76 (2025-09-10)
+- Added README for Keycloak auth extension.
+- npm test fails in @directus/api due to isolated-vm module error.

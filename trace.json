@@ -786,5 +786,12 @@
     "loop_history": [
       75
     ]
+  },
+  {
+    "pass": 76,
+    "files": [
+      "extensions/auth/keycloak/README.md"
+    ],
+    "trigger": "add missing keycloak README"
   }
 ]
