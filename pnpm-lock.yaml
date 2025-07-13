@@ -1040,6 +1040,8 @@ importers:
 
   extensions/nucleus-sophos: {}
 
+  extensions/nucleus-suppliers: {}
+
   extensions/nucleus-support: {}
 
   extensions/nucleus-tenable: {}
@@ -2271,6 +2273,8 @@ importers:
         specifier: ^1.8.0
         version: 1.8.0
 
+  tests/nucleus-contracts: {}
+
   tests/nucleus-docs:
     dependencies:
       csv-stringify:
@@ -2288,6 +2292,8 @@ importers:
       xml2js:
         specifier: ^0.6.2
         version: 0.6.2
+
+  tests/nucleus-suppliers: {}
 
   tests/nucleus-ui: {}
 

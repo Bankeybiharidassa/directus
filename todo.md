@@ -79,3 +79,4 @@
 - [pass75] Replace placeholder routes with minimal logic {status:done} {priority:low}
 - [pass76] Added Keycloak README; npm tests still failing (isolated-vm) {status:done} {priority:low}
 - [pass77] Review extensions for placeholders; tests failing due to Axios 503 {status:done} {priority:low}
+- [pass78] Implement supplier extension and contract termination {status:done} {priority:low}

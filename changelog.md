@@ -448,3 +448,13 @@
 \n## Phase 3 – Pass 77 (2025-09-10)
 - Evaluated extensions; all contain working minimal logic and READMEs.
 - npm test fails in @directus/api due to Axios 503 error.
+\n## Phase 3 – Pass 78 (2025-09-10)
+- Added supplier model and API endpoints with tests.
+- Added contract termination route and test.
+
+## Phase 3 – Pass 79 (2025-09-10)
+- Replaced CRM supplier API with new `nucleus-suppliers` extension.
+- Added contract termination route to `nucleus-contracts` extension.
+- Removed legacy supplier code from CRM backend.
+\n## Phase 3 – Pass 80 (2025-09-10)
+- Fixed malformed entry in trace.json and confirmed supplier extension wiring.
