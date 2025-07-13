@@ -900,5 +900,26 @@
       "docs/inventory.md"
     ],
     "trigger": "extend support and core features"
+  },
+  {
+    "pass": 87,
+    "files": [
+      "changelog.md",
+      "todo.md",
+      "loops/open-closed-loop_pass87.md",
+      "extensions/README.md"
+    ],
+    "trigger": "extension audit"
+  },
+  {
+    "pass": 88,
+    "files": [
+      "changelog.md",
+      "todo.md",
+      "loops/open-closed-loop_pass88.md",
+      "docs/inventory.md",
+      "CRM/README.md"
+    ],
+    "trigger": "doc alignment"
   }
 ]

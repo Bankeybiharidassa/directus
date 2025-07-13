@@ -13,6 +13,7 @@ Extracted from: `/CRM/README.md`
 | Contract lifecycle (create/terminate) | ✅ Implemented | `extensions/nucleus-contracts/` |
 | Document generator (PDF/TXT/CSV) | ✅ Implemented | `extensions/nucleus-docs/` |
 | EDI messaging between partners | ✅ Implemented | `extensions/nucleus-edi/` |
+| Supplier registration | ✅ Implemented | `extensions/nucleus-suppliers/` |
 | Support desk: tickets & assets | ✅ Implemented | `extensions/nucleus-support/` |
 | Asset vulnerabilities via Tenable | ✅ Implemented | `extensions/nucleus-tenable/` |
 | Sophos Central integration for asset sync | ✅ Implemented | `extensions/nucleus-sophos/` |

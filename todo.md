@@ -87,3 +87,6 @@
 - [pass84] npm test fails with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL
 - [pass85] npm test fails with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL
 - [pass86] npm test fails with Axios 503 in @directus/api after verifying extensions
+- [pass87] npm test fails with Axios 503; extensions verified and docs updated
+- [pass88] npm test fails with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL during app build
+

@@ -18,6 +18,7 @@ A modular, securely designed CMS/CRM/Supportdesk platform built in accordance wi
 
    * modify hierarchy to reflect this one: nucleus admins - distributors - partners - endusers ; make sure this is reflected over all modules and api structures and rbac
    * Manage distributors, partners and endusers
+   * Register suppliers
    * EDI messaging between distributors and partners
 6. Support Desk + Assets (G4.3)
 
