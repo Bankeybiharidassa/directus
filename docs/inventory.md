@@ -32,11 +32,11 @@ Extracted from: `/CRM/README.md`
 | Customizable CSS themes via `frontend/templates` | ✅ Implemented | `extensions/nucleus-ui/` |
 | Support portal remote control | ✅ Implemented | `extensions/nucleus-support/` |
 | Knowledgebase links in support portal | ✅ Implemented | `extensions/nucleus-support/` |
-| Logging export | 🔧 Plugin/module required | `extensions/nucleus-core/` |
-| Config reload | 🔧 Plugin/module required | `extensions/nucleus-core/` |
-| API settings management | 🔧 Plugin/module required | `extensions/nucleus-core/` |
-| BS-check system scan | 🔧 Plugin/module required | `extensions/nucleus-core/` |
-| Security scan via CLI | 🔧 Plugin/module required | `extensions/nucleus-core/` |
-| Certificate request (ACME) | 🔧 Plugin/module required | `extensions/nucleus-core/` |
+| Logging export | ✅ Implemented | `extensions/nucleus-core/` |
+| Config reload | ✅ Implemented | `extensions/nucleus-core/` |
+| API settings management | ✅ Implemented | `extensions/nucleus-core/` |
+| BS-check system scan | ✅ Implemented | `extensions/nucleus-core/` |
+| Security scan via CLI | ✅ Implemented | `extensions/nucleus-core/` |
+| Certificate request (ACME) | ✅ Implemented | `extensions/nucleus-core/` |
 | Staged update and rollback script | ✅ Process | `CRM/scripts/update.py` |
 | OTAP pipeline with automated testing & vulnerability checks | ✅ Process | Documented in `CRM/README.md` |
