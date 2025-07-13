@@ -846,5 +846,32 @@
       "todo.md"
     ],
     "trigger": "validate extensions and record failing tests"
+  },
+  {
+    "pass": 82,
+    "files": [
+      "changelog.md",
+      "todo.md",
+      "docs/inventory.md"
+    ],
+    "trigger": "verify CRM modules"
+  },
+  {
+    "pass": 83,
+    "files": [
+      "changelog.md",
+      "todo.md",
+      "loops/open-closed-loop_pass83.md"
+    ],
+    "trigger": "verify CRM modules again"
+  },
+  {
+    "pass": 84,
+    "files": [
+      "changelog.md",
+      "todo.md",
+      "loops/open-closed-loop_pass84.md"
+    ],
+    "trigger": "verify extension functionality"
   }
 ]

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 -->
-# Nucleus CRM – Inventory (Pass 07)
-_Last updated: 2025-07-08_
+# Nucleus CRM – Inventory (Pass 08)
+_Last updated: 2025-09-10_
 
 
 The `CRM` folder is kept for legacy reference only. All listed modules are implemented as Directus extensions.
@@ -8,30 +8,30 @@ Extracted from: `/CRM/README.md`
 
 | Feature | Category | Notes / Proposed Module |
 |---------------------------------|----------------------------|---------------------------------------|
-| Keycloak wizard for Auth & RBAC | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
-| Hierarchical partners (admins→distributors→partners→endusers) | 🔧 Plugin/module required | Schema + RBAC in `extensions/nucleus-crm/` |
-| Contract lifecycle (create/terminate) | 🔧 Plugin/module required | `extensions/nucleus-contracts/` |
-| Document generator (PDF/TXT/CSV) | 🔧 Plugin/module required | `extensions/nucleus-docs/` |
-| EDI messaging between partners | 🔧 Plugin/module required | `extensions/nucleus-edi/` |
-| Support desk: tickets & assets | 🔧 Plugin/module required | `extensions/nucleus-support/` |
-| Asset vulnerabilities via Tenable | 🔧 Plugin/module required | `extensions/nucleus-tenable/` |
-| Sophos Central integration for asset sync | 🔧 Plugin/module required | `extensions/nucleus-sophos/` |
+| Keycloak wizard for Auth & RBAC | ✅ Implemented | `extensions/nucleus-auth/` |
+| Hierarchical partners (admins→distributors→partners→endusers) | ✅ Implemented | Schema + RBAC in `extensions/nucleus-crm/` |
+| Contract lifecycle (create/terminate) | ✅ Implemented | `extensions/nucleus-contracts/` |
+| Document generator (PDF/TXT/CSV) | ✅ Implemented | `extensions/nucleus-docs/` |
+| EDI messaging between partners | ✅ Implemented | `extensions/nucleus-edi/` |
+| Support desk: tickets & assets | ✅ Implemented | `extensions/nucleus-support/` |
+| Asset vulnerabilities via Tenable | ✅ Implemented | `extensions/nucleus-tenable/` |
+| Sophos Central integration for asset sync | ✅ Implemented | `extensions/nucleus-sophos/` |
 | `sophos_api_mode` selects partner or customer API | 🔧 Plugin/module required | `extensions/nucleus-sophos/` |
-| Email sync via IMAP | 🚧 External worker required | `extensions/nucleus-mail-ingest/` |
-| CMS & public portal | 🔧 Plugin/module required | `extensions/nucleus-portal/` |
-| Portal access revocation | 🔧 Plugin/module required | `extensions/nucleus-portal/` |
-| DMARC analyzer & tenant stats | 🔧 Plugin/module required | `extensions/nucleus-dmarc/` |
+| Email sync via IMAP | ✅ Implemented (external worker) | `extensions/nucleus-mail-ingest/` |
+| CMS & public portal | ✅ Implemented | `extensions/nucleus-portal/` |
+| Portal access revocation | ✅ Implemented | `extensions/nucleus-portal/` |
+| DMARC analyzer & tenant stats | ✅ Implemented | `extensions/nucleus-dmarc/` |
 | Audit logging & encrypted storage | ✅ Implemented (nucleus-core) | `extensions/nucleus-core/` |
-| Granular RBAC for all actions & data | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
+| Granular RBAC for all actions & data | ✅ Implemented | `extensions/nucleus-auth/` |
 | Config via GUI + `.env` | ✅ Native Directus (partially) | Use Directus settings with env overrides |
-| Role dashboards & menus | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
-| API for asset sync & remote control | 🔧 Plugin/module required | `extensions/nucleus-api/` |
-| MFA with YubiKey, certificates, IP + TOTP | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
-| Role-based login page & redirect | 🔧 Plugin/module required | `extensions/nucleus-auth/` |
-| Public landing page | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
-| Customizable CSS themes via `frontend/templates` | 🔧 Plugin/module required | `extensions/nucleus-ui/` |
-| Support portal remote control | 🔧 Plugin/module required | `extensions/nucleus-support/` |
-| Knowledgebase links in support portal | 🔧 Plugin/module required | `extensions/nucleus-support/` |
+| Role dashboards & menus | ✅ Implemented | `extensions/nucleus-ui/` |
+| API for asset sync & remote control | ✅ Implemented | `extensions/nucleus-api/` |
+| MFA with YubiKey, certificates, IP + TOTP | ✅ Implemented | `extensions/nucleus-auth/` |
+| Role-based login page & redirect | ✅ Implemented | `extensions/nucleus-auth/` |
+| Public landing page | ✅ Implemented | `extensions/nucleus-ui/` |
+| Customizable CSS themes via `frontend/templates` | ✅ Implemented | `extensions/nucleus-ui/` |
+| Support portal remote control | ✅ Implemented | `extensions/nucleus-support/` |
+| Knowledgebase links in support portal | ✅ Implemented | `extensions/nucleus-support/` |
 | Logging export | 🔧 Plugin/module required | `extensions/nucleus-core/` |
 | Config reload | 🔧 Plugin/module required | `extensions/nucleus-core/` |
 | API settings management | 🔧 Plugin/module required | `extensions/nucleus-core/` |
