@@ -772,5 +772,10 @@
       "changelog.md"
     ],
     "trigger": "add extensions to workspace"
+  },
+  {
+    "pass": 74,
+    "files": [],
+    "trigger": "add extension readmes"
   }
 ]
