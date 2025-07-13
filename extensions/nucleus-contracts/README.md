@@ -1,3 +1,3 @@
 # Nucleus Contracts Extension
 
-Manages contract records. The default `/contracts` route lists sample data and should be replaced with real contract logic.
+Provides a very small in-memory contracts API. Use `GET /contracts` to list existing contracts and `POST /contracts` with a JSON body `{ "name": "Acme" }` to add a new contract.
