@@ -474,3 +474,8 @@
 - Verified each nucleus extension exports a function and loads without error.
 - Logging export and config reload still missing.
 - npm test fails with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL.
+
+## Phase 3 – Pass 85 (2025-09-10)
+- Added log export and config reload routes to `nucleus-core`.
+- Updated extension README.
+- npm test still failing with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL.
