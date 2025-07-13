@@ -461,3 +461,16 @@
 ## Phase 3 – Pass 81 (2025-09-10)
 - Reviewed all extensions; found no placeholders. npm test fails (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL).
 
+## Phase 3 – Pass 82 (2025-09-10)
+- Updated docs/inventory to mark modules implemented.
+- npm test fails in @directus/api due to Axios 503 error.
+
+
+## Phase 3 – Pass 83 (2025-09-10)
+- Verified all CRM modules exist as extensions. Logging export features missing.
+- npm test fails with Axios 503.
+
+## Phase 3 – Pass 84 (2025-09-10)
+- Verified each nucleus extension exports a function and loads without error.
+- Logging export and config reload still missing.
+- npm test fails with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL.
