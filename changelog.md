@@ -434,3 +434,7 @@
 ## Phase 3 – Pass 73 (2025-09-10)
 - Added extensions folder to pnpm-workspace for dependency install.
 - Re-ran tests; failing in @directus/api due to Axios 503.
+
+## Phase 3 – Pass 74 (2025-09-10)
+- Added README files for all extensions.
+- `npm test` fails in @directus/api (Axios 503).
