@@ -873,5 +873,16 @@
       "loops/open-closed-loop_pass84.md"
     ],
     "trigger": "verify extension functionality"
+  },
+  {
+    "pass": 85,
+    "files": [
+      "changelog.md",
+      "todo.md",
+      "loops/open-closed-loop_pass85.md",
+      "extensions/nucleus-core/index.js",
+      "extensions/nucleus-core/README.md"
+    ],
+    "trigger": "implement nucleus-core features"
   }
 ]
