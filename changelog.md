@@ -486,3 +486,13 @@
 - Added sync and remote control routes to `nucleus-api`.
 - Updated READMEs and inventory to mark features implemented.
 - npm test fails with Axios 503 error.
+
+## Phase 3 – Pass 87 (2025-09-10)
+- Documented all Nucleus extensions in `extensions/README.md`.
+- Confirmed each extension registers routes per Directus design.
+- npm test still failing with Axios 503 in @directus/api.
+
+## Phase 3 – Pass 88 (2025-09-10)
+- Added supplier registration bullet in CRM README.
+- Logged supplier module in `docs/inventory.md`.
+- npm test fails with `ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL` during app build.
