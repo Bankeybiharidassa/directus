@@ -479,3 +479,10 @@
 - Added log export and config reload routes to `nucleus-core`.
 - Updated extension README.
 - npm test still failing with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL.
+
+## Phase 3 – Pass 86 (2025-09-10)
+- Extended `nucleus-core` with additional maintenance routes.
+- Implemented ticket and asset endpoints in `nucleus-support`.
+- Added sync and remote control routes to `nucleus-api`.
+- Updated READMEs and inventory to mark features implemented.
+- npm test fails with Axios 503 error.

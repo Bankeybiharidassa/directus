@@ -1,3 +1,7 @@
 # Nucleus API Extension
 
-Exposes helper endpoints for the Nucleus platform. The stub route `/api/ping` returns `{ pong: true }` and can be extended with additional functionality.
+Exposes helper endpoints for the Nucleus platform.
+
+* `GET /api/ping` – health check
+* `POST /api/assets/sync` – start asset synchronization
+* `POST /api/remote/control` – initiate remote control session

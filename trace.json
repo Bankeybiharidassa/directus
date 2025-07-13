@@ -884,5 +884,21 @@
       "extensions/nucleus-core/README.md"
     ],
     "trigger": "implement nucleus-core features"
+  },
+  {
+    "pass": 86,
+    "files": [
+      "changelog.md",
+      "todo.md",
+      "loops/open-closed-loop_pass86.md",
+      "extensions/nucleus-core/index.js",
+      "extensions/nucleus-core/README.md",
+      "extensions/nucleus-support/index.js",
+      "extensions/nucleus-support/README.md",
+      "extensions/nucleus-api/index.js",
+      "extensions/nucleus-api/README.md",
+      "docs/inventory.md"
+    ],
+    "trigger": "extend support and core features"
   }
 ]
