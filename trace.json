@@ -838,5 +838,13 @@
       "changelog.md"
     ],
     "trigger": "migrate supplier feature to extensions and add contract termination"
+  },
+  {
+    "pass": 81,
+    "files": [
+      "changelog.md",
+      "todo.md"
+    ],
+    "trigger": "validate extensions and record failing tests"
   }
 ]

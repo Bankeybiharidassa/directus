@@ -458,3 +458,6 @@
 - Removed legacy supplier code from CRM backend.
 \n## Phase 3 – Pass 80 (2025-09-10)
 - Fixed malformed entry in trace.json and confirmed supplier extension wiring.
+## Phase 3 – Pass 81 (2025-09-10)
+- Reviewed all extensions; found no placeholders. npm test fails (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL).
+
