@@ -438,3 +438,7 @@
 ## Phase 3 – Pass 74 (2025-09-10)
 - Added README files for all extensions.
 - `npm test` fails in @directus/api (Axios 503).
+\n## Phase 3 – Pass 75 (2025-09-10)
+- Implemented minimal logic for CRM, DMARC, Contracts, Tenable and Sophos extensions.
+- Updated README docs accordingly.
+- npm test fails in @directus/app (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL).

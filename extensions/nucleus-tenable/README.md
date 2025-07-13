@@ -1,3 +1,3 @@
 # Nucleus Tenable Extension
 
-Placeholder routes for Tenable asset information. `/tenable/assets` returns an empty array.
+Provides a minimal endpoint to return sample Tenable asset information. `GET /tenable/assets` returns a static list with hostname and status fields.

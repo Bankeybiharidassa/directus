@@ -1,3 +1,3 @@
 # Nucleus CRM Extension
 
-Provides basic CRM routes. `/crm/info` returns a simple JSON response and forms the basis for future customer relationship management features.
+Offers a minimal CRM API. `GET /crm/info` returns a status check. Use `GET /crm/customers` to list customers and `POST /crm/customers` with `{ "name": "New" }` to add one.
