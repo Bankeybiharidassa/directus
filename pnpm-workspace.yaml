@@ -5,4 +5,5 @@ packages:
   - docs
   - sdk
   - packages/*
+  - extensions/*
   - tests/*

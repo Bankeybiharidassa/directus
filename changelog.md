@@ -427,3 +427,10 @@
 - Replaced placeholder CSS in nucleus-ui extension with env-driven theme.
 - Added unit test for theme route.
 
+\n## Phase 3 – Pass 72 (2025-09-10)
+- Evaluated all extensions; no placeholders found.
+- npm test fails in packages/extensions-sdk (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL).
+
+## Phase 3 – Pass 73 (2025-09-10)
+- Added extensions folder to pnpm-workspace for dependency install.
+- Re-ran tests; failing in @directus/api due to Axios 503.

@@ -73,3 +73,5 @@
 - [pass69] Replace placeholders in extensions with minimal routes; npm test fails (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL)
 - [pass70] Document CRM folder as legacy; tests still failing
 - [pass71] Add env-based theme support to nucleus-ui {status:done} {priority:low}
+- [pass72] Validate extension completeness; npm tests failing (ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL) {status:done} {priority:low}
+- [pass73] Include custom extensions in pnpm workspace and reinstall deps {status:open} {priority:medium}
