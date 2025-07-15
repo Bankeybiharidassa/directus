@@ -90,3 +90,10 @@
 - [pass87] npm test fails with Axios 503; extensions verified and docs updated
 - [pass88] npm test fails with ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL during app build
 
+
+## audit
+- Implement the nine-step plan from AUDIT.md to replace stubs with real Directus collections and UI modules {status:open} {priority:high} {blocked_by:none}
+- Expand OAuth2 login via Keycloak and enforce RBAC hierarchy {status:open} {priority:high} {blocked_by:none}
+- Integrate external services (Tenable, Sophos, DMARC, IMAP) with real API calls {status:open} {priority:medium} {blocked_by:none}
+- Write automated tests for each extension and fix npm test failures {status:open} {priority:high} {blocked_by:none}
+

@@ -14,6 +14,8 @@ Legacy docs remain at [CRM/README.md](CRM/README.md) but no runtime code depends
 See readme.md for Directus upstream instructions.
 Detailed feature inventory lives in docs/inventory.md.
 
+Audit findings are summarized in AUDIT.md with a step-by-step plan. Outstanding tasks are listed in todo.md and expanded in docs/action_plan.md.
+
 Custom extensions belong in the `extensions/` directory. A basic `nucleus-core`
 plugin is included which logs a startup message when Directus loads.
 

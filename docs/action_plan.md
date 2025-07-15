@@ -1,6 +1,19 @@
 # Extension Implementation Plan
 
 This document summarizes the remaining work required to complete the Nucleus CRM extensions. Each module must be implemented and verified in isolation before moving on.
+
+## Audit Implementation Steps
+The AUDIT.md file lists outstanding flaws. Follow these steps to bring all extensions to production quality:
+1. Set up a local dev environment and run tests.
+2. Replace in-memory data with Directus collections.
+3. Enforce RBAC and partner hierarchy.
+4. Implement real OAuth2 login via Keycloak.
+5. Integrate external services for mail, Tenable, Sophos and DMARC.
+6. Build app modules for CRM and Support.
+7. Run automated and manual tests for each module.
+8. Iterate until all tests pass.
+9. Update docs and clean up code.
+
 The original CRM folder is now legacy; all features are being migrated to extensions.
 
 ## nucleus-auth
