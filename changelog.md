@@ -496,3 +496,9 @@
 - Added supplier registration bullet in CRM README.
 - Logged supplier module in `docs/inventory.md`.
 - npm test fails with `ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL` during app build.
+
+## Phase 3 – Pass 89 (2025-09-10)
+- Added audit TODO items and updated documentation to reflect incomplete features.
+- README references AUDIT.md and action plan.
+- Updated docs/inventory.md statuses to Incomplete.
+- npm test fails due to missing build tools.
