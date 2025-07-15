@@ -91,3 +91,10 @@ After the services are active, execute `scripts/gui_loop.sh` to install
 dependencies and run the headless browser checks via `scripts/headless_check.js`.
 Results are stored in the `logs/` directory.
 
+## Audit Status
+
+Recent code audit revealed most extensions are still stubs without database
+integration or role-based access control. See `AUDIT.md` for the complete
+analysis. Outstanding tasks are tracked in [todo.md](todo.md) and summarised in
+`docs/action_plan.md`.
+
