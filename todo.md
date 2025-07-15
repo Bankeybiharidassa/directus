@@ -1,5 +1,13 @@
 # TODO
 
+## audit-remediation
+- Implement database collections for CRM entities and refactor all extensions to use ItemsService {status:open} {priority:high} {blocked_by:none}
+- Add authorization code flow for Keycloak login with role mapping and user provisioning {status:open} {priority:high} {blocked_by:none}
+- Enforce RBAC and partner hierarchy across endpoints and UI {status:open} {priority:high} {blocked_by:none}
+- Replace placeholder integrations for Tenable, Sophos, DMARC and mail ingest with real API logic {status:open} {priority:medium} {blocked_by:none}
+- Build CRM and Support modules in the Directus UI {status:open} {priority:medium} {blocked_by:none}
+- Write unit tests for each extension and ensure CI passes {status:open} {priority:medium} {blocked_by:none}
+
 ## nucleus-auth
 - Create authentication schema {status:done} {priority:high} {blocked_by:none}
 

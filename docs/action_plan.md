@@ -2,6 +2,7 @@
 
 This document summarizes the remaining work required to complete the Nucleus CRM extensions. Each module must be implemented and verified in isolation before moving on.
 The original CRM folder is now legacy; all features are being migrated to extensions.
+The tasks listed here come directly from the findings in `AUDIT.md`.
 
 ## nucleus-auth
 - Integrate OAuth2 (Keycloak) fully.
